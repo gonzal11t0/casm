@@ -42,7 +42,6 @@
             <h2>Hacete socio</h2>
         </div>
         <form id="form" class="form" action="https://formsubmit.co/Gonzalo-Lazarte-Programador@outlook.com" method="POST">
-            <h3>Hacete socio</h3><br><br>
             <div class="form-control">
                 <label for="username">Nombre</label>
                 <input name="name"  name="username" type="text" placeholder="Ingrese su nombre" id="nombre" />
@@ -70,6 +69,27 @@
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="foto-dni">Foto dni frente</label>
+                <input type="file" name="attachment" accept="image/png, image/jpeg">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="foto-dni">Foto dni atras</label>
+                <input type="file" name="attachment" accept="image/png, image/jpeg">
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <span>Seleccion su plan</span>
+                <select name="select">
+                    <option name="select1" value="value1">Jubilado</option>
+                    <option name="select2" value="value2">Semipleno</option>
+                    <option name="select3" value="value3">Pleno</option>
+                    <option name="select4" value="value4">Infantil</option>
+                    <option name="select5" value="value5">Escolar</option>
+                    
+                </select>
             </div>
             <button>Enviar peticion</button>
         </form>
