@@ -272,6 +272,9 @@
     }
 }
 @media screen and (max-width:370px) {
+    .bg-5{
+        display: none;
+    }
     #seccion-3{
         height:360vh;
     }
@@ -361,7 +364,6 @@
         font: normal 30px Varela Round, sans-serif;
     }
     .bg-5{
-        display: none;
         top:55vh;
     }
     #seccion-2{
