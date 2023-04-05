@@ -1,0 +1,30 @@
+#pagination{
+    display: flex;
+    flex: row;
+    float: left;
+    margin-top:100px;
+}
+#seccion-1-futbol-primera{
+    height:140vh;
+    background-color: rgb(1, 109, 69);
+}
+
+#tabla-posiciones {
+    position:absolute;
+    border-collapse: collapse;
+    width:40%;
+    left:3vw;
+    top:55vh;
+    opacity:0.9;
+}
+#tabla-posiciones th, #tabla-posiciones td {
+    border:3px solid black;
+    padding:8px;
+    text-align: center;
+    color: rgb(253, 255, 253);
+}
+#tabla-posiciones th {
+    background-color: #ddd;
+    font-weight: bold;
+    color: rgb(253, 255, 253);
+}
