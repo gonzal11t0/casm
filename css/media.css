@@ -274,17 +274,18 @@
 @media screen  and (min-width:291px)  and (max-width:370px) {
     .btn-primary{
         position:absolute;
-        left:0vw;
         top:1vh;
+        right:0vw;
         margin-left:5vw;
         background-color: #00f459;
         width:33vw;
-        height:5vh;
+        height:4vh;
         font-size:0.7rem;
     }
     nav h1 {
-        position:relative;
-        top:-3vh;
+        position:absolute;
+        top:0vh;
+        left:1vw;
         display: block;
         color: #1ce085;
         font-size:20px;
