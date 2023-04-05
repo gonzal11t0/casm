@@ -142,7 +142,7 @@
         right:2vw;
         padding:5px 5px;
         width:auto;
-        top:650vh;
+        top:525vh;
         cursor: pointer;
         text-overflow: ellipsis;
         box-shadow: 0 5px 10px 10px rgba(98, 255, 0, 0.2);
@@ -334,6 +334,9 @@
         left:3%;
         font-size:0.7rem;
     }
+    .index{
+        top:665vh;
+    }
 }
 @media screen and (min-width:184px) and (max-width:290px) {
     .menu-horizontal > li > a {
@@ -451,7 +454,7 @@
         right:2vw;
         padding: 5px 10px;
         width: auto;
-        top:723vh;
+        top:730vh;
         cursor: pointer;
         text-overflow: ellipsis;
         box-shadow: 0 5px 20px 10px rgba(98, 255, 0, 0.2);
