@@ -18,37 +18,42 @@ for (var i = 0; i < puntosArray.length; i++) {
     tabla.appendChild(puntosArray[i][1]);
 }
 
-function agregarPartidos(partidos) {
-    const tbody = document.querySelector('table tbody');
-    partidos.forEach(partido => {
-      const fila = document.createElement('tr');
-      fila.innerHTML = `
-        <td>${partido.fecha}</td>
-        <td>${partido.equipoLocal}</td>
-        <td>${partido.equipoVisitante}</td>
-        <td>${partido.estadio}</td>
-      `;
-      
-      tbody.appendChild(fila);
-    });
-  }
-  document.addEventListener('DOMContentLoaded', () => {
-    const partidos = [
-      {
-        fecha: '01/05/2023',
-        equipoLocal: 'Boca Juniors',
-        equipoVisitante: 'River Plate',
-        estadio: 'La Bombonera'
-      },
-      {
-        fecha: '08/05/2023',
-        equipoLocal: 'San Lorenzo',
-        equipoVisitante: 'Huracán',
-        estadio: 'El Nuevo Gasómetro'
-      },
-      // Agrega aquí más partidos
-    ];
+
+const partidos = [
+    {fecha: "10 de Febrero",local: "Dock Sud",      visitante: "Dep. Armenio",    resultado: "4-1" },
+    {fecha: "11 de Febrero",local: "Cañuelas",      visitante: "Ituzaingo",       resultado: "1-0" },
+    {fecha: "11 de Febrero",local: "UAI Urquiza",   visitante: "Merlo",           resultado: "2-0" },
+    {fecha: "11 de Febrero",local: "Acassuso",      visitante: "Argentino (Q)",   resultado: "1-1" },
+    {fecha: "11 de Febrero",local: "Argentino (M)", visitante: "Colegiales	",    resultado: "3-0" },
+    {fecha: "11 de Febrero",local: "Sacachispas",   visitante: "San Miguel	",    resultado: "0-3" },
+    {fecha: "1 de Febrero", local: "Fenix",         visitante: "Villa San Carlos",resultado: "1-2" },
+    {fecha: "1 de Febrero", local: "Talleres (RdE)",visitante: "Los Andes",       resultado: "0-0" },
+];
+
+const fixtureTable = document.querySelector('#fixture-table tbody');
+
+for(let i = 0; i < partidos.length; i++) {
+    const partido = partidos[i];
+    const row = document.createElement('tr');
+
     
-    agregarPartidos(partidos);
-  });
-    
+    const fecha = document.createElement('td');
+        fecha.textContent = partido.fecha;
+        row.appendChild(fecha);
+
+    const local = document.createElement('td');
+        local.textContent = partido.local;
+        row.appendChild(local);
+
+
+    const resultado = document.createElement('td');
+        resultado.textContent = partido.resultado;
+        row.appendChild(resultado);
+
+    const visitante = document.createElement('td');
+        visitante.textContent = partido.visitante;
+        row.appendChild(visitante);
+
+
+        fixtureTable.appendChild(row);
+}

@@ -35,6 +35,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/futbol.css">
+    <link rel="stylesheet" href="css/media-futbol.css">
     <link rel="stylesheet" href="css/menu-hamburgesa.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -48,7 +49,7 @@
 			<li>
 				<a href="#">Disiplinas</a>
 				<ul class="menu-vertical">
-					<li><a href="futbol.html">Futbol</a></li>
+					<li><a href="/futbol.html">Futbol</a></li>
 					<li><a href="#">Tenis</a></li>
 					<li><a href="#">Voley</a></li>
                     <li><a href="#">Hockey</a></li>
@@ -151,196 +152,234 @@
                             <th>Pts</th>
                         </tr>
                     </thead>
-                    <tbody>
-                    <tr>
-                        <td>Equipo 1</td>
-                        <td>10</td>
+                    <tbody id="tbody">
+                        
+                        <tr data-row-index="1">
+                        <td>Los Andes<img src="./img/iconos-clubes/los andes.png"></td> 
                         <td>8</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>20</td>
                         <td>5</td>
-                        <td>+15</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 2</td>
-                        <td>10</td>
-                        <td>7</td>
                         <td>2</td>
                         <td>1</td>
-                        <td>15</td>
-                        <td>7</td>
-                        <td>+8</td>
-                        <td>23</td>
+                        <td>11</td>
+                        <td>2</td>
+                        <td>+9</td>
+                        <td>17</td>
                     </tr>
-                    <tr>
-                        <td>Equipo 3</td>
+                    <tr data-row-index="2">
+                        <td>Dock Sud <img src="./img/iconos-clubes/dock Sud.png"></td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>13</td>
                         <td>10</td>
+                        <td>+3</td>
+                        <td>14</td>
+                    </tr>
+                    <tr data-row-index="3">
+                        <td>Argentino (M) <img src="./img/iconos-clubes/argentino de merlo.png"></td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>9</td>
+                        <td>3</td>
+                        <td>+6</td>
+                        <td>13</td>
+                    </tr>
+                    <tr data-row-index="4">
+                        <td>San Miguel <img src="./img/iconos-clubes/san miguel.png"></td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>9</td>
                         <td>5</td>
+                        <td>+4</td>
+                        <td>13</td>
+                    </tr>
+                    <tr data-row-index="5">
+                        <td>Comunicaciones <img src="./img/iconos-clubes/comunicaciones.png"></td>
+                        <td>7</td>
+                        <td>4</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>11</td>
+                        <td>11</td>
+                        <td>+0</td>
+                        <td>13</td>
+                    </tr>
+                    <tr data-row-index="6">
+                        <td>Villa San Carlos <img src="./img/iconos-clubes/villa san carlos.png"></td>
+                        <td>8</td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>1</td>
+                        <td>12</td>
+                        <td>8</td>
+                        <td>+4</td>
+                        <td>11</td>
+                    </tr>
+                    <tr data-row-index="7">
+                        <td>Sacachispas <img src="./img/iconos-clubes/sacachispa.png"></td>
+                        <td>7</td>
                         <td>3</td>
                         <td>2</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 4</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>20</td>
-                        <td>5</td>
-                        <td>+15</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 5</td>
-                        <td>10</td>
-                        <td>7</td>
                         <td>2</td>
-                        <td>1</td>
-                        <td>15</td>
-                        <td>7</td>
-                        <td>+8</td>
-                        <td>23</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 6</td>
-                        <td>10</td>
                         <td>5</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>11</td>
+                    </tr>
+                    <tr data-row-index="8">
+                        <td>Talleres (RdE) <img src="./img/iconos-clubes/talleres(rde).png"></td>
+                        <td>10</td>
                         <td>3</td>
                         <td>2</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 7</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>20</td>
-                        <td>5</td>
-                        <td>+15</td>
-                        <td>25</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 8</td>
-                        <td>10</td>
-                        <td>7</td>
-                        <td>2</td>
-                        <td>1</td>
-                        <td>15</td>
-                        <td>7</td>
-                        <td>+8</td>
-                        <td>23</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 9</td>
-                        <td>10</td>
-                        <td>5</td>
                         <td>3</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 10</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>20</td>
                         <td>5</td>
-                        <td>+15</td>
-                        <td>25</td>
+                        <td>5</td>
+                        <td>0</td>
+                        <td>11</td>
                     </tr>
-                    <tr>
-                        <td>Equipo 11</td>
-                        <td>10</td>
+                    <tr data-row-index="9">
+                        <td>Acassuso <img src="./img/iconos-clubes/acassuso.png"></td>
                         <td>7</td>
                         <td>2</td>
+                        <td>4</td>
                         <td>1</td>
-                        <td>15</td>
+                        <td>6</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>10</td>
+                    </tr>
+                    <tr data-row-index="10">
+                        <td>Colegiales <img src="./img/iconos-clubes/colegiales.png"></td>
+                        <td>8</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>4</td>
                         <td>7</td>
-                        <td>+8</td>
-                        <td>23</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 12</td>
+                        <td>9</td>
+                        <td>-2</td>
                         <td>10</td>
-                        <td>5</td>
-                        <td>3</td>
+                    </tr>
+                    <tr data-row-index="11">
+                        <td>UAI Urquiza <img src="./img/iconos-clubes/uai urquiza.png"></td>
+                        <td>8</td>
                         <td>2</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>9</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>9</td>
+                    </tr>
+                    <tr data-row-index="12">
+                        <td>Argentino (Q) <img src="./img/iconos-clubes/argentino quilmes.png"></td>
                         <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>13</td>
+                        <td>-3</td>
                         <td>8</td>
                     </tr>
-                    <tr>
-                        <td>Equipo 13</td>
-                        <td>10</td>
+                    <tr data-row-index="13">
+                        <td>Merlo <img src="./img/iconos-clubes/merlo.png"></td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>4</td>
+                        <td>2</td>
+                        <td>7</td>
                         <td>8</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>20</td>
-                        <td>5</td>
-                        <td>+15</td>
-                        <td>25</td>
+                        <td>-1</td>
+                        <td>7</td>
                     </tr>
-                    <tr>
-                        <td>Equipo 14</td>
+                    <tr data-row-index="14">
+                        <td>Dep. Armenio <img src="./img/iconos-clubes/dep.armenio.png"></td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>3</td>
                         <td>10</td>
+                        <td>13</td>
+                        <td>-3</td>
+                        <td>6</td>
+                    </tr>
+                    <tr data-row-index="15">
+                        <td>Ituzaingo <img src="./img/iconos-clubes/ituzaingo.png"></td>
+                        <td>7</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>6</td>
+                        <td>-3</td>
+                        <td>6</td>
+                    </tr>
+                    <tr data-row-index="16">
+                        <td>Fenix <img src="./img/iconos-clubes/fenix.png"></td>
                         <td>7</td>
                         <td>2</td>
+                        <td>0</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>-5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr data-row-index="17">
+                        <td>Cañuelas <img src="./img/iconos-clubes/cañuelas.png"></td>
+                        <td>8</td>
                         <td>1</td>
-                        <td>15</td>
-                        <td>7</td>
-                        <td>+8</td>
-                        <td>23</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 15</td>
-                        <td>10</td>
-                        <td>5</td>
                         <td>3</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 16</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>Equipo 17</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>10</td>
-                        <td>8</td>
-                        <td>+2</td>
-                        <td>88</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>13</td>
+                        <td>-9</td>
+                        <td>6</td>
                     </tr>
                     </tbody>
                 </table>
+            </div>
+            <table id="fixture-table">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Equipo local</th>
+                    <th>Resultado</th>
+                    <th>Equipo visitante</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Aquí irán las filas del fixture generadas dinámicamente -->
+                </tbody>
+            </table>
+        </section>
+        <section id="seccion-2-futbol-primera">
+            <div class="container">
+                <div class="news">
+                    <h2>Titular de la noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                </div>
+                <div class="news">
+                    <h2>Titular de la noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                </div>
+                <div class="news">
+                    <h2>Titular de la noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                </div>
+                <div class="news">
+                    <h2>Titular de la noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                </div>
+                <div class="news">
+                    <h2>Titular de la noticia</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora rem dolor quia enim saepe nihil! Perspiciatis laborum ab dolorem necessitatibus animi, cum harum possimus quibusdam sit nobis illo incidunt.</p>
+                </div>
             </div>
         </section>
     </main>

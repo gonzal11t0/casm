@@ -151,6 +151,9 @@
     }
 }
 @media screen and (max-width:470px) {
+    .bg-5{
+        top:65vh;
+    }
     .menu-horizontal > li > a {
         padding: 22px 5px;
     }
@@ -187,7 +190,7 @@
         }
     }
     #seccion-2{
-        height: 115vh;
+        height:185vh;
     }
     .container{
         display: grid;
@@ -507,4 +510,10 @@
         border-radius:10px;
         background-color: #000000;
     }
+}
+@media screen and (max-height:660px) {
+    .bg-5{
+        top:82vh;
+    }
+    
 }
