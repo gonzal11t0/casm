@@ -361,6 +361,7 @@
         font: normal 30px Varela Round, sans-serif;
     }
     .bg-5{
+        display: none;
         top:55vh;
     }
     #seccion-2{
