@@ -1,21 +1,15 @@
 #pagination{
     display: flex;
     flex: row;
-    float: left;
+    float:left;
     margin-top:100px;
+}
+#pagination ul li a{
+    font-size:0.6rem;
 }
 #seccion-1-futbol-primera{
     height:170vh;
     background-color: rgb(14, 142, 0);
-}
-#fixture-table{
-    position:relative;
-    float:right;
-    margin-right:45px;
-    margin-top:25px;
-    width:30%;
-    top:28vh;
-    height:auto;
 }
 #tabla-posiciones{
     position:absolute;
@@ -54,7 +48,44 @@
     background-color: rgb(14, 142, 0);
     height:120vh;
 }
-.container {
+.container-futbol{
+    position: relative;
+    width:800px;
+    height:800px;
+    top:33vh;
+    margin-right:10px;
+    float:right;
+    font-size:1rem;
+}
+.nav{
+    position:relative;
+    width:100%;
+    top:3vh;
+}
+.nav ul{
+    list-style-type:none;
+    text-decoration:none;
+}
+.cfecha,.cfechact {
+    background: #00612d;
+    color: #fff;
+    padding:2px;
+    border:2px solid #000;
+    cursor: pointer;
+}
+.cfechact {
+    background: #68a54b
+}
+#fixture-table{
+    position:absolute;
+    top:13vh;
+    right:0vw;
+    width:100%;
+    height:auto;
+}
+
+
+.container-fubol-noticias {
     display:grid;
     grid-template-rows:1fr1fr;
     grid-column-gap:150px;
@@ -67,19 +98,4 @@
     bottom: 0;
     width:100%;
     height:auto;
-}
-.index-futbol {
-    position: absolute;
-    right:2vw;
-    padding: 5px 10px;
-    width: auto;
-    top:293vh;
-    cursor: pointer;
-    text-overflow: ellipsis;
-    box-shadow: 0 5px 20px 10px rgba(98, 255, 0, 0.2);
-    border-radius: 10px;
-    background-color: #000000;
-}
-.index-futbol a {
-    text-decoration: none;
 }

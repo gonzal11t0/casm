@@ -1,11 +1,32 @@
+@media screen and (max-width:1200px) {
+    .container-futbol{
+        position: relative;
+        width:400px;
+        height:500px;
+        top:30vh;
+        margin-right:6px;
+        float:right;
+        font-size:0.8rem;
+    }
+    #fixture-table{
+        position:absolute;
+        top:18vh;
+        right:0vw;
+        width:100%;
+        height:auto;
+    }
+    .cfecha,.cfechact {
+        padding:0px;
+        font-size:0.8rem;
+    }
+}
 @media screen and (min-width: 768px) {
-    .container {
+    .container-fubol-noticias {
         height: 600px;
     }
     }
-    
     @media screen and (min-width: 992px) {
-    .container {
+    .container-fubol-noticias {
         height: 800px;
         }
     }    
