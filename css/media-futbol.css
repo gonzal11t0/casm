@@ -61,6 +61,11 @@
         width:99%;
         height:auto;
     }
+    .text-info-infantil{
+        position:absolute;
+        top:70vh;
+        left:0vw;
+    }
 }  
 @media screen and (max-width:450px) {
     #seccion-2-futbol-primera{
