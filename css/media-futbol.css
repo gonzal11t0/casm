@@ -1,32 +1,174 @@
-@media screen and (max-width:1200px) {
+@media screen and (max-width:700px) {
+    #seccion-1-futbol-primera{
+        height:255vh;
+    }
+    #pagination{
+        display:flex;
+        flex:row;
+        float:left;
+        position:relative;
+        top:35vh;
+        left:30%;
+    }
+    .nav{
+        width:100%;
+        top:10vh;
+        left:0vw;
+        font-size:0.7rem;
+    }
+    ol, ul {
+        padding-left:0.5rem;
+    }
     .container-futbol{
-        position: relative;
-        width:400px;
-        height:500px;
-        top:30vh;
-        margin-right:6px;
-        float:right;
-        font-size:0.8rem;
+        top:60vh;
+        width:100%;
+        height:auto;
     }
     #fixture-table{
         position:absolute;
-        top:18vh;
+        top:20vh;
         right:0vw;
         width:100%;
         height:auto;
     }
     .cfecha,.cfechact {
-        padding:0px;
+        padding:0px 0px 0px 0px;
+    }
+    #tabla-posiciones{
+        top:130vh;
+        width:100%;
+        height:auto;
+        left:0vw;
+    }
+    #seccion-2-futbol-primera{
+        height:190vh;
+    }
+    .container-fubol-noticias {
+        display:grid;
+        grid-template-columns:auto ;
+        row-gap:20px;
+        top:15vh;
+    }
+    .news {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:0;
+        background-color: rgba(255, 0, 0, 0.8);
+        position:inherit;
+        bottom:0;
+        width:99%;
+        height:auto;
+    }
+}  
+@media screen and (max-width:450px) {
+    #seccion-2-futbol-primera{
+        height:200vh;
+    }
+    .container-fubol-noticias {
+        display:grid;
+        grid-template-columns:auto ;
+        row-gap:10px;
+        top:15vh;
         font-size:0.8rem;
     }
+    .news {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:0;
+        background-color: rgba(255, 0, 0, 0.8);
+        position:inherit;
+        bottom:0;
+        width:99%;
+        height:auto;
+    }
 }
-@media screen and (min-width: 768px) {
-    .container-fubol-noticias {
-        height: 600px;
+@media screen and (max-width:450px) {
+    #seccion-2-futbol-primera{
+        height:280vh;
     }
+}  
+@media screen and (min-width:200px) and (max-width:380px) {
+    #seccion-1-futbol-primera{
+        height:255vh;
+        width: 100%;
     }
-    @media screen and (min-width: 992px) {
-    .container-fubol-noticias {
-        height: 800px;
-        }
-    }    
+    #pagination{
+        display:flex;
+        flex:row;
+        float:left;
+        position:relative;
+        top:35vh;
+        left:0vw;
+    }
+    #pagination ul li a{
+        font-size:0.7rem;
+    }
+    .active>.page-link, .page-link.active {
+        display: none;
+    }
+    .nav{
+        width:100%;
+        top:10vh;
+        left:1vw;
+        font-size:0.7rem;
+    }
+    ol, ul {
+        padding-left:1rem;
+    }
+    .container-futbol{
+        top:70vh;
+        width:100%;
+        height:auto;
+    }
+    #fixture-table{
+        position:absolute;
+        top:23vh;
+        left:0vw;
+        width:100%;
+        height:auto;
+    }
+    #fixture-table th {
+        font-size:0.6rem;
+    }
+    #fixture-table, #fixture-table td {
+        border:1px solid black;
+        padding:0px; 
+        font-size: 0.7rem;
+    }
+    #tabla-posiciones{
+        top:140vh;
+        width:100%;
+        height:auto;
+    }
+    #tabla-posiciones th {
+        font-size:0.7rem;
+    }
+    #tabla-posiciones td {
+        font-size:0.5rem;
+    }
+    #tabla-posiciones td img {
+        width:20px;
+    }
+    #tabla-posiciones th:nth-last-of-type(2) {
+        display: none;
+    }
+    #tabla-posiciones td:nth-last-of-type(2) {
+        display: none;
+    }
+    #tabla-posiciones th:nth-last-of-type(3) {
+        display: none;
+    }
+    #tabla-posiciones td:nth-last-of-type(3) {
+        display: none;
+    }
+    #tabla-posiciones th:nth-last-of-type(4) {
+        display: none;
+    }
+    #tabla-posiciones td:nth-last-of-type(4) {
+        display: none;
+    }
+} 

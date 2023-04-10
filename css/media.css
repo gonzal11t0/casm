@@ -83,7 +83,8 @@
         display: none;
     }
     .menu-horizontal > li > a {
-        padding: 12px 10px;
+        padding:10px 0px 0px 25px;
+        margin-top:15px;
     }
     .nav-links {
         color: aqua;
@@ -126,6 +127,10 @@
 }
 }
 @media screen and (max-width:500px) {
+    .menu-horizontal > li > a {
+        padding:10px 0px 0px 25px;
+        margin-top:15px;
+    }
     .flip-card {
         width:160px;
         height:200px;
@@ -155,7 +160,7 @@
         top:65vh;
     }
     .menu-horizontal > li > a {
-        padding: 22px 5px;
+        padding:12px 6px 0px;
     }
     .nav-links {
         width:90%;
@@ -389,7 +394,7 @@
 }
 @media screen and (min-width:184px) and (max-width:290px) {
     .menu-horizontal > li > a {
-        padding:10px 10px;
+        padding:12px 10px;
     }
     .menu-vertical li a {
         padding:15px 0 0 50px;
