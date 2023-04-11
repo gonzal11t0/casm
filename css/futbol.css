@@ -22,7 +22,23 @@
     top:55vh;
     opacity:0.9;
 }
+#tabla-posiciones-infantil{
+    position:absolute;
+    border-collapse: collapse;
+    width:35%;
+    height:30%;
+    left:1vw;
+    top:55vh;
+    opacity:0.9;
+}
 #tabla-posiciones , #tabla-posiciones td {
+    border:3px solid black;
+    padding:8px;
+    text-align: center;
+    color: rgb(253, 255, 253);
+    font-size:0.7rem;
+}
+#tabla-posiciones-infantil , #tabla-posiciones-infantil td {
     border:3px solid black;
     padding:8px;
     text-align: center;
@@ -37,6 +53,11 @@
     font-size:0.7rem;
 }
 #tabla-posiciones th {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(253, 255, 253);
+}
+#tabla-posiciones-infantil th {
     font-size: 1rem;
     font-weight: bold;
     color: rgb(253, 255, 253);

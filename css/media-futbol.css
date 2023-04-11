@@ -35,7 +35,13 @@
         padding:0px 0px 0px 0px;
     }
     #tabla-posiciones{
-        top:130vh;
+        top:132vh;
+        width:100%;
+        height:auto;
+        left:0vw;
+    }
+    #tabla-posiciones-infantil{
+        top:132vh;
         width:100%;
         height:auto;
         left:0vw;
@@ -95,11 +101,24 @@
     #seccion-2-futbol-primera{
         height:280vh;
     }
+    #seccion-1-futbol-primera{
+        height:265vh;
+    }
+    .text-info-infantil{
+        position:absolute;
+        top:66vh;
+        left:0vw;
+    }
+    #tabla-posiciones-infantil{
+        position:absolute;
+        border-collapse: collapse;
+        width:100%;
+        height:30%;
+        left:0vw;
+        top:155vh;
+        opacity:0.9;
+    }
 }  
-#seccion-1-futbol-primera{
-    height:280vh;
-    width:100%;
-}
 @media screen and (min-width:200px) and (max-width:380px) {
     #seccion-1-futbol-primera{
         height:255vh;
@@ -146,38 +165,64 @@
     #fixture-table, #fixture-table td {
         border:1px solid black;
         padding:0px; 
-        font-size: 0.7rem;
+        font-size:0.6rem;
     }
     #tabla-posiciones{
         top:140vh;
         width:100%;
         height:auto;
     }
+    #tabla-posiciones-infantil{
+        top:145vh;
+        width:100%;
+        height:auto;
+    }
     #tabla-posiciones th {
+        font-size:0.7rem;
+    }
+    #tabla-posiciones-infantil th {
         font-size:0.7rem;
     }
     #tabla-posiciones td {
         font-size:0.5rem;
     }
+    #tabla-posiciones-infantil td {
+        font-size:0.6rem;
+    }
     #tabla-posiciones td img {
         width:20px;
     }
-    #tabla-posiciones th:nth-last-of-type(2) {
-        display: none;
+    #tabla-posiciones-infantil td img {
+        width:20px;
     }
     #tabla-posiciones td:nth-last-of-type(2) {
+        display: none;
+    }
+    #tabla-posiciones-infatil td:nth-last-of-type(2) {
         display: none;
     }
     #tabla-posiciones th:nth-last-of-type(3) {
         display: none;
     }
+    #tabla-posiciones-infantil th:nth-last-of-type(3) {
+        display: none;
+    }
     #tabla-posiciones td:nth-last-of-type(3) {
+        display: none;
+    }
+    #tabla-posiciones-infantil td:nth-last-of-type(3) {
         display: none;
     }
     #tabla-posiciones th:nth-last-of-type(4) {
         display: none;
     }
+    #tabla-posiciones-infantil th:nth-last-of-type(4) {
+        display: none;
+    }
     #tabla-posiciones td:nth-last-of-type(4) {
+        display: none;
+    }
+    #tabla-posiciones-infantil td:nth-last-of-type(4) {
         display: none;
     }
 } 
