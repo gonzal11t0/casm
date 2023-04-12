@@ -1,0 +1,30 @@
+@media screen and (max-width:1140px) {
+    .texto-historia{
+        font-size:0.8rem;
+    }
+}
+@media screen and (max-width:910px) {
+    #seccion-1-historia{
+        height:410vh;
+    }
+}
+@media screen and (max-width:700px) {
+    #seccion-1-historia{
+        height:505vh;
+    }
+    .texto-historia{
+        font-size:0.7rem;
+    }
+}
+@media screen and (max-width:500px) {
+    #seccion-1-historia{
+        height:720vh;
+        background-color: black;
+        background-image:none;
+    }
+    .noticia{
+        top:5vh;
+        line-height:40px;
+        background-color: black;
+    }
+}

@@ -3,6 +3,54 @@ body{
     padding: 0;
 }
 #seccion-1-historia{
-    height:175vh;
-    background: linear-gradient(to bottom, #042500, #327a01);
+    height:325vh;
+    width: 100%;
+    /*background: linear-gradient(to bottom, #042500, #327a01);*/
+    background-image: url(../img/img-2.jpg)
+}
+.noticias-container{
+    width: 100%;
+}
+.noticia{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    flex-flow: wrap;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    color:rgb(255, 255, 255);
+    background-color:rgb(11, 22, 18);
+    opacity:0.9;
+    width:100%;
+    top:23vh;
+    height:auto;
+    font-weight: bold;
+    line-height:50px;
+}
+.titulo-historia {
+    text-align: center;
+}
+.titulo-historia:first-letter{
+    color: green;
+    font-size:3rem;
+}
+.texto-historia:first-letter{
+    color: green;
+    font-size:3rem;
+}
+.index-historia {
+    position:fixed;
+    right:2vw;
+    padding:3px 5px;
+    width: auto;
+    top:95vh;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    box-shadow: 0 2.5px 10px 5px rgba(98, 255, 0, 0.2);
+    border-radius:5px;
+    background-color: #000000;
+}
+.index-historia a {
+    text-decoration: none;
 }

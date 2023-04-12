@@ -46,48 +46,48 @@
         <div class="header">
             <h2>Hacete socio</h2>
         </div>
-        <form id="form" class="form">
+        <form enctype="multipart/form-data" onsubmit="formSubmit()" method="post" id="form" class="form">
             <div class="form-control">
                 <label for="username">Nombre</label>
-                <input name="from_nombre" type="text" placeholder="Ingrese su nombre" id="nombre" />
+                <input name="from_nombre" type="text" placeholder="Ingrese su nombre" id="nombre" required />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="secondName">Apellido</label>
-                <input name="from_apellido"  type="text" placeholder="Ingrese su apellido" id="apellido" />
+                <input name="from_apellido"  type="text" placeholder="Ingrese su apellido" id="apellido"required />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="email">Email</label>
-                <input name="from_email"  type="email" placeholder="abcdefghij@email.com" id="email" />
+                <input name="from_email"  type="email" placeholder="abcdefghij@email.com" id="email" required />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="Localidad">Localidad</label>
-                <input name="from_localidad"  type="text" placeholder="San miguel" id="localidad" />
+                <input name="from_localidad"  type="text" placeholder="San miguel" id="localidad" required/>
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="foto-dni">Foto dni frente</label>
-                <input name="from_dniFrente" type="file"accept="cid:image/png, image/jpeg">
+                <input name="my_file" type="file"accept="cid:image/png, image/jpeg"required>
                 <small>Error message</small>
             </div>
             <div class="form-control">
-                <span>Seleccion su plan</span>
+                <span>Seleccione su plan</span>
                 <select name="from_select">
-                    <option value="value1">Jubilado</option>
-                    <option value="value2">Semipleno</option>
-                    <option value="value3">Pleno</option>
-                    <option value="value4">Infantil</option>
-                    <option value="value5">Escolar</option>
+                    <option value="Jubilado">Jubilado</option>
+                    <option value="Semipleno">Semipleno</option>
+                    <option value="Pleno">Pleno</option>
+                    <option value="Infantil">Infantil</option>
+                    <option value="Escolar">Escolar</option>
                 </select>
             </div>
             <button type="submit">  Enviar peticion</button>

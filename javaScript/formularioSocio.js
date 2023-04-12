@@ -1,21 +1,19 @@
-const btn = document.getElementById('button');
-
 document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+	.addEventListener('submit', function(event) {
+	event.preventDefault();
 
-   btn.value = 'Sending...';
+	btn.value = 'Sending...';
 
-   const serviceID = 'default_service';
-   const templateID = 'template_3bsaqg2';
+	const serviceID = 'default_service';
+	const templateID = 'template_3bsaqg2';
 
-   emailjs.sendForm(serviceID, templateID, this)
+	emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
-      console.log('Enviado');
-    }, (err) => {
-      btn.value = 'Send Email';
-      alert(JSON.stringify(err));
+		btn.value = 'Send Email';
+		console.log('Enviado');
+	}, (err) => {
+    btn.value = 'Send Email';
+    alert(JSON.stringify(err));
     });
 });
 /*creo las variables y la relaciono con su id del html*/
