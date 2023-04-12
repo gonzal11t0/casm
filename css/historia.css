@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#seccion-1-historia{
+    height:175vh;
+    background: linear-gradient(to bottom, #042500, #327a01);
+}

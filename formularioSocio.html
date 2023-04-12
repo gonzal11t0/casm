@@ -35,6 +35,11 @@
     <link rel="stylesheet" href="css/formularioSocio.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('IxQTc3qSDZgks-5DL')
+    </script>
 </head>
 <body>
     <div class="container">
@@ -44,45 +49,35 @@
         <form id="form" class="form">
             <div class="form-control">
                 <label for="username">Nombre</label>
-                <input name="username" type="text" placeholder="Ingrese su nombre" id="nombre" />
+                <input name="from_nombre" type="text" placeholder="Ingrese su nombre" id="nombre" />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="secondName">Apellido</label>
-                <input name="secondName"  type="text" placeholder="Ingrese su apellido" id="apellido" />
+                <input name="from_apellido"  type="text" placeholder="Ingrese su apellido" id="apellido" />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="email">Email</label>
-                <input name="email"  type="email" placeholder="abcdefghij@email.com" id="email" />
+                <input name="from_email"  type="email" placeholder="abcdefghij@email.com" id="email" />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
                 <label for="Localidad">Localidad</label>
-                <input name="Localidad"  type="text" placeholder="San miguel" id="localidad" />
+                <input name="from_localidad"  type="text" placeholder="San miguel" id="localidad" />
                 <i class="fas fa-check-circle"></i>
                 <i class="fas fa-exclamation-circle"></i>
                 <small>Error message</small>
             </div>
             <div class="form-control">
-                <label for="foto-dni">Foto dni frente</label>
-                <input name="dniFrente" type="file"accept="image/png, image/jpeg">
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
-                <label for="foto-dni">Foto dni atras</label>
-                <input name="dniAtras" type="file"accept="image/png, image/jpeg">
-                <small>Error message</small>
-            </div>
-            <div class="form-control">
                 <span>Seleccion su plan</span>
-                <select name="select">
+                <select name="from_select">
                     <option value="value1">Jubilado</option>
                     <option value="value2">Semipleno</option>
                     <option value="value3">Pleno</option>
@@ -93,6 +88,7 @@
             <button type="submit">Enviar peticion</button>
         </form>
     </div>
-    <script type="text/javaScript" src="javaScript/formularioSocio.js"></script>
+    <script type="text/javaScript" id="button" src="javaScript/formularioSocio.js"></script>
+</script>
 </body>
 </html>
