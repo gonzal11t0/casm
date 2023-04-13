@@ -1,0 +1,87 @@
+#seccion-1-tenis-1{
+    height:100vh;
+    background: linear-gradient(to bottom, #042500, #327a01);
+}
+.titulo-competenecia-1-tenis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top:30vh;
+    text-decoration: underline 2px rgb(50, 116, 3);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+#fixture-tableSuperA , #fixture-tableCATEGORIAA1, #fixture-tableSuperA td,#fixture-tableCATEGORIAA1 td {
+    border:3px solid black;
+    padding:8px;
+    text-align: center;
+    color: rgb(253, 255, 253);
+    font-size:0.8rem;
+}
+#fixture-tableSuperA th, #fixture-tableCATEGORIAA1 th {
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(253, 255, 253);
+}
+.container-tenis{
+    position:absolute;
+    border-collapse: collapse;
+    width:70%;
+    height:30%;
+    left:1vw;
+    top:54vh;
+    opacity:0.9;
+}
+.nav{
+    position:relative;
+    width:100%;
+    top:1vh;
+    font-size:0.9rem;
+}
+.nav ul{
+    list-style-type:none;
+    text-decoration:none;
+}
+.cfecha,.cfechact {
+    background: #00612d;
+    color: #fff;
+    padding:2px;
+    border:2px solid #000;
+    cursor: pointer;
+}
+.cfechact {
+    background: #68a54b
+}
+#fixture-tableSuperA ,#fixture-tableCATEGORIAA1{
+    position:absolute;
+    top:18vh;
+    right:0vw;
+    width:100%;
+    height:auto;
+}
+#seccion-1-tenis-2{
+    height:115vh;
+    background: linear-gradient(to bottom, #042500, #327a01);
+}
+.titulo-competenecia-2-tenis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top:20vh;
+    text-decoration: underline 2px rgb(50, 116, 3);
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container-tenis-2{
+    position:relative;
+    border-collapse: collapse;
+    width:70%;
+    height:30%;
+    left:1vw;
+    top:54vh;
+    opacity:0.9;
+}
