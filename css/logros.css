@@ -2,16 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
-#seccion-1-historia{
+#seccion-1-logros{
     height:325vh;
     width: 100%;
     /*background: linear-gradient(to bottom, #042500, #327a01);*/
     background-image: url(../img/img-2.jpg)
 }
-.historia-container{
+.logros-container{
     width: 100%;
 }
-.historia{
+.logros{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
@@ -28,14 +28,14 @@ body{
     font-weight: bold;
     line-height:50px;
 }
-.titulo-historia {
+.titulo-logros {
     text-align: center;
 }
-.titulo-historia:first-letter{
+.titulo-logros:first-letter{
     color: green;
     font-size:3rem;
 }
-.texto-historia:first-letter{
+.texto-logros:first-letter{
     color: green;
     font-size:3rem;
 }
