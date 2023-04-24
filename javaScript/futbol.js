@@ -1,12 +1,13 @@
+
 // Obtener la tabla y las filas
-var tabla = document.getElementById("tabla-posiciones");
+var tabla = document.getElementById("tabla-posiciones-primera");
 var filas = tabla.getElementsByTagName("tr");
 
 // Ordenar las filas por puntos
 var puntosArray = [];
 for (var i = 1; i < filas.length; i++) {
     var celdas = filas[i].getElementsByTagName("td");
-    var puntos = parseInt(celdas[8].textContent);
+    var puntos = parseInt(celdas[5].textContent);
     puntosArray.push([puntos, filas[i]]);
 }
 puntosArray.sort(function(a, b) {
@@ -18,7 +19,7 @@ for (var i = 0; i < puntosArray.length; i++) {
     tabla.appendChild(puntosArray[i][1]);
 }
 
-
+/*
 const partidos = [
     {fecha: "10 de Febrero",local: "Dock Sud",      visitante: "Dep. Armenio",    resultado: "4-1" },
     {fecha: "11 de Febrero",local: "Cañuelas",      visitante: "Ituzaingo",       resultado: "1-0" },
@@ -56,4 +57,4 @@ for(let i = 0; i < partidos.length; i++) {
 
 
         fixtureTable.appendChild(row);
-}
+}*/

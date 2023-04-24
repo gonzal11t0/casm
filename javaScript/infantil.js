@@ -1,3 +1,4 @@
+/*TABLA DE POSICIONES INFANTIL*/
 // Obtener la tabla y las filas
 var tabla = document.getElementById("tabla-posiciones-infantil");
 var filas = tabla.getElementsByTagName("tr");
@@ -16,7 +17,7 @@ puntosArray.sort(function(a, b) {
 // Actualizar el orden de las filas
 for (var i = 0; i < puntosArray.length; i++) {
     tabla.appendChild(puntosArray[i][1]);
-}
+}/*
 const partidos = [
     {fecha: "10 de Febrero",local: "Dep. Morón",     visitante: "Dep. Riestra",   resultado: "4-1" },
     {fecha: "11 de Febrero",local: "Comunicaciones ",visitante: "Colegiales",     resultado: "1-0" },
@@ -48,3 +49,4 @@ for(let i = 0; i < partidos.length; i++) {
         row.appendChild(visitante);
         fixtureTable.appendChild(row);
 }
+*/

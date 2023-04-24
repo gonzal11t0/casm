@@ -1,228 +1,345 @@
+@media screen and (max-width:1250px) {
+    #seccion-2-futbol-primera{
+        height:120vh;
+        background-color: #042500;
+    }
+    .container-primera{
+        display:grid;
+        grid-template-columns:auto auto;
+        grid-template-rows:auto auto;
+        row-gap:10px;
+        width:100%;
+        height:50vh;
+    }
+    #card-primera {
+        position:relative;
+        top:0vh;
+        width:80%;
+        height:30vh;
+        padding-left:5vw;
+        margin-top:10px;
+        margin-bottom:9px;
+    }
+    #card-primera div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backface-visibility: hidden;
+        transition: 1s;
+    }
+    #card-primera div h1 {
+        color: #ffffff;
+        cursor: pointer;
+        font-size:1.2rem;
+        justify-content: center;
+        text-align: center;
+    }
+    #card-primera .front-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(0deg);
+    }
+    #card-primera .back-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(180deg);
+    }
+    #card-primera:hover .front-primera {
+        transform: perspective(500px) rotateY(180deg);
+    }
+    #card-primera:hover .back-primera {
+        transform: perspective(500px) rotateY(360deg);
+    }
+    #card-primera div p {
+        font-size:1rem;
+        color: rgb(255, 254, 254);
+        left:0px;
+    }
+}
 @media screen and (max-width:700px) {
     #seccion-1-futbol-primera{
-        height:255vh;
-    }
-    #pagination{
-        display:flex;
-        flex:row;
-        float:left;
-        position:relative;
-        top:35vh;
-        left:30%;
-    }
-    .nav{
-        width:100%;
-        top:10vh;
-        left:0vw;
-        font-size:0.7rem;
-    }
-    ol, ul {
-        padding-left:0.5rem;
-    }
-    .container-futbol{
-        top:60vh;
-        width:100%;
-        height:auto;
-    }
-    #fixture-table{
-        position:absolute;
-        top:20vh;
-        right:0vw;
-        width:100%;
-        height:auto;
-    }
-    .cfecha,.cfechact {
-        padding:0px 0px 0px 0px;
-    }
-    #tabla-posiciones{
-        top:132vh;
-        width:100%;
-        height:auto;
-        left:0vw;
-    }
-    #tabla-posiciones-infantil{
-        top:132vh;
-        width:100%;
-        height:auto;
-        left:0vw;
-    }
-    #seccion-2-futbol-primera{
         height:190vh;
     }
-    .container-fubol-noticias {
-        display:grid;
-        grid-template-columns:auto ;
-        row-gap:20px;
-        top:15vh;
+    #pagination-primera{
+        top:50%;
+        left:40%;
+        transform:translatex(-40%);
     }
-    .news {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left:0;
-        background-color: rgba(255, 0, 0, 0.8);
-        position:inherit;
-        bottom:0;
-        width:99%;
-        height:auto;
+    #pagination-primera ul li a{
+        font-size:0.7rem;
     }
-    .text-info-infantil{
-        position:absolute;
-        top:60vh;
-        left:0vw;
+    #principal-primera-fixure{
+        top:52%;
+        left:60%;
+        transform: translatex(-60%);
+        width:450px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
     }
-}  
-@media screen and (max-width:450px) {
+    #principal-primera-posiciones{
+        top:113%;
+        left:60%;
+        transform: translatex(-60%);
+        width:450px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+    }
+    #fixture-table-primera, #fixture-table-primera td {
+        border:2px solid black;
+        padding:3px;
+        font-size:0.7rem;
+    }
+    #tabla-posiciones-primera {
+        font-size:0.7rem;
+    }
     #seccion-2-futbol-primera{
-        height:200vh;
+        height:120vh;
+        background-color: #042500;
     }
-    .container-fubol-noticias {
-        display:grid;
-        grid-template-columns:auto ;
+    .container-primera{
+        display: grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto auto;
         row-gap:10px;
-        top:15vh;
-        font-size:0.8rem;
+        column-gap:10px;
+        width:100%;
+        height:10vw;
     }
-    .news {
-        display: flex;
-        flex-direction: column;
+    #card-primera {
+        position:relative;
+        top:0vh;
+        width:100%;
+        height:36vh;
+        padding-left:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    #card-primera div h1 {
+        color: #ffffff;
+        cursor: pointer;
+        font-size:1rem;
         justify-content: center;
-        align-items: center;
-        margin-left:0;
-        background-color: rgba(255, 0, 0, 0.8);
-        position:inherit;
-        bottom:0;
-        width:99%;
-        height:auto;
+        text-align: center;
+    }
+    #card-primera .front-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(0deg);
+    }
+    #card-primera .back-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(180deg);
+    }
+    #card-primera:hover .front-primera {
+        transform: perspective(500px) rotateY(180deg);
+    }
+    #card-primera:hover .back-primera {
+        transform: perspective(500px) rotateY(360deg);
+    }
+    #card-primera div p {
+        font-size:0.9rem;
+        color: rgb(255, 254, 254);
+        left:0px;
     }
 }
 @media screen and (max-width:450px) {
-    #seccion-2-futbol-primera{
-        height:280vh;
-    }
     #seccion-1-futbol-primera{
-        height:265vh;
+        height:220vh;
+        background-color: #042500;
     }
-    .text-info-infantil{
-        position:absolute;
-        top:66vh;
-        left:0vw;
+    #pagination-primera{
+        top:55%;
     }
-    #tabla-posiciones-infantil{
-        position:absolute;
-        border-collapse: collapse;
-        width:100%;
-        height:30%;
-        left:0vw;
-        top:155vh;
-        opacity:0.9;
-    }
-}  
-@media screen and (min-width:200px) and (max-width:380px) {
-    #seccion-1-futbol-primera{
-        height:255vh;
-        width: 100%;
-    }
-    #pagination{
-        display:flex;
-        flex:row;
-        float:left;
-        position:relative;
-        top:45vh;
-        left:0vw;
-    }
-    #pagination ul li a{
-        font-size:0.7rem;
-    }
-    .active>.page-link, .page-link.active {
-        display: none;
-    }
-    .nav{
-        width:100%;
-        top:10vh;
-        left:1vw;
-        font-size:0.7rem;
-    }
-    ol, ul {
-        padding-left:1rem;
-    }
-    .container-futbol{
-        top:70vh;
-        width:100%;
-        height:auto;
-    }
-    #fixture-table{
-        position:absolute;
-        top:23vh;
-        left:0vw;
-        width:100%;
-        height:auto;
-    }
-    #fixture-table th {
-        font-size:0.6rem;
-    }
-    #fixture-table, #fixture-table td {
-        border:1px solid black;
-        padding:0px; 
-        font-size:0.6rem;
-    }
-    #tabla-posiciones{
-        top:140vh;
-        width:100%;
-        height:auto;
-    }
-    #tabla-posiciones-infantil{
-        top:145vh;
-        width:100%;
-        height:auto;
-    }
-    #tabla-posiciones th {
-        font-size:0.7rem;
-    }
-    #tabla-posiciones-infantil th {
-        font-size:0.7rem;
-    }
-    #tabla-posiciones td {
+    #pagination-primera ul li a{
         font-size:0.5rem;
     }
-    #tabla-posiciones-infantil td {
+    #principal-primera-fixure{
+        top:58%;
+        left:70%;
+        transform: translatex(-70%);
+        width:300px;
+        padding-top:10px;
+        padding-bottom:10px;
+        min-height:200px;
+    }
+    #principal-primera-posiciones{
+        top:106%;
+        left:70%;
+        transform: translatex(-70%);
+        width:300px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+    }
+    #fixture-table-primera, #fixture-table-primera td {
+        border:2px solid black;
+        padding:3px;
         font-size:0.6rem;
     }
-    #tabla-posiciones td img {
-        width:20px;
+    #tabla-posiciones-primera {
+        font-size:0.7rem;
     }
-    #tabla-posiciones-infantil td img {
-        width:20px;
+    #seccion-2-futbol-primera{
+        height:190vh;
+        background-color: #042500;
     }
-    #tabla-posiciones td:nth-last-of-type(2) {
+    .container-primera{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+        row-gap:10px;
+        width:100%;
+        height:20vw;
+    }
+    #card-primera {
+        position:relative;
+        top:0vh;
+        width:100%;
+        height:64vw;
+        padding-left:0px;
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+    #card-primera div h1 {
+        color: #ffffff;
+        cursor: pointer;
+        font-size:1rem;
+        justify-content: center;
+        text-align: center;
+    }
+    #card-primera .front-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(0deg);
+    }
+    #card-primera .back-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(180deg);
+    }
+    #card-primera:hover .front-primera {
+        transform: perspective(500px) rotateY(180deg);
+    }
+    #card-primera:hover .back-primera {
+        transform: perspective(500px) rotateY(360deg);
+    }
+    #card-primera div p {
+        font-size:0.9rem;
+        color: rgb(255, 254, 254);
+        left:0px;
+    }
+    #subir-primera {
+        position:fixed;
+        right:2vw;
+        padding:0;
+        width:auto;
+        top:90vh;
+        cursor:pointer;
+        text-overflow:ellipsis;
+        box-shadow:0 0px 0px 0px rgba(98, 255, 0, 0.2);
+        border-radius:5px;
+        background-color:#000000;
+    }
+    #subir-primera a {
+        text-decoration: none;
+        color:white;
+    }
+}
+@media screen and (max-width:300px) {
+    #seccion-1-futbol-primera{
+        height:230vh;
+        background-color: #042500;
+    }
+    #pagination-primera{
+        top:60%;
+        left:17%;
+        transform:translatex(-30%);
+    }
+    #pagination-primera ul li a{
+        font-size:0.5rem;
+    }
+    .page-item:first-child .page-link {
+        font-size:0.6rem;
+    }
+    .page-item:not(:first-child) .page-link {
+        font-size:0.6rem;
+    }
+    #principal-primera-fixure{
+        top:78%;
+        left:30%;
+        transform: translatex(-33%);
+        width:100%;
+        padding-top:0px;
+        padding-bottom:0px;
+        min-height:200px;
+    }
+    #principal-primera-posiciones{
+        top:130%;
+        left:50%;
+        transform: translatex(-50%);
+        width:100%;
+        padding-top:0px;
+        padding-bottom:0px;
+        min-height:500px;
+    }
+    #fixture-table-primera, #fixture-table-primera td {
+        border:1px solid black;
+        padding:0px;
+        font-size:0.4rem;
+    }
+    #fixture-table-primera th:first-child,
+    #fixture-table-primera td:first-child,
+    #fixture-table-primera tr:first-child td {
         display: none;
+    }  
+    #tabla-posiciones-primera {
+        font-size:0.6rem;
     }
-    #tabla-posiciones-infatil td:nth-last-of-type(2) {
-        display: none;
+    #seccion-2-futbol-primera{
+        height:266vh;
+        background-color: #042500;
     }
-    #tabla-posiciones th:nth-last-of-type(3) {
-        display: none;
+    .container-primera{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto;
+        row-gap:10px;
+        width:100%;
+        height:100vw;
     }
-    #tabla-posiciones-infantil th:nth-last-of-type(3) {
-        display: none;
+    #card-primera {
+        position:relative;
+        top:0vh;
+        width:100%;
+        height:140vw;
+        padding-left:0px;
+        margin-top:0px;
+        margin-bottom:0px;
     }
-    #tabla-posiciones td:nth-last-of-type(3) {
-        display: none;
+    #card-primera div h1 {
+        color: #ffffff;
+        cursor: pointer;
+        font-size:1rem;
+        justify-content: center;
+        text-align: center;
     }
-    #tabla-posiciones-infantil td:nth-last-of-type(3) {
-        display: none;
+    #card-primera .front-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(0deg);
     }
-    #tabla-posiciones th:nth-last-of-type(4) {
-        display: none;
+    #card-primera .back-primera {
+        background: rgb(16, 139, 10);
+        transform: perspective(500px) rotateY(180deg);
     }
-    #tabla-posiciones-infantil th:nth-last-of-type(4) {
-        display: none;
+    #card-primera:hover .front-primera {
+        transform: perspective(500px) rotateY(180deg);
     }
-    #tabla-posiciones td:nth-last-of-type(4) {
-        display: none;
+    #card-primera:hover .back-primera {
+        transform: perspective(500px) rotateY(360deg);
     }
-    #tabla-posiciones-infantil td:nth-last-of-type(4) {
-        display: none;
+    #card-primera div p {
+        font-size:0.8rem;
+        color: rgb(255, 254, 254);
+        left:0px;
     }
-} 
+}

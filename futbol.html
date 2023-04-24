@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="css/media-futbol.css">
 </head>
 <body>
-    <header id="header"data-aos="fade-right"data-aos-duration="2000"> 
+    <header id="header"> 
         <button class="btn "> <a class="btn btn-primary" href="socio.html" target="_blank">Hacete socio</a></button>
         <!-- MENU -->
         <nav id="nav" class="ocultar-nav">
@@ -124,7 +124,7 @@
     </header>
     <main>
         <section id="seccion-1-futbol-primera">
-            <nav id="pagination" aria-label="Page navigation example">
+            <nav id="pagination-primera" aria-label="Page navigation example">
                 <ul class="pagination pagination-sm pagination-lg">
                     <li class="page-item"><a class="page-link active" href="futbol.html">Primera</a></li>
                     <li class="page-item"><a class="page-link" href="reserva.html">Reserva</a></li>
@@ -132,311 +132,1095 @@
                     <li class="page-item"><a class="page-link" href="infantil.html">Infantiles</a></li>
                 </ul>
             </nav>
-            <div>
-                <table id="tabla-posiciones">
+                <div id="principal-primera-posiciones">
+                    <table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
+                        
+                        <thead>
+                            <tr>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbody">
+                            <tr data-row-index="1">
+                                <td>Los Andes<img src="./img/iconos-clubes/los andes.png"></td> 
+                                <td>10</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>18</td>
+                            </tr>
+                            <tr data-row-index="2">
+                                <td>San Miguel<img src="./img/iconos-clubes/san miguel.png"></td>
+                                <td>11</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>20</td>
+                            </tr>
+                            <tr data-row-index="3">
+                                <td>Comunicaciones<img src="./img/iconos-clubes/comunicaciones.png"></td>
+                                <td>10</td>
+                                <td>6</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>20</td>
+                            </tr>
+                            <tr data-row-index="4">
+                                <td>Argentino (M)<img src="./img/iconos-clubes/argentino de merlo.png"></td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>4</td>
+                                <td>16</td>
+                            </tr>
+                            <tr data-row-index="5">
+                                <td>Dock Sud<img src="./img/iconos-clubes/dock Sud.png"></td>
+                                <td>10</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>15</td>
+                            </tr>
+                            <tr data-row-index="6">
+                                <td>Villa San Carlos<img src="./img/iconos-clubes/villa san carlos.png"></td>
+                                <td>11</td>
+                                <td>3</td>
+                                <td>6</td>
+                                <td>2</td>
+                                <td>15</td>
+                            </tr>
+                            <tr data-row-index="7">
+                                <td>UAI Urquiza<img src="./img/iconos-clubes/uai urquiza.png"></td>
+                                <td>11</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>12</td>
+                            </tr>
+                            <tr data-row-index="8">
+                                <td>Acassuso<img src="./img/iconos-clubes/acassuso.png"></td>
+                                <td>10</td>
+                                <td>3</td>
+                                <td>6</td>
+                                <td>1</td>
+                                <td>15</td>
+                            </tr>
+                            <tr data-row-index="9">
+                                <td>Talleres(RdE)<img src="./img/iconos-clubes/talleres(rde).png"></td>
+                                <td>9</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>12</td>
+                            </tr>
+                            <tr data-row-index="10">
+                                <td>Sacachispas<img src="./img/iconos-clubes/sacachispa.png"></td>
+                                <td>10</td>
+                                <td>4</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>15</td>
+                            </tr>
+                            <tr data-row-index="11">
+                                <td>Colegiales<img src="./img/iconos-clubes/colegiales.png"></td>
+                                <td>11</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>12</td>
+                            </tr>
+                            <tr data-row-index="12">
+                                <td>Argentino (Q)<img src="./img/iconos-clubes/argentino quilmes.png"></td>
+                                <td>10</td>
+                                <td>3</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>11</td>
+                            </tr>
+                            <tr data-row-index="13">
+                                <td>Dep. Armenio<img src="./img/iconos-clubes/dep.armenio.png"></td>
+                                <td>10</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>11</td>
+                            </tr>
+                            <tr data-row-index="14">
+                                <td>Merlo<img src="./img/iconos-clubes/merlo.png"></td>
+                                <td>10</td>
+                                <td>2</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>10</td>
+                            </tr>
+                            <tr data-row-index="15">
+                                <td>Fenix<img src="./img/iconos-clubes/fenix.png"></td>
+                                <td>10</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>6</td>
+                                <td>10</td>
+                            </tr>
+                            <tr data-row-index="16">
+                                <td>Ituzaingo<img src="./img/iconos-clubes/ituzaingo.png"></td>
+                                <td>10</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>9</td>
+                            </tr>
+                            <tr data-row-index="17">
+                                <td>Cañuelas<img src="./img/iconos-clubes/cañuelas.png"></td>
+                                <td>11</td>
+                                <td>2</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>11</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            <div id="principal-primera-fixure">
+                    <table id="fixture-table-primera"  class="table table-striped table-responsive table-responsive-lg" >
                     <thead>
                         <tr>
-                            <th>Equipo</th>
-                            <th>PJ</th>
-                            <th>PG</th>
-                            <th>PE</th>
-                            <th>PP</th>
-                            <th>GF</th>
-                            <th>GC</th>
-                            <th>DIF</th>
-                            <th>Pts</th>
+                            <th>Fecha</th>
+                            <th>Equipo local</th>
+                            <th>Resultado</th>
+                            <th>Equipo visitante</th>
                         </tr>
-                    </thead>
-                    <tbody id="tbody">
-                        
-                        <tr data-row-index="1">
-                        <td>Los Andes<img src="./img/iconos-clubes/los andes.png"></td> 
-                        <td>8</td>
-                        <td>5</td>
-                        <td>2</td>
-                        <td>1</td>
-                        <td>11</td>
-                        <td>2</td>
-                        <td>+9</td>
-                        <td>17</td>
-                    </tr>
-                    <tr data-row-index="2">
-                        <td>Dock Sud <img src="./img/iconos-clubes/dock Sud.png"></td>
-                        <td>8</td>
-                        <td>4</td>
-                        <td>2</td>
-                        <td>2</td>
-                        <td>13</td>
-                        <td>10</td>
-                        <td>+3</td>
-                        <td>14</td>
-                    </tr>
-                    <tr data-row-index="3">
-                        <td>Argentino (M) <img src="./img/iconos-clubes/argentino de merlo.png"></td>
-                        <td>7</td>
-                        <td>4</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>9</td>
-                        <td>3</td>
-                        <td>+6</td>
-                        <td>13</td>
-                    </tr>
-                    <tr data-row-index="4">
-                        <td>San Miguel <img src="./img/iconos-clubes/san miguel.png"></td>
-                        <td>8</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>1</td>
-                        <td>9</td>
-                        <td>5</td>
-                        <td>+4</td>
-                        <td>13</td>
-                    </tr>
-                    <tr data-row-index="5">
-                        <td>Comunicaciones <img src="./img/iconos-clubes/comunicaciones.png"></td>
-                        <td>7</td>
-                        <td>4</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>11</td>
-                        <td>11</td>
-                        <td>+0</td>
-                        <td>13</td>
-                    </tr>
-                    <tr data-row-index="6">
-                        <td>Villa San Carlos <img src="./img/iconos-clubes/villa san carlos.png"></td>
-                        <td>8</td>
-                        <td>2</td>
-                        <td>5</td>
-                        <td>1</td>
-                        <td>12</td>
-                        <td>8</td>
-                        <td>+4</td>
-                        <td>11</td>
-                    </tr>
-                    <tr data-row-index="7">
-                        <td>Sacachispas <img src="./img/iconos-clubes/sacachispa.png"></td>
-                        <td>7</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>2</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>0</td>
-                        <td>11</td>
-                    </tr>
-                    <tr data-row-index="8">
-                        <td>Talleres (RdE) <img src="./img/iconos-clubes/talleres(rde).png"></td>
-                        <td>10</td>
-                        <td>3</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>0</td>
-                        <td>11</td>
-                    </tr>
-                    <tr data-row-index="9">
-                        <td>Acassuso <img src="./img/iconos-clubes/acassuso.png"></td>
-                        <td>7</td>
-                        <td>2</td>
-                        <td>4</td>
-                        <td>1</td>
-                        <td>6</td>
-                        <td>6</td>
-                        <td>0</td>
-                        <td>10</td>
-                    </tr>
-                    <tr data-row-index="10">
-                        <td>Colegiales <img src="./img/iconos-clubes/colegiales.png"></td>
-                        <td>8</td>
-                        <td>3</td>
-                        <td>1</td>
-                        <td>4</td>
-                        <td>7</td>
-                        <td>9</td>
-                        <td>-2</td>
-                        <td>10</td>
-                    </tr>
-                    <tr data-row-index="11">
-                        <td>UAI Urquiza <img src="./img/iconos-clubes/uai urquiza.png"></td>
-                        <td>8</td>
-                        <td>2</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>9</td>
-                        <td>9</td>
-                        <td>0</td>
-                        <td>9</td>
-                    </tr>
-                    <tr data-row-index="12">
-                        <td>Argentino (Q) <img src="./img/iconos-clubes/argentino quilmes.png"></td>
-                        <td>10</td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>10</td>
-                        <td>13</td>
-                        <td>-3</td>
-                        <td>8</td>
-                    </tr>
-                    <tr data-row-index="13">
-                        <td>Merlo <img src="./img/iconos-clubes/merlo.png"></td>
-                        <td>7</td>
-                        <td>1</td>
-                        <td>4</td>
-                        <td>2</td>
-                        <td>7</td>
-                        <td>8</td>
-                        <td>-1</td>
-                        <td>7</td>
-                    </tr>
-                    <tr data-row-index="14">
-                        <td>Dep. Armenio <img src="./img/iconos-clubes/dep.armenio.png"></td>
-                        <td>7</td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>10</td>
-                        <td>13</td>
-                        <td>-3</td>
-                        <td>6</td>
-                    </tr>
-                    <tr data-row-index="15">
-                        <td>Ituzaingo <img src="./img/iconos-clubes/ituzaingo.png"></td>
-                        <td>7</td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>3</td>
-                        <td>6</td>
-                        <td>-3</td>
-                        <td>6</td>
-                    </tr>
-                    <tr data-row-index="16">
-                        <td>Fenix <img src="./img/iconos-clubes/fenix.png"></td>
-                        <td>7</td>
-                        <td>2</td>
-                        <td>0</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>10</td>
-                        <td>-5</td>
-                        <td>6</td>
-                    </tr>
-                    <tr data-row-index="17">
-                        <td>Cañuelas <img src="./img/iconos-clubes/cañuelas.png"></td>
-                        <td>8</td>
-                        <td>1</td>
-                        <td>3</td>
-                        <td>4</td>
-                        <td>4</td>
-                        <td>13</td>
-                        <td>-9</td>
-                        <td>6</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="container-futbol">
-                <nav class="nav">
-                    <ul class="ul">
-                        <li>
-                            <a onclick="" class="cfecha">A1</a class="cfecha">
-                            <a onclick="" class="cfecha">A2</a class="cfecha">
-                            <a onclick="" class="cfecha">A3</a>
-                            <a onclick="" class="cfecha">A4</a>
-                            <a onclick="" class="cfecha">A5</a>
-                            <a onclick="" class="cfecha">A6</a>
-                            <a onclick="" class="cfecha">A7</a>
-                            <a onclick="" class="cfecha">A8</a>
-                            <a onclick="" class="cfecha">A9</a>
-                            <a onclick="" class="cfecha">A10</a> 
-                            <a onclick="" class="cfecha">A11</a>
-                            <a onclick="" class="cfecha">A12</a>
-                            <a onclick="" class="cfecha">A13</a>
-                            <a onclick="" class="cfecha">A14</a>
-                            <a onclick="" class="cfecha">A15</a>
-                            <a onclick="" class="cfecha">A16</a>
-                            <a onclick="" class="cfecha">A17</a>
-                        </li>
-                        <li>
-                            <a class="cfecha">C1</a class="cfecha">
-                            <a class="cfecha">C2</a class="cfecha">
-                            <a class="cfecha">C3</a>
-                            <a class="cfecha">C4</a>
-                            <a class="cfecha">C5</a>
-                            <a class="cfecha">C6</a>
-                            <a class="cfecha">C7</a>
-                            <a class="cfecha">C8</a>
-                            <a class="cfecha">C9</a>
-                            <a class="cfecha">C10</a> 
-                            <a class="cfecha">C11</a>
-                            <a class="cfecha">C12</a>
-                            <a class="cfecha">C13</a>
-                            <a class="cfecha">C14</a>
-                            <a class="cfecha">C15</a>
-                            <a class="cfecha">C16</a>
-                            <a class="cfecha">C17</a>
-                        </li>
-                    </ul>
-                </nav>
-                <table id="fixture-table">
-                <thead>
-                    <tr>
-                        <th>Fecha</th>
-                        <th>Equipo local</th>
-                        <th>Resultado</th>
-                        <th>Equipo visitante</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <!-- Aquí irán las filas del fixture generadas dinámicamente -->
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            <!--FECHA 1-->
+                            <tr>
+                                <td>10/2/2023</td>
+                                <td>Dock Sud</td>
+                                <td >4-1</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>11/2/2023</td>
+                                <td>Cañuelas</td>
+                                <td>1-0</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <tr>
+                                <td>11/2/2023</td>
+                                <td>UAI Urquiza</td>
+                                <td>2-0</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>11/2/2023</td>
+                                <td>Acassuso</td>
+                                <td>1-1</td>
+                                <td>Argentino (Q)</td>
+                            </tr>
+                            <tr>
+                                <td>11/2/2023</td>
+                                <td>Argentino (M)</td>
+                                <td>3-0</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>11/2/2023</td>
+                                <td>Sacachispas</td>
+                                <td>0-3</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <tr>
+                                <td>13/2/2023</td>
+                                <td>Fenix</td>
+                                <td>1-2</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>14/2/2023</td>
+                                <td>Talleres (RdE)</td>
+                                <td>0-0</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <!--FECHA 2-->
+                            <tr>
+                                <td>18/2/2023</td>
+                                <td>San Miguel</td>
+                                <td >1-0</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>18/2/2023</td>
+                                <td>Villa San Carlos</td>
+                                <td>1-1</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>18/2/2023</td>
+                                <td>Dep. Armenio</td>
+                                <td>2-2</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>18/2/2023</td>
+                                <td>Merlo</td>
+                                <td>4-1</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <tr>
+                                <td>18/2/2023</td>
+                                <td>Ituzaingo</td>
+                                <td>1-2</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>19/2/2023</td>
+                                <td>Colegiales</td>
+                                <td>1-2</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>20/2/2023</td>
+                                <td>Argentino (Q)</td>
+                                <td>0-1</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <tr>
+                                <td>21/2/2023</td>
+                                <td>Los Andes</td>
+                                <td>3-1</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <!--FECHA 3-->
+                            <tr>
+                                <td>25/2/2023</td>
+                                <td>Comunicaciones</td>
+                                <td >1-1</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>25/2/2023</td>
+                                <td>Cañuelas</td>
+                                <td>0-3</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>25/2/2023</td>
+                                <td>Dock Sud</td>
+                                <td>1-0</td>
+                                <td>Argentino(Q)</td>
+                            </tr>
+                            <tr>
+                                <td>25/2/2023</td>
+                                <td>Acassuso</td>
+                                <td>0-0</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>25/2/2023</td>
+                                <td>Talleres (RdE)</td>
+                                <td>0-1</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>27/2/2023</td>
+                                <td>Fenix</td>
+                                <td>0-2</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>28/2/2023</td>
+                                <td>UAI Urquiza</td>
+                                <td>0-1</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>28/2/2023</td>
+                                <td>Argentino(Q)</td>
+                                <td>0-1</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <!--FECHA 4-->
+                            <tr>
+                                <td>4/3/2023</td>
+                                <td>Sacachispas</td>
+                                <td >0-1</td>
+                                <td>Argentino(M)</td>
+                            </tr>
+                            <tr>
+                                <td>4/3/2023</td>
+                                <td>San Miguel</td>
+                                <td>1-1</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>4/3/2023</td>
+                                <td>Argentino(Q)</td>
+                                <td>2-3</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>4/3/2023</td>
+                                <td>Dep. Armenio</td>
+                                <td>2-3</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>5/3/2023</td>
+                                <td>Los Andes</td>
+                                <td>0-0</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <tr>
+                                <td>5/3/2023</td>
+                                <td>Villa San Carlos</td>
+                                <td>0-1</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <tr>
+                                <td>11/2/2023</td>
+                                <td>Colegiales</td>
+                                <td>0-1</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <tr>
+                                <td>13/2/2023</td>
+                                <td>Merlo</td>
+                                <td>0-0</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <!--FECHA 5-->
+                            <tr>
+                                <td>10/3/2023</td>
+                                <td>Dock Sud</td>
+                                <td >3-3</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>10/3/2023</td>
+                                <td>Ituzaingo</td>
+                                <td>0-0</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>11/32023</td>
+                                <td>Comunicaciones</td>
+                                <td>1-0</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>11/32023</td>
+                                <td>Cañuelas</td>
+                                <td>1-2</td>
+                                <td>Argentino (Q)</td>
+                            </tr>
+                            <tr>
+                                <td>11/32023</td>
+                                <td>UAI Urquiza</td>
+                                <td>1-2</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>11/32023</td>
+                                <td>Acassuso</td>
+                                <td>0-0</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>11/3/2023</td>
+                                <td>Argentino (M)</td>
+                                <td>2-0</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>14/3/2023</td>
+                                <td>Talleres (RdE)</td>
+                                <td>1-1</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <!--FECHA 6-->
+                            <tr>
+                                <td>18/3/2023</td>
+                                <td>Fenix</td>
+                                <td >1-2</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>18/3/2023</td>
+                                <td>Sacachispas</td>
+                                <td>1-0</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <tr>
+                                <td>18/32023</td>
+                                <td>Villa San Carlos</td>
+                                <td>0-0</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>19/32023</td>
+                                <td>Colegiales</td>
+                                <td>3-0</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <tr>
+                                <td>19/32023</td>
+                                <td>Argentino (Q)</td>
+                                <td>2-1</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>19/32023</td>
+                                <td>Dep. Armenio</td>
+                                <td>2-2</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>19/3/2023</td>
+                                <td>San Miguel</td>
+                                <td>1-2</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <tr>
+                                <td>21/3/2023</td>
+                                <td>Los Andes</td>
+                                <td>3-0</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <!--FECHA 7-->
+                            <tr>
+                                <td>25/3/2023</td>
+                                <td>Comunicaciones</td>
+                                <td >2-0</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>25/3/2023</td>
+                                <td>Cañuelas</td>
+                                <td>1-1</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>25/3/2023</td>
+                                <td>UAI Urquiza</td>
+                                <td>1-1</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <tr>
+                                <td>25/3/2023</td>
+                                <td>Dock Sud</td>
+                                <td>1-1</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>25/3/2023</td>
+                                <td>Talleres (RdE)</td>
+                                <td>1-2</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>26/3/2023</td>
+                                <td>Merlo</td>
+                                <td>0-2</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>27/3/2023</td>
+                                <td>Acassuso</td>
+                                <td>0-2</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>27/3/2023</td>
+                                <td>Ituzaingo</td>
+                                <td>2-0</td>
+                                <td>Argentino (Q)</td>
+                            </tr>
+                            <!--FECHA 8-->
+                            <tr>
+                                <td>1/4/2023</td>
+                                <td>Argentino (Q)</td>
+                                <td >0-0</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>1/4/2023</td>
+                                <td>Los Andes</td>
+                                <td>2-0</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>1/4/2023</td>
+                                <td>San Miguel</td>
+                                <td>0-0</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <tr>
+                                <td>1/4/2023</td>
+                                <td>Colegiales</td>
+                                <td>0-0</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <tr>
+                                <td>2/4/2023</td>
+                                <td>Villa San Carlos</td>
+                                <td>5-1</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>3/4/2023</td>
+                                <td>Fenix</td>
+                                <td>1-0</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <tr>
+                                <td>3/4/2023</td>
+                                <td>Sacachispas</td>
+                                <td>1-0</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>4/4/2023</td>
+                                <td>Argentino (M)</td>
+                                <td>0-1</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <!--FECHA 9-->
+                            <tr>
+                                <td>7/4/2023</td>
+                                <td>Ituzaingo</td>
+                                <td >1-0</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>Dep. Armenio</td>
+                                <td>4-1</td>
+                                <td>Argentino (Q)</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>Merlo</td>
+                                <td>3-1</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>Comunicaciones</td>
+                                <td>0-0</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>Cañuelas</td>
+                                <td>1-1</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>UAI Urquiza</td>
+                                <td>1-2</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>Dock Sud</td>
+                                <td>1-3</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>8/4/2023</td>
+                                <td>Talleres (RdE)</td>
+                                <td>1-1</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <!--FECHA 10-->
+                            <tr>
+                                <td>15/4/2023</td>
+                                <td>Acassuso</td>
+                                <td>1-1</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <tr>
+                                <td>15/4/2023</td>
+                                <td>Argentino (M)</td>
+                                <td>1-0</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>15/4/2023</td>
+                                <td>Sacachispas</td>
+                                <td>1-2</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>15/4/2023</td>
+                                <td>San Miguel</td>
+                                <td>3-2</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <tr>
+                                <td>15/4/2023</td>
+                                <td>Colegiales</td>
+                                <td>1-1</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>16/4/2023</td>
+                                <td>Villa San Carlos</td>
+                                <td>1-2</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>17/4/2023</td>
+                                <td>Argentino (Q)</td>
+                                <td>1-0</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>17/4/2023</td>
+                                <td>Fenix</td>
+                                <td>1-1</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <!--FECHA 11-->
+                            <tr>
+                                <td>22/4/2023</td>
+                                <td>Los Andes</td>
+                                <td>1-1</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>22/4/2023</td>
+                                <td>Dep. Armenio</td>
+                                <td>0-0</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>22/4/2023</td>
+                                <td>Merlo</td>
+                                <td>0-3</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <tr>
+                                <td>23/4/2023</td>
+                                <td>Comunicaciones</td>
+                                <td>1-0</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>22/4/2023</td>
+                                <td>Cañuelas</td>
+                                <td>2-1</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>22/4/2023</td>
+                                <td>Ituzaingo</td>
+                                <td>0-1</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>22/4/2023</td>
+                                <td>UAI Urquiza</td>
+                                <td>0-1</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>25/4/2023</td>
+                                <td>Dock Sud</td>
+                                <td>--</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <!--FECHA 12-->
+                            <tr>
+                                <td>--</td>
+                                <td>Talleres (RdE)</td>
+                                <td>--</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Acassuso</td>
+                                <td>--</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Argentino(M)</td>
+                                <td>--</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Fenix</td>
+                                <td>--</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Sacachispas</td>
+                                <td>--</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>San Miguel</td>
+                                <td>--</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Villa San Carlos</td>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                                <td>--</td>
+                                <td>Argentino (Q)</td>
+                            </tr>
+                            <!--FECHA 13-->
+                            <tr>
+                                <td>--</td>
+                                <td>Argentino (Q)</td>
+                                <td>--</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                                <td>--</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Dep. Armenio</td>
+                                <td>--</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Merlo</td>
+                                <td>--</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Ituzaingo</td>
+                                <td>--</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Comunicaciones</td>
+                                <td>--</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Cañuelas</td>
+                                <td>--</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>UAI Urquiza</td>
+                                <td>--</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <!--FECHA 14-->
+                            <tr>
+                                <td>--</td>
+                                <td>Dock Sud</td>
+                                <td>--</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Talleres (RdE)</td>
+                                <td>--</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Argentino (M)</td>
+                                <td>--</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Fenix</td>
+                                <td>--</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Sacachispas</td>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>San Miguel</td>
+                                <td>--</td>
+                                <td>Argentino(Q)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Villa San Carlos</td>
+                                <td>--</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Acassuso</td>
+                                <td>--</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <!--FECHA 15-->
+                            <tr>
+                                <td>--</td>
+                                <td>Colegiales</td>
+                                <td>--</td>
+                                <td>San Miguel</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Argentino (Q)</td>
+                                <td>--</td>
+                                <td>Sacachispas</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                                <td>--</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Dep. Armenio</td>
+                                <td>--</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Merlo</td>
+                                <td>--</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Ituzaingo</td>
+                                <td>--</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Comunicaciones</td>
+                                <td>--</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Cañuelas</td>
+                                <td>--</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <!--FECHA 16-->
+                            <tr>
+                                <td>--</td>
+                                <td>UAI Urquiza</td>
+                                <td>--</td>
+                                <td>Comunicaciones</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Dock Sud</td>
+                                <td>--</td>
+                                <td>Ituzaingo</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Talleres(RdE)</td>
+                                <td>--</td>
+                                <td>Merlo</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Acassuso</td>
+                                <td>--</td>
+                                <td>Dep. Armenio</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Argentino(M)</td>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Fenix</td>
+                                <td>--</td>
+                                <td>Argentino (Q)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Sacachispas</td>
+                                <td>--</td>
+                                <td>Colegiales</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>San Miguel</td>
+                                <td>--</td>
+                                <td>Villa San Carlos</td>
+                            </tr>
+                            <!--FECHA 17-->
+                            <tr>
+                                <td>--</td>
+                                <td>Villa San Carlos</td>
+                                <td>--</td>
+                                <td>Sacachispas	</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Colegiales</td>
+                                <td>--</td>
+                                <td>Fenix</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Argentino (Q)</td>
+                                <td>--</td>
+                                <td>Argentino (M)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Los Andes</td>
+                                <td>--</td>
+                                <td>Acassuso</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Dep. Armenio</td>
+                                <td>--</td>
+                                <td>Talleres (RdE)</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Merlo</td>
+                                <td>--</td>
+                                <td>Dock Sud</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Ituzaingo</td>
+                                <td>--</td>
+                                <td>UAI Urquiza</td>
+                            </tr>
+                            <tr>
+                                <td>--</td>
+                                <td>Comunicaciones	</td>
+                                <td>--</td>
+                                <td>Cañuelas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
         <section id="seccion-2-futbol-primera">
-            <div class="container-fubol-noticias">
-                <div class="news">
-                    <h2>Titular de la noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tene
-                    </p>
+            <div class="container-primera">
+                <div id="card-primera">
+                    <div class="front-primera">
+                        <h1 id="card-front-title-primera">Recuperando camino</h1>
+                    </div>
+                    <div class="back-primera">
+                        <p>Luego de ganar despues de 6 partidos, San Miguel se encuentra segundo en la tabla.<br>
+                            San Miguel 3-2 Ituzaingo.
+                            Goles: ⚽️Lucas Scarnato; ⚽️Ezequiel Melillo; ⚽️ Rodrigo Diaz.
+                        </p>
+                    </div>
                 </div>
-                <div class="news">
-                    <h2>Titular de la noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                <div class="card-2-primera" id="card-primera">
+                    <div class="front-primera">
+                        <h1>FÚTBOL PROFESIONAL ⚽</h1>
+                    </div>
+                    <div class="back-primera">
+                        <p>
+                        Dos para un puesto, ante la lesión de Melillo ,la duda para reemplazarlos es si juega
+                            daviid muller o  matias sama en ese sector de la cancha, ambos jugadores pueden darle
+                            un aporte al equipo que pueden construir una victoria, uno de los dos será titular!!
+                        </p>
+                    </div>
                 </div>
-                <div class="news">
-                    <h2>Titular de la noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                <div id="card-primera">
+                    <div class="front-primera">
+                        <h1 id="card-front-title-primera">En la recta final!!</h1>
+                    </div>
+                    <div class="back-primera">
+                        <p>
+                        ya se encara la parte final del torneo siendo líder del mismo junto a los Andes y comunicaciones,
+                            quedan seis finales dónde puede pasar cualquier cosa, el hincha se ilusiona con ganar un título,
+                            el último que ganó San Miguel fue en 1984 ,cuando obtuvo el ascenso a la primera B.
+                            Hace mucho tiempo que no vivíamos un torneo siendo protagonista y luchando por el título.
+                        </p>
+                    </div>
                 </div>
-                <div class="news">
-                    <h2>Titular de la noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?</p>
+                <div class="card-2-primera" id="card-primera">
+                    <div class="front-primera">
+                        <h1>Ezequiel Melillo es baja!!!</h1>
+                    </div>
+                    <div class="back-primera">
+                        <p>Finalmente el volante se resintió de la lesión y no estará hoy ante el deportivo merlo,
+                            Melillo que venía jugando en gran nivel se perderá el Match ante el charro!!
+                        </p>
+                    </div>
                 </div>
-                <div class="news">
-                    <h2>Titular de la noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                    </p>
-                </div>
-                <div class="news">
-                    <h2>Titular de la noticia</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi quis optio odio quasi eum quod voluptates fuga non error fugiat. Beatae tenetur sapiente officia reiciendis id natus quas corrupti delectus?
-                </p>
+                <div class="card-2-primera" id="card-primera">
+                    <div class="front-primera">
+                        <h1>Dudas con el 9!!</h1>
+                    </div>
+                    <div class="back-primera">
+                        <p>Mañana es el partido ante el deportivo y la duda yace en quien será el centro delantero,
+                            seguirá lucas scarnato quien volvió a convertir en la fecha pasada o tendrá otra 
+                            chance lujan tomi, quien le aporta frescura en el ataque.
+                        </p>
+                    </div>
                 </div>
         </section>
+        <button id="subir-primera"><a href="futbol.html">Ir arriba</a></button>
     </main>
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- JQUERY -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+    crossorigin="anonymous"></script>
+    <!-- DATA TABLE -->
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
+    <!--JAVASCRIPT -->
     <script type="text/javaScript" src="javaScript/index.js"></script>
     <script type="text/javaScript" src="javaScript/futbol.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#fixture-table-primera').DataTable({
+                info:false,
+                paging:true,
+                "lengthChange":false,
+                "pagingType": "numbers",
+                "searching": false,
+                "pageLength":8,
+                "aaSorting":false
+            })
+        });
+    </script>
 </body>
 </html>
