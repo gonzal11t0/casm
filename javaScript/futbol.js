@@ -58,3 +58,8 @@ for(let i = 0; i < partidos.length; i++) {
 
         fixtureTable.appendChild(row);
 }*/
+var dropdown = document.querySelector(".dropdown-propio");
+
+dropdown.addEventListener("click", function() {
+    this.querySelector(".dropdown-menu").classList.toggle("show");
+});

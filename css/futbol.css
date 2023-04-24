@@ -131,6 +131,52 @@
     text-decoration: none;
     color:white;
 }
+.dropdown-propio-futbol {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.dropdown-menu {
+    position: absolute;
+    top:100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width:8rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.span-responsive-futbol{
+    display: none;
+}
+.dropdown-menu-dark {
+    background-color: #343a40;
+    color: rgba(255,255,255,.9);
+}
+.dropdown-menu-lg-end {
+    right: 0;
+    left: auto;
+}
+.dropdown-menu-lg-start {
+    right: auto;
+    left: 0;
+}
+.dropdown-menu-sm-end {
+    right: 0;
+    left: auto;
+}
+.dropdown-menu.show {
+    display: block;
+}
 /*Futbol Infantil*/
 #seccion-1-futbol-infantil{
     height:110vh;

@@ -143,6 +143,27 @@
         color: rgb(255, 254, 254);
         left:0px;
     }
+    .dropdown-propio {
+        position: relative;
+        float: left;
+    }
+    .dropdown-menu {
+        padding:.3rem 0;
+        margin:.105rem 0 0;
+    }
+    .span-futbol{
+        display:none;
+    }
+    .span-responsive-futbol{
+        display:block;
+    }
+}
+@media screen and (max-width:580px) {
+    .dropdown-propio {
+        position: relative;
+        float:right;
+        margin-top:40px;
+    }
 }
 @media screen and (max-width:450px) {
     #seccion-1-futbol-primera{

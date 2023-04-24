@@ -1133,6 +1133,26 @@
                     </table>
                 </div>
             </div>
+            <div class="dropdown dropdown-propio-futbol">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                    <span class="span-futbol">Entrenamiento</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end dropdown-menu-lg-start dropdown-menu-sm-end">
+                    <span class="span-responsive-futbol">Entrenamiento</span>
+                    <li><a class="dropdown-item">Lun  -- 10-12hs</a></li>
+                    <li><a class="dropdown-item">Mar  -- 10-12hs</a></li>
+                    <li><a class="dropdown-item">Mier -- 10-12hs</a></li>
+                    <li><a class="dropdown-item">Jue  -- 10-12hs</a></li>
+                    <li><a class="dropdown-item">Vier -- 10-12hs</a></li>
+                </ul>
+            </div>
+            <script> 
+                var dropdown = document.querySelector(".dropdown-propio-futbo");
+                    dropdown.addEventListener("click", function() {
+                        document.querySelector(".dropdown-menu").classList.toggle("show");
+                });
+            </script>
         </section>
         <section id="seccion-2-futbol-primera">
             <div class="container-primera">
