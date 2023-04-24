@@ -1,6 +1,9 @@
 @media screen and (max-width:1250px) {
+    #seccion-1-futbol-primera{
+        height:200vh;
+    }
     #seccion-2-futbol-primera{
-        height:120vh;
+        height:100vh;
         background-color: #042500;
     }
     .container-primera{
