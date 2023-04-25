@@ -53,7 +53,7 @@
     color: rgb(255, 255, 255);
     font-size:0.9rem;
 }
-#tabla-posiciones-primera {
+#tabla-posiciones-primera, #tabla-posiciones-infantil {
     font-size:1rem;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -177,90 +177,37 @@
 .dropdown-menu.show {
     display: block;
 }
-/*RESERVA*/
-
-
-
-
-
-
-
-
-
-
-
-/*Futbol Infantil*/
+/*INFANTIL*/
 #seccion-1-futbol-infantil{
-    height:110vh;
-    background: linear-gradient(to bottom, #042500, #327a01);
+    height:211vh;
+    background-color: #042500;
 }
-#pagination-infantil{
-    display:flex;
-    flex:row;
-    float:left;
-    position:relative;
-    top:35vh;
-    left:42%;
-}
-#principal-infantil{
-    position: relative;
-    top:40vh;
-    width:100%;
-    min-height:600px;
-    background: linear-gradient(to top, #042500, #327a01);
-}
-#pagination-infantil ul li a{
-    font-size:0.6rem;
-}
-.titulo-tabla-infantil{
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    color: #fff;
-    width:100%;
-    left: 42%;
-}
-#tabla-posiciones-infantil{
-    font-size: .7em;
-    width:380px;
-    text-align: center;
-    color: white;
-}
-thead th {
-    font-size:0.7rem;
-}
-th {
-    display: table-cell;
-    vertical-align: inherit;
-    font-weight: bold;
-}
-.container-futbol-infantil{
+#principal-infantil-posiciones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position:absolute;
-    width:400px;
-    right:0vw;
-    top:10vh;
-    font-size: .9em;
+    top:120vh;
+    left:50%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
 }
-#fixture-table-infantil , #fixture-table-infantil td {
-    border:1px solid black;
-    padding:8px;
-    text-align: center;
-    color: rgb(253, 255, 253);
-    font-size:0.7rem;
+#subir-infantil {
+    position:absolute;
+    right:2vw;
+    padding:5px 10px;
+    width:auto;
+    top:216vh;
+    cursor:pointer;
+    text-overflow:ellipsis;
+    box-shadow:0 5px 20px 10px rgba(98, 255, 0, 0.2);
+    border-radius:10px;
+    background-color:#000000;
 }
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-    min-width:1em;
-    padding:0;
-    text-align: center;
-    text-decoration: none !important;
+#subir-infantil a {
+    text-decoration: none;
+    color:white;
 }
-.page-item:first-child .page-link {
-    font-size:0.7rem;
-}
-.page-item:not(:first-child) .page-link {
-    font-size:0.7rem;
-}
-.row {
-    --bs-gutter-x:0rem;
-}
-

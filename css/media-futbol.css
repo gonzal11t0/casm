@@ -81,7 +81,7 @@
         padding-bottom:20px;
         min-height:500px;
     }
-    #principal-primera-posiciones{
+    #principal-primera-posiciones,#principal-infantil-posiciones{
         top:113%;
         left:60%;
         transform: translatex(-60%);
@@ -95,7 +95,7 @@
         padding:3px;
         font-size:0.7rem;
     }
-    #tabla-posiciones-primera {
+    #tabla-posiciones-primera,#principal-infantil-posiciones {
         font-size:0.7rem;
     }
     #seccion-2-futbol-primera{
@@ -188,7 +188,7 @@
         padding-bottom:10px;
         min-height:200px;
     }
-    #principal-primera-posiciones{
+    #principal-primera-posiciones,#principal-infantil-posiciones{
         top:106%;
         left:70%;
         transform: translatex(-70%);
@@ -197,12 +197,15 @@
         padding-bottom:20px;
         min-height:500px;
     }
+    #principal-infantil-posiciones{
+        top:120vh;
+    }
     #fixture-table-primera, #fixture-table-primera td {
         border:2px solid black;
         padding:3px;
         font-size:0.6rem;
     }
-    #tabla-posiciones-primera {
+    #tabla-posiciones-primera,#principal-infantil-posiciones {
         font-size:0.7rem;
     }
     #seccion-2-futbol-primera{
@@ -274,6 +277,10 @@
         height:230vh;
         background-color: #042500;
     }
+    #seccion-1-futbol-infantil{
+        height:230vh;
+        background-color: #042500;
+    }
     #pagination-primera{
         top:60%;
         left:17%;
@@ -297,7 +304,7 @@
         padding-bottom:0px;
         min-height:200px;
     }
-    #principal-primera-posiciones{
+    #principal-primera-posiciones,#principal-infantil-posiciones{
         top:130%;
         left:50%;
         transform: translatex(-50%);
@@ -316,7 +323,7 @@
     #fixture-table-primera tr:first-child td {
         display: none;
     }  
-    #tabla-posiciones-primera {
+    #tabla-posiciones-primera,#tabla-posiciones-infantil {
         font-size:0.6rem;
     }
     #seccion-2-futbol-primera{
@@ -365,5 +372,21 @@
         font-size:0.8rem;
         color: rgb(255, 254, 254);
         left:0px;
+    }
+    #subir-infantil {
+        position:absolute;
+        right:2vw;
+        padding:5px 10px;
+        width:auto;
+        top:240vh;
+        cursor:pointer;
+        text-overflow:ellipsis;
+        box-shadow:0 5px 20px 10px rgba(98, 255, 0, 0.2);
+        border-radius:10px;
+        background-color:#000000;
+    }
+    #subir-infantil a {
+        text-decoration: none;
+        color:white;
     }
 }
