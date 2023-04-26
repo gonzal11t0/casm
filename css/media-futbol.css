@@ -176,7 +176,13 @@
     #pagination-primera{
         top:55%;
     }
+    #pagination-juveniles{
+        top:50%;
+    }
     #pagination-primera ul li a{
+        font-size:0.5rem;
+    }
+    #pagination-juveniles ul li a{
         font-size:0.5rem;
     }
     #principal-primera-fixure{
@@ -287,6 +293,14 @@
         transform:translatex(-30%);
     }
     #pagination-primera ul li a{
+        font-size:0.5rem;
+    }
+    #pagination-juveniles{
+        top:65%;
+        left:17%;
+        transform:translatex(-30%);
+    }
+    #pagination-juveniles ul li a{
         font-size:0.5rem;
     }
     .page-item:first-child .page-link {
