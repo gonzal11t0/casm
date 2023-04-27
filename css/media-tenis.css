@@ -31,6 +31,20 @@
         padding:3px;
         font-size:0.7rem;
     }
+    .dropdown-propio {
+        position: relative;
+        float: left;
+    }
+    .dropdown-menu {
+        padding:.3rem 0;
+        margin:.105rem 0 0;
+    }
+    .span-futbol{
+        display:none;
+    }
+    .span-responsive-futbol{
+        display:block;
+    }
 }
 @media screen and (max-width:580px) {
     .dropdown-propio {
@@ -71,6 +85,11 @@
         border:2px solid black;
         padding:3px;
         font-size:0.6rem;
+    }
+    .dropdown-propio {
+        position: relative;
+        float:right;
+        margin-top:40px;
     }
 }
 @media screen and (max-width:300px) {
