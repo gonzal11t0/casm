@@ -5,12 +5,30 @@
 }
 @media screen and (max-width:910px) {
     #seccion-1-logros{
-        height:410vh;
+        height:auto;
+        background-color: black;
+        background-image:url(../img/img-2.jpg);
+        overflow:auto;
+    }
+    .logros{
+        height:max-content;
+        top:38vh;
+        line-height:40px;
+        background-color: black;
     }
 }
 @media screen and (max-width:700px) {
     #seccion-1-logros{
-        height:505vh;
+        height:auto;
+        background-color: black;
+        background-image:url(../img/img-2.jpg);
+        overflow:auto;
+    }
+    .logros{
+        height:max-content;
+        top:38vh;
+        line-height:40px;
+        background-color: black;
     }
     .texto-logros{
         font-size:0.7rem;
@@ -18,13 +36,21 @@
 }
 @media screen and (max-width:500px) {
     #seccion-1-logros{
-        height:720vh;
+        height:auto;
         background-color: black;
         background-image:none;
+        overflow:auto;
     }
     .logros{
-        top:5vh;
+        height:max-content;
+        top:35vh;
         line-height:40px;
         background-color: black;
+    }
+    .index-historia {
+        display: none;
+    }
+    .index-historia a {
+        text-decoration: none;
     }
 }
