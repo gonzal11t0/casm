@@ -147,7 +147,7 @@
         right:2vw;
         padding:5px 5px;
         width:auto;
-        top:525vh;
+        top:530vh;
         cursor: pointer;
         text-overflow: ellipsis;
         box-shadow: 0 5px 10px 10px rgba(98, 255, 0, 0.2);
@@ -277,6 +277,9 @@
         top:70vh;
         left:3%;
         font-size:0.7rem;
+    }
+    .index{
+        top:600vh;
     }
 }
 @media screen  and (min-width:291px)  and (max-width:370px) {
@@ -508,7 +511,7 @@
         right:2vw;
         padding: 5px 10px;
         width: auto;
-        top:730vh;
+        top:600vh;
         cursor: pointer;
         text-overflow: ellipsis;
         box-shadow: 0 5px 20px 10px rgba(98, 255, 0, 0.2);

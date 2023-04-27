@@ -1,30 +1,62 @@
 @media screen and (max-width:1140px) {
+    #seccion-1-historia{
+        height:auto;
+        background-image: none;
+        overflow:auto;
+        background-image: url(../img/img-2.jpg)
+    }
     .texto-historia{
         font-size:0.8rem;
+    }
+    .historia{
+        height:max-content;
+        top:45vh;
+        line-height:30px;
     }
 }
 @media screen and (max-width:910px) {
     #seccion-1-historia{
-        height:410vh;
+        height:auto;
+        background-image: none;
+        overflow:auto;
+        background-image: url(../img/img-2.jpg)
+    }
+    .historia{
+        height:max-content;
+        top:45vh;
+        line-height:30px;
     }
 }
 @media screen and (max-width:700px) {
     #seccion-1-historia{
-        height:505vh;
+        height:auto;
+        background-image: none;
+        overflow:auto;
+        background-image: url(../img/img-2.jpg)
     }
-    .texto-historia{
-        font-size:0.7rem;
+    .historia{
+        height:max-content;
+        top:45vh;
+        line-height:30px;
     }
 }
 @media screen and (max-width:500px) {
     #seccion-1-historia{
-        height:720vh;
+        height:auto;
         background-color: black;
-        background-image:none;
+        background-image: none;
+        overflow:auto;
     }
     .historia{
-        top:5vh;
-        line-height:40px;
+        height:max-content;
+        top:45vh;
+        line-height:30px;
         background-color: black;
+    }
+    .index-historia {
+        display: none;
+    }
+    .index-historia a {
+        text-decoration: none;
     }
 }
