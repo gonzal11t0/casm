@@ -1,87 +1,106 @@
-#seccion-1-tenis-1{
-    height:100vh;
-    background: linear-gradient(to bottom, #042500, #327a01);
+#seccion-1-tenis{
+    height:200vh;
+    background-color: #042500;
 }
-.titulo-competenecia-1-tenis{
+.title-cat-tenis{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    top:30vh;
-    text-decoration: underline 2px rgb(50, 116, 3);
-    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.title-cat-tenis h1{
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-#fixture-tableSuperA , #fixture-tableCATEGORIAA1, #fixture-tableSuperA td,#fixture-tableCATEGORIAA1 td {
-    border:3px solid black;
-    padding:8px;
-    text-align: center;
-    color: rgb(253, 255, 253);
-    font-size:0.8rem;
-}
-#fixture-tableSuperA th, #fixture-tableCATEGORIAA1 th {
-    font-size: 1rem;
-    font-weight: bold;
-    color: rgb(253, 255, 253);
-}
-.container-tenis{
+#principal-tenis-fixure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     position:absolute;
-    border-collapse: collapse;
-    width:70%;
-    height:30%;
-    left:1vw;
-    top:54vh;
-    opacity:0.9;
+    top:50%;
+    left:50%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
 }
-.nav{
-    position:relative;
-    width:100%;
-    top:1vh;
+#principal-2-tenis-fixure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:90%;
+    left:50%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#principal-3-tenis-fixure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:130%;
+    left:50%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#fixture-table-tenis, #fixture-table-tenis-2,#fixture-table-tenis-3, #fixture-table-tenis td, #fixture-table-tenis-2 td,#fixture-table-tenis-3 td  {
+    border:3px solid black;
+    padding:6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-size:0.9rem;
 }
-.nav ul{
-    list-style-type:none;
-    text-decoration:none;
-}
-.cfecha,.cfechact {
-    background: #00612d;
-    color: #fff;
-    padding:2px;
-    border:2px solid #000;
-    cursor: pointer;
-}
-.cfechact {
-    background: #68a54b
-}
-#fixture-tableSuperA ,#fixture-tableCATEGORIAA1{
-    position:absolute;
-    top:18vh;
-    right:0vw;
-    width:100%;
-    height:auto;
-}
-#seccion-1-tenis-2{
-    height:115vh;
-    background: linear-gradient(to bottom, #042500, #327a01);
-}
-.titulo-competenecia-2-tenis{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+.dropdown-propio-futbol {
     position: relative;
-    top:20vh;
-    text-decoration: underline 2px rgb(50, 116, 3);
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    float: right;
 }
-.container-tenis-2{
-    position:relative;
-    border-collapse: collapse;
-    width:70%;
-    height:30%;
-    left:1vw;
-    top:54vh;
-    opacity:0.9;
+.dropdown-menu {
+    position: absolute;
+    top:100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width:8rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.span-responsive-futbol{
+    display: none;
+}
+.dropdown-menu-dark {
+    background-color: #343a40;
+    color: rgba(255,255,255,.9);
+}
+.dropdown-menu-lg-end {
+    right: 0;
+    left: auto;
+}
+.dropdown-menu-lg-start {
+    right: auto;
+    left: 0;
+}
+.dropdown-menu-sm-end {
+    right: 0;
+    left: auto;
+}
+.dropdown-menu.show {
+    display: block;
 }
