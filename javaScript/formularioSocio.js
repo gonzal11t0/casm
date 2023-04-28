@@ -1,22 +1,22 @@
 const btn = document.getElementById('button');
 
 document.getElementById('form')
- .addEventListener('submit', function(event) {
-   event.preventDefault();
+	.addEventListener('submit', function(event) {
+		event.preventDefault();
 
-   btn.value = 'Sending...';
+	btn.value = 'Sending...';
 
-   const serviceID = 'default_service';
-   const templateID = 'template_3bsaqg2';
+	const serviceID = 'default_service';
+	const templateID = 'template_3bsaqg2';
 
-   emailjs.sendForm(serviceID, templateID, this)
+	emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
+		btn.value = 'Send Email';
+			alert('Sent!');
     }, (err) => {
-      btn.value = 'Send Email';
-      alert(JSON.stringify(err));
-    });
+		btn.value = 'Send Email';
+		alert(JSON.stringify(err));
+	});
 });
 /*creo las variables y la relaciono con su id del html*/
 const form = document.getElementById('form');
@@ -74,4 +74,9 @@ function setSuccessFor(input) {
 /*verifico que el email tenga formato de email*/
 function isEmail(email) {
 	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+
+function Enviado() { 
+	location.href = "/mensajeFormulario.html"; 
 }
