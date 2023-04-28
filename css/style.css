@@ -201,7 +201,8 @@ nav {
 }
 /*    seccion 3 */
 #seccion-3{
-  height:210vh;
+  height:auto;
+  overflow: hidden;
   background-color: #042500;
 }
 .flip-card-inner-title{
@@ -219,6 +220,8 @@ nav {
   grid-gap:35px;
   padding-top:150px;
   padding-left:70px;
+  height: max-content;
+  padding-bottom:20px;
 }
 .flip-card {
   background-color: transparent;
@@ -333,7 +336,7 @@ nav {
   right:2vw;
   padding: 5px 10px;
   width: auto;
-  top:490vh;
+  top:420vh;
   cursor: pointer;
   text-overflow: ellipsis;
   box-shadow: 0 5px 20px 10px rgba(98, 255, 0, 0.2);
