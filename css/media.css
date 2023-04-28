@@ -195,7 +195,7 @@
         right:2vw;
         padding:5px 5px;
         width:auto;
-        top:532vh;
+        top:530vh;
         cursor: pointer;
         text-overflow: ellipsis;
         box-shadow: 0 5px 10px 10px rgba(98, 255, 0, 0.2);
@@ -340,7 +340,7 @@
         color: white;
     }
     .index{
-        top:509vh;
+        top:510vh;
     }
 }
 @media screen  and (min-width:291px)  and (max-width:370px) {
