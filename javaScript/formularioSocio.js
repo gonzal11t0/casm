@@ -59,6 +59,23 @@ function checkInputs() {
 		setSuccessFor(localidad);
 	}
 }
+
+  // Verificar si hay algún campo con la clase 'error'
+const formControl = document.querySelectorAll('.form-control');
+let hayError = false;
+formControl.forEach((fc) => {
+    if (fc.classList.contains('error')) {
+		hayError = true;
+    }
+});
+
+// Si hay algún campo con la clase 'error', detener el envío del formulario
+	if (hayError) {
+		e.preventDefault();
+	}
+
+
+
 /*muestro el mensaje de error si esta null */
 function setErrorFor(input, message) {
 	const formControl = input.parentElement;
@@ -78,5 +95,11 @@ function isEmail(email) {
 
 
 function Enviado() { 
-	location.href = "/mensajeFormulario.html"; 
+    const form = document.getElementById('form');
+    if (form.checkValidity()) {
+        location.href = "/mensajeFormulario.html";
+    } else {
+        // Si el formulario no es válido, muestra los mensajes de error correspondientes
+        checkInputs();
+    }
 }
