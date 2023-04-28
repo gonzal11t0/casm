@@ -6,6 +6,9 @@
         padding-top:150px;
         padding-left:10px;
     }
+    .copyrght-footer {
+        color:white;
+    }
 }
 @media screen and (max-width:961px) {
     .cards {
@@ -13,7 +16,7 @@
         grid-template-columns:0.6fr 0.6fr;
         grid-gap:25px;
         padding-top:150px;
-        padding-left:10px;
+        padding-left:140px;
     }
     .flip-card {
         height:200px;
@@ -21,8 +24,15 @@
     #seccion-3{
         height:230vh;
     }
-    .cards {
-        padding-left:200px;
+    .copyrght-footer {
+        position: absolute;
+        top:65vh;
+        left:30%;
+        font-size:1rem;
+        color:white;
+    }
+    .index{
+        top: 528vh;
     }
 }
 @media screen and (max-width:860px) {
@@ -30,7 +40,7 @@
         font: normal 100px Varela Round, sans-serif;
     }
     .cards {
-        padding-left:100px;
+        padding-left:15px;
     }
     .email-footer {
         position: absolute;
@@ -62,6 +72,7 @@
         top:65vh;
         left:30%;
         font-size:1rem;
+        color:white;
     }
     .propiedad-footer {
         position: absolute;
@@ -69,16 +80,28 @@
         left:2%;
         font-size:0.7rem;
     }
+    .index{
+        top:528vh;
+    }
 }
 @media screen and (max-width:650px) {
     .animated-shadow {
         font: normal 80px Varela Round, sans-serif;
     }
     .cards {
-        padding-left:60px;
+        padding-left:3px;
+    }
+    .copyrght-footer {
+        color: white;
+    }
+    .index{
+        top:528vh;
     }
 }
 @media screen and (max-width:580px) {
+    .bg-5{
+        top:58vh;
+    }
     .ocultar-nav{
         display: none;
     }
@@ -114,7 +137,29 @@
     }
     .nav-active {
         transform: translateX(0%);
-}
+    }
+    .cards {
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-gap:15px;
+        padding-top:150px;
+        padding-left:5px;
+        height: max-content;
+        margin-bottom:26px;
+    }
+    .flip-card {
+        background-color: transparent;
+        width:200px;
+        height:200px;
+        perspective: 1000px;
+    }
+    .copyrght-footer {
+        color: white;
+    }
+    .index{
+        top:532vh;
+    }
+
 @keyframes navLinkFade {
     from {
         opacity: 0;
@@ -130,6 +175,9 @@
     .menu-horizontal > li > a {
         padding:10px 0px 0px 25px;
         margin-top:15px;
+    }
+    .bg-5{
+        top:58vh;
     }
     .flip-card {
         width:160px;
@@ -147,12 +195,16 @@
         right:2vw;
         padding:5px 5px;
         width:auto;
-        top:530vh;
+        top:532vh;
         cursor: pointer;
         text-overflow: ellipsis;
         box-shadow: 0 5px 10px 10px rgba(98, 255, 0, 0.2);
         border-radius:5px;
         background-color:#000000;
+    }
+    .copyrght-footer  {
+        color: #ffffff;
+        text-decoration: none;
     }
 }
 @media screen and (max-width:470px) {
@@ -225,6 +277,8 @@
         grid-gap:25px;
         padding-top:150px;
         padding-left:40px;
+        height: max-content;
+        margin-bottom:26px;
     }
     .flip-card {
         width:150px;
@@ -237,9 +291,14 @@
     .flip-card-front h1,h4 {
         font-size:1rem;
     }
+    #seccion-3{
+        height:auto;
+        overflow: hidden;
+    }
     #seccion-4{
+        color: white;
         height:80vh;
-        background: linear-gradient(to top, rgb(13, 186, 4) 0%, rgb(37, 77, 64) 100%);
+        background-color: #042500;
     }
     .email-footer {
         position: absolute;
@@ -271,15 +330,17 @@
         top:50vh;
         left:10%;
         font-size:0.9rem;
+        color: white;
     }
     .propiedad-footer {
         position: absolute;
         top:70vh;
         left:3%;
         font-size:0.7rem;
+        color: white;
     }
     .index{
-        top:600vh;
+        top:510vh;
     }
 }
 @media screen  and (min-width:291px)  and (max-width:370px) {
@@ -325,18 +386,6 @@
         padding-top:70px;
         padding-left:70px;
     }
-    #card .front {
-        transform:none;
-    }
-    #card .back {
-        display: none;
-    }
-    #card:hover .front {
-        transform:none;
-    }
-    #card:hover .back {
-        transform:none;
-    }
     .flip-card {
         width:200px;
         height:100px;
@@ -348,11 +397,17 @@
         font-size:1rem;
     }
     #seccion-3{
-        height:390vh;
+        height:auto;
+        overflow: hidden;
+        background-color: #042500;
+    }
+    .cards {
+        height: max-content;
+        margin-bottom: 16px;
     }
     #seccion-4{
         height:80vh;
-        background: linear-gradient(to top, rgb(13, 186, 4) 0%, rgb(37, 77, 64) 100%);
+        background-color: #042500;
     }
     .email-footer {
         position: absolute;
@@ -392,7 +447,7 @@
         font-size:0.7rem;
     }
     .index{
-        top:768vh;
+        top:580vh;
     }
 }
 @media screen and (min-width:184px) and (max-width:290px) {
@@ -449,7 +504,7 @@
         display: grid;
         grid-template-columns:1fr ;
         grid-gap:25px;
-        padding-top:150px;
+        padding-top:50px;
         padding-left:20px;
     }
     .flip-card {
@@ -467,7 +522,7 @@
     }
     #seccion-4{
         height:80vh;
-        background: linear-gradient(to top, rgb(13, 186, 4) 0%, rgb(37, 77, 64) 100%);
+        background-color: #042500;
     }
     .email-footer {
         position: absolute;

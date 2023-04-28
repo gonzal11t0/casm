@@ -57,7 +57,7 @@ nav {
 /*seccion 1*/
 #seccion-1 {
   height:100vh;
-  background: linear-gradient(to bottom, rgb(18, 255, 6) 0%, rgb(37, 77, 64) 100%);
+  background-color: #042500;
 }
 .bg-5{
   display: flex;
@@ -145,7 +145,7 @@ nav {
 /*  seccion 2 */
 #seccion-2{
   height:110vh;
-  background: linear-gradient(to top, rgb(18, 255, 6) 0%, rgb(37, 77, 64) 100%);
+  background-color: #042500;
 }
 .container{
   display: grid;
@@ -202,7 +202,7 @@ nav {
 /*    seccion 3 */
 #seccion-3{
   height:210vh;
-  background: linear-gradient(to bottom, rgb(18, 255, 6) 0%, rgb(37, 77, 64) 100%);
+  background-color: #042500;
 }
 .flip-card-inner-title{
   text-align: center;
@@ -211,6 +211,7 @@ nav {
   justify-items: center;
   align-items: center;
   padding-top:150px;
+  color: white;
 }
 .cards {
   display: grid;
@@ -264,7 +265,7 @@ nav {
 /*seccion 4*/
 #seccion-4{
   height:75vh;
-  background: linear-gradient(to top, rgb(13, 186, 4) 0%, rgb(255, 255, 255) 100%);
+  background-color: #042500;
 }
 .email-footer {
   position: absolute;
@@ -312,9 +313,9 @@ nav {
   top:65vh;
   left:30%;
   font-size: 2rem;
+  color: #ffffff;
 }
 .copyrght-footer a {
-  color: #ffffff;
   text-decoration: none;
 }
 .propiedad-footer {
@@ -324,7 +325,7 @@ nav {
   font-size:1rem;
 }
 .propiedad-footer a {
-  color: #212529;
+  color: white;
   text-decoration: none;
 }
 .index {
