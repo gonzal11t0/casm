@@ -97,7 +97,7 @@ function isEmail(email) {
 function Enviado() { 
     const form = document.getElementById('form');
     if (form.checkValidity()) {
-        location.href = "/mensajeFormulario.html";
+        location.href = "./mensajeFormulario.html";
     } else {
         // Si el formulario no es válido, muestra los mensajes de error correspondientes
         checkInputs();
