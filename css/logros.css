@@ -3,9 +3,9 @@ body{
     padding: 0;
 }
 #seccion-1-logros{
-    height:325vh;
+    height:auto;
+    overflow:auto;
     width: 100%;
-    /*background: linear-gradient(to bottom, #042500, #327a01);*/
     background-image: url(../img/img-2.jpg)
 }
 .logros-container{
