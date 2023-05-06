@@ -6,7 +6,7 @@ var filas = tabla.getElementsByTagName("tr");
 var puntosArray = [];
 for (var i = 1; i < filas.length; i++) {
     var celdas = filas[i].getElementsByTagName("td");
-    var puntos = parseInt(celdas[5].textContent);
+    var puntos = parseInt(celdas[4].textContent);
     puntosArray.push([puntos, filas[i]]);
 }
 puntosArray.sort(function(a, b) {
@@ -17,20 +17,25 @@ puntosArray.sort(function(a, b) {
 for (var i = 0; i < puntosArray.length; i++) {
     tabla.appendChild(puntosArray[i][1]);
 }
-
 $(filas[1]).css("background-color", "green");
-
-/*
-for (let i = 0; i < filas.length; i++) {
-    if (i >= 2 && i <= 8) {
-        filas[i].style.backgroundColor = '#BABA56',
-        filas[i].style.color = 'black';
-    }
-}*/
 $(filas[i]).css("background-color", "red");
 
-var dropdown = document.querySelector(".dropdown-propio");
 
+
+const botones = document.querySelectorAll('tr');
+
+for (let i = 0; i < botones.length; i++) {
+    botones[i].addEventListener('mouseover', function() {
+    botones[i].style.backgroundColor = '#048900';
+    });
+
+botones[i].addEventListener('mouseout', function() {
+    botones[i].style.backgroundColor = '#042500';
+    });
+}
+
+
+var dropdown = document.querySelector(".dropdown-propio");
 dropdown.addEventListener("click", function() {
     this.querySelector(".dropdown-menu").classList.toggle("show");
 });
