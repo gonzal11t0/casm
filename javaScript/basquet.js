@@ -22,19 +22,6 @@ $(filas[i]).css("background-color", "red");
 
 
 
-const botones = document.querySelectorAll('tr');
-
-for (let i = 0; i < botones.length; i++) {
-    botones[i].addEventListener('mouseover', function() {
-    botones[i].style.backgroundColor = '#048900';
-    });
-
-botones[i].addEventListener('mouseout', function() {
-    botones[i].style.backgroundColor = '#042500';
-    });
-}
-
-
 var dropdown = document.querySelector(".dropdown-propio");
 dropdown.addEventListener("click", function() {
     this.querySelector(".dropdown-menu").classList.toggle("show");
