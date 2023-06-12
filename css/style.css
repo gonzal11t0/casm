@@ -8,39 +8,39 @@ dl, ol, ul {
 }
 .btn-primary{
   background-color: #00f459;
-}
+} /**/
 /*  menu  */
 #header{
   background: linear-gradient(to top, rgb(18, 255, 6) 0%, rgb(37, 77, 64) 100%);
   height: auto;
-}
+}/**/
 nav {
   max-width:900px;
   margin:auto;
   font-size:1.1rem;
   font-family: "Trebuchet MS";
-}
+}/**/
 .menu-horizontal {
   list-style: none;
   display: flex;
   justify-content: space-around;
   line-height: 5px;
-}
+}/**/
 .menu-horizontal > li > a {
   display: block;
   padding: 22px 30px;
   color: white;
   text-decoration: none;
-}
+}/**/
 .menu-horizontal a:active {
   color: #ff0c0c;
-  }
+  }/**/
 .menu-vertical {
   position: absolute;
   display: none;
   list-style: none;
   width: 200px;
-}
+}/**/
 .menu-horizontal li:hover .menu-vertical {
   display: block;
 }

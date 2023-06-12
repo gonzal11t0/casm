@@ -106,7 +106,7 @@
         display: none;
     }
     .menu-horizontal > li > a {
-        padding:10px 0px 0px 25px;
+        padding:10px  25px;
         margin-top:15px;
     }
     .nav-links {
@@ -578,5 +578,4 @@
     .bg-5{
         top:82vh;
     }
-    
 }
