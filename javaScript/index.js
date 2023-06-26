@@ -12,7 +12,7 @@ hamburguerMenu.addEventListener("click", () => {
     if (link.style.animation) {
 		link.style.animation = "";
     } else {
-		link.style.animation = `navLinkFade 0.2s ease forwards ${index / 5 + 0.2}s`;
+		link.style.animation = `navLinkFade 0.1s ease forwards ${index / 2 + 0.1}s`;
     }
 });
 hamburguerMenu.classList.toggle("toggle");

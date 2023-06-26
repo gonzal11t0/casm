@@ -84,6 +84,15 @@
         top:528vh;
     }
 }
+@media screen and (max-width:767px) {
+    #card div p {
+        font-size:.8rem;
+    }
+    #card {
+        width:90%;
+        height:72%;
+    }
+}
 @media screen and (max-width:650px) {
     .animated-shadow {
         font: normal 80px Varela Round, sans-serif;
@@ -106,7 +115,7 @@
         display: none;
     }
     .menu-horizontal > li > a {
-        padding:10px  25px;
+        padding:10px  13px;
         margin-top:15px;
     }
     .nav-links {
@@ -267,7 +276,7 @@
         text-align: center;
     }
     #card div p {
-    font-size:1rem;
+    font-size:.9rem;
     color: rgb(255, 254, 254);
     left:1px;
     }
@@ -310,7 +319,7 @@
     .instagram-footer {
         position: absolute;
         top:10vh;
-        left:70%;
+        left:75%;
         font-size:0.9rem;
     }
     .facebook-footer {
@@ -452,10 +461,10 @@
 }
 @media screen and (min-width:184px) and (max-width:290px) {
     .menu-horizontal > li > a {
-        padding:12px 10px;
+        padding:10px 10px;
     }
     .menu-vertical li a {
-        padding:15px 0 0 50px;
+        padding:15px 0 10px 50px;
     }
     .nav-links {
         display: block;
@@ -473,7 +482,7 @@
         font: normal 30px Varela Round, sans-serif;
     }
     .bg-5{
-        top:55vh;
+        top:85vh;
     }
     #seccion-2{
         height:190vh;
@@ -496,7 +505,7 @@
         text-align: center;
     }
     #card div p {
-    font-size:1rem;
+    font-size:.8rem;
     color: rgb(255, 254, 254);
     left:1px;
     }
@@ -564,15 +573,19 @@
     .index {
         position: absolute;
         right:2vw;
-        padding: 5px 10px;
+        padding:5px 7px;
         width: auto;
-        top:600vh;
+        top:608vh;
         cursor: pointer;
         text-overflow: ellipsis;
-        box-shadow: 0 5px 20px 10px rgba(98, 255, 0, 0.2);
-        border-radius:10px;
+        box-shadow:none;
+        border-radius:6px;
         background-color: #000000;
-    }
+        -webkit-border-radius:6px;
+        -moz-border-radius:6px;
+        -ms-border-radius:6px;
+        -o-border-radius:6px;
+}
 }
 @media screen and (max-height:660px) {
     .bg-5{
