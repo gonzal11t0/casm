@@ -59,7 +59,7 @@ nav {
 
 /*seccion 1*/
 #seccion-1 {
-  height:100vh;
+  height:100vh !important;
   background-color: #042500;
 }
 .bg-5{
@@ -147,7 +147,7 @@ nav {
 }
 /*  seccion 2 */
 #seccion-2{
-  height:110vh;
+  height:110vh !important;
   background-color: #042500;
 }
 .container{
