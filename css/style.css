@@ -233,8 +233,8 @@ nav {
   perspective: 1000px;
 }
 .img{
-  width:250px;
-  height:150px;
+  width:270px;
+  height:270px;
 }
 .flip-card-inner {
   position: relative;
@@ -264,10 +264,7 @@ nav {
   color: white;
   transform: rotateY(180deg);
 }
-.img{
-  width:200px;
-  height:200px;
-}
+
 /*seccion 4*/
 #seccion-4{
   height:75vh;

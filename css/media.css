@@ -39,6 +39,10 @@
     #seccion-3{
         height:230vh;
     }
+    .img{
+        width:200px;
+        height:200px;
+    }
     .copyrght-footer {
         position: absolute;
         top:65vh;
@@ -418,6 +422,21 @@
     .flip-card {
         width:200px;
         height:100px;
+    }
+    .flip-card-inner {
+        transition:none;
+        transform-style:none !important;
+        -webkit-transition:none;
+        -moz-transition:none;
+        -ms-transition:none;
+        -o-transition:none;
+    }
+    .flip-card:hover .flip-card-inner {
+        transform:none !important;
+        -webkit-transform:none;
+        -moz-transform:none;
+        -ms-transform:none;
+        -o-transform:none;
     }
     .img{
         display: none;
