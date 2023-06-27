@@ -350,7 +350,7 @@
     .twitter-footer {
         position: absolute;
         top:30vh;
-        left:70%;
+        left:66%;
         font-size:0.9rem;
     }
     .copyrght-footer {
@@ -368,8 +368,14 @@
         color: white;
     }
     .index{
-        top:430vh;
-    }
+        top:460vh;
+        box-shadow:none;
+        border-radius:5px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px;
+        -ms-border-radius:5px;
+        -o-border-radius:5px;
+}
 }
 @media screen  and (min-width:291px)  and (max-width:370px) {
     .btn-primary{
