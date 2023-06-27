@@ -267,3 +267,32 @@ window.addEventListener("scroll", function(){
   var header = document.querySelector("header");
   header.classList.toggle("abajo",window.scrollY>0);
 });
+
+
+setTimeout(function() {
+  var mensajeContainer = document.getElementById("mensaje-container");
+
+  var mensaje = document.createElement("div");
+  mensaje.className = "mensaje";
+  mensaje.textContent = "Buscate en la tribuna";
+
+  mensajeContainer.appendChild(mensaje);
+
+  setTimeout(function() {
+    mensaje.classList.add("mensaje-activo");
+  }, 100);
+
+  mensaje.addEventListener("click", function() {
+    window.location.href = "https://drive.google.com/drive/folders/1fMohlDqM_0nvLlumyff1sYFflCrxz27Q";
+  });
+
+  setTimeout(function() {
+    mensaje.classList.add("mensaje-oculto");
+    setTimeout(function() {
+      mensajeContainer.removeChild(mensaje);
+    }, 500);
+  }, 20000);
+}, 5000);
+
+
+

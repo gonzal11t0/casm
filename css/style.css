@@ -346,4 +346,41 @@ nav {
 .index a {
   text-decoration: none;
 }
+#mensaje-container {
+  position:fixed;
+  top:70vh;
+  right: 0;
+  transform: translateY(-50%);
+  z-index:9999;
+}
+
+.mensaje {
+  background-color: #1d5d01;
+  box-shadow: 10px 10px 10px 10px #00170f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  animation: myAnim 13s ease-out 0s 1 reverse backwards;
+  -webkit-animation: myAnim 13s ease-out 0s 1 reverse backwards;
+}
+@keyframes myAnim {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+.mensaje.mensaje-activo {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
