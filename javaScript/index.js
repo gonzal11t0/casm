@@ -73,22 +73,26 @@ cardsContainer.classList.add("cards");
 
 // Crear las tarjetas de la plantilla
 var plantilla = [
-  { nombre: "Nombre 1", puesto: "Director Tecnico", imagen: "./img/fto-2.jpg" },
-  { nombre: "Nombre 2", puesto: "Arquero", imagen: "./img/fto-3.jpg" },
-  { nombre: "Nombre 3", puesto: "Arquero", imagen: "./img/fto-4.jpg" },
-  { nombre: "Nombre 4", puesto: "Defensor", imagen: "./img/fto-5.jpg" },
-  { nombre: "Nombre 5", puesto: "Defensor", imagen: "./img/fto-6.jpg" },
-  { nombre: "Nombre 6", puesto: "Defensor", imagen: "./img/fto-1.jpg" },
-  { nombre: "Nombre 7", puesto: "Defensor", imagen: "./img/fto-2.jpg" },
-  { nombre: "Nombre 8", puesto: "Defensor", imagen: "./img/fto-3.jpg" },
-  { nombre: "Nombre 9", puesto: "Mediocampista", imagen: "./img/fto-4.jpg" },
-  { nombre: "Nombre 10", puesto: "Mediocampista", imagen: "./img/fto-5.jpg" },
-  { nombre: "Nombre 11", puesto: "Mediocampista", imagen: "./img/fto-6.jpg" },
-  { nombre: "Nombre 12", puesto: "Mediocampista", imagen: "./img/fto-1.jpg" }
+  { nombre: "GUSTAVO COLEONI",  puesto: "Director Tecnico", imagen: "./img/GUSTAVO COLEONI.png" },
+  { nombre: "JOAQUÍN PUCHETA",  puesto: "Arquero",          imagen: "./img/Joaquin Puchetta.png" },
+  { nombre: "FRANCISCO MANENTI",puesto: "Defensor",         imagen: "./img/Manenti Francisco.png" },
+  { nombre: "RODRIGO DÍAZ",     puesto: "DEFENSOR",         imagen: "./img/Rodrigo Diaz.png" },
+  { nombre: "PETER MARTÍNEZ",   puesto: "DEFENSOR",         imagen: "./img/Grance Peter.png" },
+  { nombre: "IVÁN REGULES",     puesto: "DEFENSOR",          imagen: "./img/Ivan Regules.png" },
+  { nombre: "Dixon Rentería",   puesto: "DEFENSOR",          imagen: "./img/Dixon Renteria.png" }, 
+  { nombre: "Rodrigo Chao",     puesto: "DEFENSOR",          imagen: "./img/Rodrigo Chao.png" }, 
+  { nombre: "DAVID MÜLLER",     puesto: "VOLANTE",          imagen: "./img/David Muller.png" },
+  { nombre: "NAHUEL SICA",      puesto: "VOLANTE",          imagen: "./img/Nahuel Sica.png" },
+  { nombre: "JORGE FERRERO",    puesto: "VOLANTE",          imagen: "./img/Jorge Ferrero.png" },
+  { nombre: "EZEQUIEL MELILLO", puesto: "VOLANTE",          imagen: "./img/Ezequien Melillo.png" },
+  { nombre: "MATÍAS ROJAS",     puesto: "VOLANTE",          imagen: "./img/Matias Rojas.png" },
+  { nombre: "Jonathan Belforte",puesto: "VOLANTE",          imagen: "./img/Jonatan Belforte.png" },
+  { nombre: "CRISTIAN CHÁVEZ",  puesto: "DELANTERO",        imagen: "./img/Cristian Chavez.png" },
+  { nombre: "Lucas Scarnato",   puesto: "DELANTERO",        imagen: "./img/Lucas Scarnato.jpg" }
 ];
 
 plantilla.forEach(function (jugador) {
-  var flipCard = createFlipCard(jugador.nombre, jugador.puesto, jugador.imagen);
+  var flipCard = createFlipCard(jugador.puesto, jugador.nombre,  jugador.imagen);
   cardsContainer.appendChild(flipCard);
 });
 
