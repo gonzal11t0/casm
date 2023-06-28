@@ -32,3 +32,25 @@ function validarInput(inputValue) {
     const regex = /^[A-Z].{2,}$/;
     return regex.test(inputValue);
 }
+
+
+// Agregar una función para manejar la solicitud DELETE de una noticia por su ID
+async function eliminarNoticia(id) {
+    try {
+    const response = await fetch(`https://api-noticias-express-mongodb-production.up.railway.app/news/delete/649c9e79a30ea3b5b9ea28b5`,{
+    });
+    console.log(id)
+    if (response.ok) {
+    console.log(`Noticia con ID ${id} eliminada exitosamente.`);
+    // Realizar alguna acción adicional si es necesario
+    } else {
+    console.error(`Error al eliminar la noticia con ID ${id}.`);
+    }
+    } catch (error) {
+    console.error("Error al realizar la solicitud DELETE:", error);
+    }
+    }
+    
+    // Ejemplo de cómo llamar a la función eliminarNoticia con un ID específico
+    const noticiaId ="649c9e79a30ea3b5b9ea28b5";
+    eliminarNoticia(noticiaId);
