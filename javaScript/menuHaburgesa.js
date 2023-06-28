@@ -23,5 +23,5 @@ menuHamburgesa()
 /*boton ir arriba index*/
 window.addEventListener("scroll", function(){
     var header = document.querySelector("header");
-    header.classList.toggle("index-historia",window.scrollY>0);
+    header.classList.toggle("abajo",window.scrollY>0);
 });
