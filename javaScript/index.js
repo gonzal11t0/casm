@@ -1,24 +1,30 @@
 
-/*menu hamburgeza*/
-const hamburguerMenu = document.querySelector(".hamburguer-menu");
-const navLinks = document.querySelector(".nav-links");
-const links = document.querySelectorAll(".nav-links li");
+/*menu hamburgesa*/
+function menuHamburgesa(){
+  const hamburguerMenu = document.querySelector(".hamburguer-menu");
+  const navLinks = document.querySelector(".nav-links");
+  const links = document.querySelectorAll(".nav-links li");
+  
+  hamburguerMenu.addEventListener("click", () => {
+    navLinks.classList.toggle("nav-active");
+    links.forEach((link, index) => {
+      if (link.style.animation) {
+      link.style.animation = "";
+      } else {
+      link.style.animation = `navLinkFade 0.1s ease forwards ${index / 2 + 0.1}s`;
+      }
+  });
+  hamburguerMenu.classList.toggle("toggle");
+  });
+};
 
-hamburguerMenu.addEventListener("click", () => {
-	navLinks.classList.toggle("nav-active");
-	links.forEach((link, index) => {
-    if (link.style.animation) {
-		link.style.animation = "";
-    } else {
-		link.style.animation = `navLinkFade 0.1s ease forwards ${index / 2 + 0.1}s`;
-    }
-});
-hamburguerMenu.classList.toggle("toggle");
-});
-
+menuHamburgesa()
 
 /* SECCION 1 */
+
+
 // Creamos la seccion 1
+
 var seccion1 = document.createElement("section");
 seccion1.id = "seccion-1";
 
@@ -283,7 +289,7 @@ setTimeout(function() {
   }, 100);
 
   mensaje.addEventListener("click", function() {
-    window.location.href = "https://drive.google.com/drive/folders/1fMohlDqM_0nvLlumyff1sYFflCrxz27Q";
+    window.open("https://drive.google.com/drive/folders/1fMohlDqM_0nvLlumyff1sYFflCrxz27Q", "_blank");
   });
 
   setTimeout(function() {
@@ -293,6 +299,5 @@ setTimeout(function() {
     }, 500);
   }, 20000);
 }, 5000);
-
 
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta name="language" content="es">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=yes">
+    <meta name="distribution" content="global">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="title" content="C.A.S.M">
+    <title>C.A.S.M</title>
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="googlebot-news" content="all">
+    <meta name="url" content="#">
+    <meta name="identifier-URL" content="#">
+    <meta name="designer" content="Gonzalo Lazarte">
+    <meta name="copyright" content="Gonzalo Lazarte">
+    <meta name="reply-to" content="Gonzalo-Lazarte-Programador@outlook.com">
+    <link rel="canonical" href="#">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:title" content="C.A.S.M">
+    <meta property="og:description"
+    content="C.A.S.M.">
+    <meta property="og:image:width" content="700">
+    <meta property="og:image:height" content="700">
+    <meta name="publisher" content="Gonzalo Lazarte, Gonzalo Lazarte">
+    <meta name="keywords"
+    content="C.A.S.M, CASM, CLUB, san miguel, san, miguel,buenos aires,zona norte,zona, norte,afa,primera,primera b,Futbol">
+    <link rel="shortcut icon" href="./img/icon.jpg">
+    <meta name="description" content="C.A.S.M">
+    <meta name="author" content="Gonzalo, Lazarte, Gonzalo-Lazarte-Programador@outlook.com">
+    <meta name="theme-color" content="#042500">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-TileColor" content="#042500">
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <meta name="apple-mobile-web-app-title" content="C.A.S.M">
+    <meta name="application-name" content="C.A.S.M">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="full-screen" content="yes">
+    <meta name="browsermode" content="application">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/historia.css">
+    <link rel="stylesheet" href="css/menu-hamburgesa.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<style>
+    body{
+        background-color: rgb(1, 84, 17);
+        color: #fff;
+    }
+    .enviar:hover{
+        background-color: aqua;
+    }
+    #container{
+        margin-top:20vh;
+    }
+    .error-message{
+        color: red;
+        font-size:1.4rem;
+    }
+</style>
+<body>
+    <div id="container" class="container container-fluid container-lg container-md container-sm historia-container">
+        <form action="https://api-noticias-express-mongodb-production.up.railway.app/news/add" method="post">
+            <div class="form-group form-control-lg form-control-sm form-label form-switch">
+                <label for="titulo">Título:</label>
+                <input class="form-control" type="text" name="title" id="title" required>
+                <span class="error-message" id="title-error"></span>
+            </div>
+    
+            <div class="form-group form-control-lg form-control-sm form-label form-switch">
+                <label for="description">Descripción:</label>
+                <textarea class="form-control" name="description" id="description" required></textarea>
+                <span class="error-message" id="description-error"></span>
+            </div>
+    
+            <div class="form-group form-control-lg form-control-sm form-label form-switch">
+                <label for="autor">autor:</label>
+                <input class="form-control" type="text" name="autor" id="autor" required>
+                <span class="error-message" id="autor-error"></span>
+            </div>
+    
+            
+            <input class="input-group-lg input-group-sm input-group-text input btn-lg btn-light enviar" type="submit" value="Guardar">
+        </form>
+    </div>
+    <script type="text/javascript" src="/javaScript/noticiasIndex.js"></script>
+</body>
+</html>
+
