@@ -55,7 +55,7 @@
     }
 }
 @media screen and (max-width:860px) {
-    .animated-shadow {
+    .animated-shadow,.animated-shadowIndexNoticias {
         font: normal 100px Varela Round, sans-serif;
     }
     .cards {
@@ -113,7 +113,7 @@
     }
 }
 @media screen and (max-width:650px) {
-    .animated-shadow {
+    .animated-shadow,.animated-shadowIndexNoticias {
         font: normal 80px Varela Round, sans-serif;
     }
     .cards {
@@ -207,6 +207,9 @@
     .bg-5{
         top:58vh;
     }
+    .animated-shadowIndexNoticias {
+        font: normal 40px Varela Round, sans-serif;
+    }
     .flip-card {
         width:160px;
         height:200px;
@@ -251,7 +254,7 @@
     .menu-vertical li a {
         padding: 15px 10px 10px 0;
     }
-    .animated-shadow {
+    .animated-shadow,.animated-shadowIndexNoticias {
         font: normal 40px Varela Round, sans-serif;
     }
     @keyframes move{

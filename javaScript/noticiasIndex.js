@@ -1,3 +1,31 @@
+/* SECCION 1 */
+
+
+// Creamos la seccion 1
+
+var seccion1 = document.createElement("section");
+seccion1.id = "seccion-1IndexNoticias";
+
+// Creamos el div
+var div1 = document.createElement("div");
+div1.className = "bg-5IndexNoticias";
+
+// Creamos el h1
+var h1_1 = document.createElement("h1");
+h1_1.className = "animated-shadowIndexNoticias ";
+h1_1.textContent = "CLUB ATLETICO SAN MIGUEL";
+
+// Agregamos el h1 al div
+div1.appendChild(h1_1);
+
+// Agregamos el div a la seccion
+seccion1.appendChild(div1);
+
+// Agregamos la seccion 1 al body
+document.body.appendChild(seccion1);
+
+
+
 const form = document.querySelector('form');
 
 form.addEventListener('submit', function(event) {
@@ -64,7 +92,7 @@ const deleteNewsId = async (id) => {
 
 
 // Ejemplo de cómo llamar a la función deleteNewsId con un ID específico
-const noticiaId = "649dbe8013f9de304664c863";
+const noticiaId = "649dcde713f9de304664cd5d";
 deleteNewsId(noticiaId);
 
 
@@ -93,15 +121,6 @@ h1.textContent = "Visualizacion";
 seccion2.appendChild(h1);
 const container = document.createElement("div");
 container.classList.add("container");
-
-
-function handleDeleteButtonClick(event) {
-  const card = event.target.closest(".card");
-  const id = card.getAttribute("data-id");
-  deleteNewsId(id);
-}
-
-
 
 
 // Función para crear una tarjeta con título y descripción
