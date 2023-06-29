@@ -150,6 +150,10 @@ nav {
   height:110vh !important;
   background-color: #042500;
 }
+#seccion-2IndexNoticias{
+  height:160vh;
+  background-color: #042500;
+}
 .container{
   display: grid;
   grid-template-columns: auto auto;
