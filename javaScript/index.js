@@ -45,6 +45,8 @@ container.appendChild(card3);
 container.appendChild(card4);
 seccion2.appendChild(container);
 
+
+
 // Crear la sección 3 dinámicamente
 var seccion3 = document.createElement("section");
 seccion3.id = "seccion-3";
@@ -268,7 +270,7 @@ setTimeout(function() {
   }, 100);
 
   mensaje.addEventListener("click", function() {
-    window.open("https://drive.google.com/drive/folders/1fMohlDqM_0nvLlumyff1sYFflCrxz27Q", "_blank");
+    window.open("https://drive.google.com/drive/folders/1KzmPP6HWnS2-QyH6T20NP7PcRJ2fBTi5", "_blank");
   });
 
   setTimeout(function() {

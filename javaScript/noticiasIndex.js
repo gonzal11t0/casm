@@ -93,7 +93,7 @@ const deleteNewsId = async (id) => {
 
 // Ejemplo de cómo llamar a la función deleteNewsId con un ID específico
 const noticiaId = "649dcde713f9de304664cd5d";
-deleteNewsId(noticiaId);
+//deleteNewsId(noticiaId);
 
 
 
