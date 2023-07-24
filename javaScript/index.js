@@ -249,17 +249,6 @@ document.body.appendChild(buttonIndex);
 
 
 
-/*boton ir arriba index*/
-buttonIrArriba.addEventListener("abajo", function() {
-  // Desplazamiento suave hasta la parte superior
-  window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-  });
-});
-
-
-
 setTimeout(function() {
   var mensajeContainer = document.getElementById("mensaje-container");
 
