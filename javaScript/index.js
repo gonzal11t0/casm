@@ -35,10 +35,10 @@ seccion2.id = "seccion-2";
 var container = document.createElement("div");
 container.classList.add("container");
 
-var card1 = createCard("Recuperando camino", "Luego de ganar después de 6 partidos, San Miguel se encuentra segundo en la tabla. Goles: ⚽️Lucas Scarnato; ⚽️Ezequiel Melillo; ⚽️ Rodrigo Diaz.");
-var card2 = createCard("FÚTBOL PROFESIONAL ⚽", "Dos para un puesto, ante la lesión de Melillo, la duda para reemplazarlos es si juega David Muller o Matias Sama en ese sector de la cancha, ambos jugadores pueden darle un aporte al equipo que pueden construir una victoria, uno de los dos será titular!!");
-var card3 = createCard("En la recta final!!", "ya se encara la parte final del torneo siendo líder del mismo junto a los Andes y comunicaciones,quedan seis finales dónde puede pasar cualquier cosa, el hincha se ilusiona con ganar un título,el último que ganó San Miguel fue en 1984 ,cuando obtuvo el ascenso a la primera B.Hace mucho tiempo que no vivíamos un torneo siendo protagonista y luchando por el título.");
-var card4 = createCard("Ezequiel Melillo es baja!!!", "Finalmente el volante se resintió de la lesión y no estará hoy ante el deportivo merlo,Melillo que venía jugando en gran nivel se perderá el Match ante el charro!!");
+var card1 = createCard("Dura derrota", "Por la séptima fecha del Clausura San Miguel recibió a la UAI Urquiza, perdió por la mínima y corto una racha de 16 fechas sin perder de local.Poco hizo la visita para llevarse los 3 puntos que defendió y de contra llegaba al arco de Pucheta.En lo defensivo la figura fue Ordano que le ganó a Regules en el duelo.");
+var card2 = createCard("Las pibas siguen sumando", "Sumo su tercer triunfo consecutivo y se afirma para continuar en la b. Mas alla que falta mucho por recorrer ah tenido un buen arranque San Miguel 2-0 Puerto Nuevo Goles:Agustina Bader -2");
+var card3 = createCard("Noticia de seleccion", "El delantero Fernando Bianchi fue selecionado para la seleccion senior oficial (+35) que el proximo 30 de julio en la catedral de San Justo jugara con Laferrere de Pergamino.Son elegidos, uno por cada equipo de la Super Liga.");
+var card4 = createCard("Lideres de la Reserva", "San Miguel en el Campeonato Primera B esta primero.Ya clasificando aguardando porque todavia falta una fecha donde el equipo de Diforti queda libre.Segun los resultados que se produzxan el trueno podra clasificar para la fase de octavos o cuartos.");
 container.appendChild(card1);
 container.appendChild(card2);
 container.appendChild(card3);
@@ -250,10 +250,14 @@ document.body.appendChild(buttonIndex);
 
 
 /*boton ir arriba index*/
-window.addEventListener("scroll", function(){
-  var header = document.querySelector("header");
-  header.classList.toggle("abajo",window.scrollY>0);
+buttonIrArriba.addEventListener("abajo", function() {
+  // Desplazamiento suave hasta la parte superior
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+  });
 });
+
 
 
 setTimeout(function() {

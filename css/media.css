@@ -509,7 +509,7 @@
 }
 @media screen and (min-width:184px) and (max-width:290px) {
     .menu-horizontal > li > a {
-        padding:10px 10px;
+        padding:8px 10px;
     }
     .menu-vertical li a {
         padding:15px 0 10px 50px;

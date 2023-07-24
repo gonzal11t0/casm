@@ -1,13 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    /*background: linear-gradient(to bottom, #042500, #327a01);*/
+    background-image: url(../img/img-2.jpg);
+    overflow-x: hidden;
+    overflow-y:hidden;
 }
 #seccion-1-historia{
-    height:auto;
-    overflow:auto;
     width:100%;
-    /*background: linear-gradient(to bottom, #042500, #327a01);*/
-    background-image: url(../img/img-2.jpg)
 }
 .historia-container{
     width: 100%;
@@ -25,9 +25,9 @@ body{
     opacity:0.9;
     width:100%;
     top:30vh;
-    height:max-content;
+    line-height:70px;
     font-weight: bold;
-    line-height:50px;
+
 }
 .titulo-historia {
     text-align: center;
@@ -41,17 +41,18 @@ body{
     font-size:3rem;
 }
 .index-historia {
-    position:fixed;
-    right:2vw;
-    padding:3px 5px;
+    position: fixed;
+    right: 2vw;
+    bottom: 5vh; /* Ajusta la posición vertical del botón según tu preferencia */
+    padding: 3px 5px;
     width: auto;
-    top:95vh;
     cursor: pointer;
     text-overflow: ellipsis;
     box-shadow: 0 2.5px 10px 5px rgba(98, 255, 0, 0.2);
-    border-radius:5px;
+    border-radius: 5px;
     background-color: #000000;
 }
 .index-historia a {
+    color: white; /* Agrega estilos para el enlace si es necesario */
     text-decoration: none;
 }
