@@ -45,8 +45,8 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:55vh;
-    left:50%;
+    top:56vh;
+    left:51%;
     transform: translatex(-50%);
     width:700px;
     padding-top:40px;
@@ -253,7 +253,7 @@
     display: block;
     position:absolute;
     color: white;
-    top:50vh;
+    top:49vh;
 }
 .ocultarPosiciones{
     display: none;
