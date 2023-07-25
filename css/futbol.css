@@ -8,12 +8,32 @@
     flex:row;
     float:left;
     position:absolute;
-    top:37.5vh;
-    right:42vw;
+    top:48vh;
+    right:36vw;
 }
 #pagination-primera ul li a{
-    font-size:1rem;
+    font-size:.9rem;
 
+}
+#campeones {
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top:40vh;
+    background: #125e2a;
+    color:#fff;
+    text-align:center;
+    font-size: .9rem;
+}
+#col1 {
+    width:99%;
+    margin:auto;
+    float:left;
+}
+.titulo-campeon{
+    color:#9af72e;
+    font-weight:700;
+    font-style:italic;
 }
 .container-principal-primera-posiciones{
     background-color: yellow;
@@ -25,7 +45,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:50%;
+    top:55vh;
     left:50%;
     transform: translatex(-50%);
     width:700px;

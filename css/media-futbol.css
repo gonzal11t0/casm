@@ -65,15 +65,24 @@
         height:190vh;
     }
     #pagination-primera{
-        top:50%;
+        top:55vh;
         left:40%;
         transform:translatex(-40%);
     }
     #pagination-primera ul li a{
         font-size:0.7rem;
     }
+    #campeones {
+        display: flex;
+        flex-direction: column;
+        top:35vh;
+        background: #125e2a;
+        color:#fff;
+        text-align:center;
+        font-size: .9rem;
+    }
     #principal-primera-fixure{
-        top:52%;
+        top:60vh;
         left:60%;
         transform: translatex(-60%);
         width:450px;
@@ -181,6 +190,21 @@
         float:right;
         margin-top:40px;
     }
+    #pagination-primera{
+        top:62vh;
+        left:40%;
+        transform:translatex(-40%);
+        -webkit-transform:translatex(-40%);
+        -moz-transform:translatex(-40%);
+        -ms-transform:translatex(-40%);
+        -o-transform:translatex(-40%);
+    }
+    #campeones {
+        top:37vh;
+    }
+    #principal-primera-fixure{
+        top:65vh;
+    }
     #pagination-juveniles ul li a{
         font-size:0.8rem;
     }
@@ -197,6 +221,9 @@
     }
 }
 @media screen and (max-width:450px) {
+    #campeones {
+        top:32vh;
+    }
     #seccion-1-futbol-primera{
         height:220vh;
         background-color: #042500;
@@ -206,13 +233,14 @@
         background-color: #042500;
     }
     #pagination-primera{
-        top:55%;
+        top:55.5vh;
+        left:70px;
     }
     #pagination-juveniles{
         top:50%;
     }
     #pagination-primera ul li a{
-        font-size:0.5rem;
+        font-size:0.6rem;
     }
     #pagination-juveniles ul li a{
         font-size:0.5rem;
@@ -321,6 +349,9 @@
     }
 }
 @media screen and (max-width:300px) {
+    #campeones {
+        display: none;
+    }
     #seccion-1-futbol-primera{
         height:230vh;
         background-color: #042500;
