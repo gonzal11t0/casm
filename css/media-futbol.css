@@ -172,7 +172,7 @@
         position:absolute;
         color: white;
         top:53vh;
-        left:5px
+        left:4px
     }
 }
 @media screen and (max-width:580px) {
@@ -193,7 +193,7 @@
         position:absolute;
         color: white;
         top:50vh;
-        left:5px
+        left:3px
     }
 }
 @media screen and (max-width:450px) {
@@ -317,7 +317,7 @@
         position:absolute;
         color: white;
         top:55vh;
-        left:5px
+        left:3px
     }
 }
 @media screen and (max-width:300px) {
