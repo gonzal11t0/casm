@@ -246,8 +246,8 @@
         font-size:0.5rem;
     }
     #principal-primera-fixure{
-        top:58%;
-        left:70%;
+        top:59%;
+        left:72%;
         transform: translatex(-70%);
         width:300px;
         padding-top:10px;
@@ -345,7 +345,7 @@
         position:absolute;
         color: white;
         top:55vh;
-        left:3px
+        left:1px
     }
 }
 @media screen and (max-width:300px) {
