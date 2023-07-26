@@ -65,7 +65,7 @@
         height:190vh;
     }
     #pagination-primera{
-        top:55vh;
+        top:57vh;
         left:40%;
         transform:translatex(-40%);
     }
@@ -233,20 +233,20 @@
         background-color: #042500;
     }
     #pagination-primera{
-        top:55.5vh;
+        top:58vh;
         left:70px;
     }
     #pagination-juveniles{
         top:50%;
     }
     #pagination-primera ul li a{
-        font-size:0.6rem;
+        font-size:0.5rem;
     }
     #pagination-juveniles ul li a{
         font-size:0.5rem;
     }
     #principal-primera-fixure{
-        top:59%;
+        top:61%;
         left:72%;
         transform: translatex(-70%);
         width:300px;
