@@ -233,7 +233,7 @@
         background-color: #042500;
     }
     #pagination-primera{
-        top:58vh;
+        top:57vh;
         left:70px;
     }
     #pagination-juveniles{
@@ -246,7 +246,7 @@
         font-size:0.5rem;
     }
     #principal-primera-fixure{
-        top:61%;
+        top:64vh;
         left:72%;
         transform: translatex(-70%);
         width:300px;
