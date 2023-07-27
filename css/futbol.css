@@ -18,22 +18,39 @@
 #campeones {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position:relative;
     top:40vh;
     background: #125e2a;
     color:#fff;
     text-align:center;
-    font-size: .9rem;
+    font-size:1rem;
+    padding:5px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
 }
 #col1 {
-    width:99%;
-    margin:auto;
+    width:100%;
+    max-width:400px;
+    margin:0 auto;
     float:left;
 }
 .titulo-campeon{
     color:#9af72e;
     font-weight:700;
     font-style:italic;
+    font-size:1.1rem;
+}
+#col1 a img {
+    width: 30px; 
+    margin-right: 10px; 
+}
+#col1 a:hover {
+    font-size: 2rem;
+    color: #9af72e;
 }
 .container-principal-primera-posiciones{
     background-color: yellow;

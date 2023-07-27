@@ -65,8 +65,8 @@
                     <li><a href="#">Hockey</a></li>
 					<li><a href="#">Natacion</a></li>
 					<li><a href="#">Patinaje</a></li>
-                    <li><a href="#">Basquet</a></li>
-                    <li><a href="basquet.html">Taekwondo</a></li>
+                    <li><a href="basquet.html">Basquet</a></li>
+                    <li><a href="">Taekwondo</a></li>
 				</ul>
 			</li>
 			<li>
@@ -144,7 +144,20 @@
                     <li class="page-item"><a class="page-link " href="basquet-+41.html">+41</a></li>
                     <li class="page-item"><a class="page-link" href="basquet.html">U23 M</a></li>
                 </ul>
-            </nav>
+            </nav>                
+        <script>
+        $(document).ready(function () {
+            $('#fixture-table-primera').DataTable({
+                info:false,
+                paging:true,
+                "lengthChange":false,
+                "pagingType": "numbers",
+                "searching": false,
+                "pageLength":3,
+                "aaSorting":false
+            })
+        });
+        </script>
             <div id="principal-primera-posiciones">
                     <table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
@@ -420,12 +433,6 @@
                     <li><a class="dropdown-item">Vier -- 10-12hs</a></li>
                 </ul>
             </div>
-            <script> 
-                var dropdown = document.querySelector(".dropdown-propio-futbo");
-                    dropdown.addEventListener("click", function() {
-                        document.querySelector(".dropdown-menu").classList.toggle("show");
-                });
-            </script>
         </section>
     </main>
     <!--BOOTSTRAP-->
@@ -441,18 +448,5 @@
     <!--JAVASCRIPT -->
     <script type="text/javaScript" src="javaScript/menuHaburgesa.js"></script>
     <script type="text/javaScript" src="javaScript/basquet.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#fixture-table-primera').DataTable({
-                info:false,
-                paging:true,
-                "lengthChange":false,
-                "pagingType": "numbers",
-                "searching": false,
-                "pageLength":3,
-                "aaSorting":false
-            })
-        });
-    </script>
 </body>
 </html>

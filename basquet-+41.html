@@ -65,8 +65,8 @@
                     <li><a href="#">Hockey</a></li>
 					<li><a href="#">Natacion</a></li>
 					<li><a href="#">Patinaje</a></li>
-                    <li><a href="#">Basquet</a></li>
-                    <li><a href="basquet.html">Taekwondo</a></li>
+                    <li><a href="basquet.html">Basquet</a></li>
+                    <li><a href="#">Taekwondo</a></li>
 				</ul>
 			</li>
 			<li>
@@ -145,6 +145,19 @@
                     <li class="page-item"><a class="page-link" href="basquet.html">U23 M</a></li>
                 </ul>
             </nav>
+            <script>
+                $(document).ready(function () {
+                    $('#fixture-table-primera').DataTable({
+                        info:false,
+                        paging:true,
+                        "lengthChange":false,
+                        "pagingType": "numbers",
+                        "searching": false,
+                        "pageLength":3,
+                        "aaSorting":false
+                    })
+                });
+            </script>
             <div id="principal-primera-posiciones">
                     <table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
@@ -1425,18 +1438,5 @@
     <!--JAVASCRIPT -->
     <script type="text/javaScript" src="javaScript/menuHaburgesa.js"></script>
     <script type="text/javaScript" src="javaScript/basquet.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#fixture-table-primera').DataTable({
-                info:false,
-                paging:true,
-                "lengthChange":false,
-                "pagingType": "numbers",
-                "searching": false,
-                "pageLength":7,
-                "aaSorting":false
-            })
-        });
-    </script>
 </body>
 </html>

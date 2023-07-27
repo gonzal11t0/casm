@@ -29,7 +29,6 @@ tablaPosiciones();
 
 
 function arrancarDataTable () {  
-    $(document).ready(function() {
         $('#fixture-table-primera').DataTable({
             info: false,
             paging: true,
@@ -39,7 +38,6 @@ function arrancarDataTable () {
             "pageLength": 3,
             "aaSorting": false
         });
-    });
 }
 arrancarDataTable ();
 
