@@ -13,7 +13,6 @@
 }
 #pagination-primera ul li a{
     font-size:.9rem;
-
 }
 #campeones {
     display: flex;
@@ -31,6 +30,21 @@
     -moz-border-radius:20px;
     -ms-border-radius:20px;
     -o-border-radius:20px;
+    transform: translateY(-100%);
+    animation: aparecerDesdeArriba 3s forwards;
+    -webkit-animation: aparecerDesdeArriba 3s forwards;
+}
+@keyframes aparecerDesdeArriba {
+    0% {
+        transform: translateY(-600%);
+        -webkit-transform: translateY(-600%);
+        -moz-transform: translateY(-600%);
+        -ms-transform: translateY(-600%);
+        -o-transform: translateY(-600%);
+    }
+    100% {
+        transform: translateY(0); /* Aparecer en su posición final */
+    }
 }
 #col1 {
     width:100%;
