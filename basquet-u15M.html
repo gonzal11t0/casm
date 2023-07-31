@@ -45,6 +45,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/futbol.css">
+    <link rel="stylesheet" href="css/basquet.css">
+    <link rel="stylesheet" href="css/media-basquet.css">
     <link rel="stylesheet" href="css/menu-hamburgesa.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/media-futbol.css">
@@ -133,8 +135,8 @@
         </nav>
     </header>
     <main>
-        <section id="seccion-1-futbol-juvenil">
-            <nav id="pagination-juveniles"class="pagination-basquet" aria-label="Page navigation example">
+        <section id="seccion-1-basquet">
+            <nav id="pagination-basquet"class="pagination-basquet" aria-label="Page navigation example">
                 <ul class="pagination pagination-sm pagination-lg">
                     <li class="page-item"><a class="page-link active" href="basquet-u15M.html">U15 M</a></li>
                     <li class="page-item"><a class="page-link " href="basquet-u13M.html">U13 M</a></li>
@@ -147,7 +149,7 @@
             </nav>
             <script>
                 $(document).ready(function () {
-                    $('#fixture-table-primera').DataTable({
+                    $('#fixture-table-basquet').DataTable({
                         info:false,
                         paging:true,
                         "lengthChange":false,
@@ -158,8 +160,8 @@
                     })
                 });
             </script>
-            <div id="principal-primera-posiciones">
-                    <table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
+            <div id="principal-basquet-posiciones">
+                    <table id="tabla-posiciones-basquet"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
                             <tr>
                                 <th>Equipo</th>
@@ -215,8 +217,8 @@
                         </tbody>
                     </table>
             </div>
-            <div id="principal-primera-fixure">
-                    <table id="fixture-table-primera"  class="table table-striped table-responsive table-responsive-lg" >
+            <div id="principal-basquet-fixure">
+                    <table id="fixture-table-basquet"  class="table table-striped table-responsive table-responsive-lg" >
                     <thead>
                         <tr>
                             <th>Fecha</th>
@@ -433,12 +435,6 @@
                     <li><a class="dropdown-item">Vier -- 10-12hs</a></li>
                 </ul>
             </div>
-            <script> 
-                var dropdown = document.querySelector(".dropdown-propio-futbo");
-                    dropdown.addEventListener("click", function() {
-                        document.querySelector(".dropdown-menu").classList.toggle("show");
-                });
-            </script>
         </section>
     </main>
     <!--BOOTSTRAP-->

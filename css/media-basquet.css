@@ -1,0 +1,134 @@
+@media(max-width:750px){
+#seccion-1-basquet{
+    height:180vh;
+}
+#pagination-basquet{
+        top:55vh;
+        left:0vw;
+}
+#pagination-basquet a{
+        font-size:0.8rem;
+}
+.botonVerPlayoff{
+        top:71vh;
+}
+#principal-basquet-fixure{
+    top:80vh;
+    left:50vw;
+    transform: translatex(-50%);
+    width:450px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+#fixture-table-basquet, #fixture-table-basquet td {
+        border:3px solid black;
+        padding:1px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size:0.8rem;
+}
+#principal-basquet-posiciones{
+    top:130vh;
+    left:50vw;
+    transform:translatex(-50%);
+    width:450px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+    -webkit-transform:translatex(-50%);
+    -moz-transform:translatex(-50%);
+    -ms-transform:translatex(-50%);
+    -o-transform:translatex(-50%);
+}
+#img-basquet-u23m{
+    display:inline;
+}
+}
+@media  (max-width:450px){
+    #seccion-1-basquet{
+        height:180vh;
+    }
+    #pagination-basquet{
+        top:65vh;
+        left:0vw;
+    }
+    #pagination-basquet a{
+        font-size:0.6rem;
+    }
+    .botonVerPlayoff{
+        top:71vh;
+    }
+    #principal-basquet-fixure{
+        top:80vh;
+        left:50vw;
+        transform: translatex(-50%);
+        width:240px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    #fixture-table-basquet, #fixture-table-basquet td {
+        border:3px solid black;
+        padding:1px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size:0.5rem;
+    }
+    #principal-basquet-posiciones{
+        top:120vh;
+        left:50vw;
+        transform:translatex(-50%);
+        width:230px;
+        padding-top:40px;
+        padding-bottom:40px;
+        min-height:500px;
+        -webkit-transform:translatex(-50%);
+        -moz-transform:translatex(-50%);
+        -ms-transform:translatex(-50%);
+        -o-transform:translatex(-50%);
+}
+    #img-basquet-u23m{
+        display: none;
+    }
+}
+@media (max-width:230px) {
+    #seccion-1-basquet{
+        height:180vh;
+    }
+    #pagination-basquet{
+        top:65vh;
+        left:0vw;
+    }
+    #pagination-basquet a{
+        font-size:0.4rem;
+    }
+    .botonVerPlayoff{
+        top:70vh;
+    }
+    #principal-basquet-fixure{
+        top:80vh;
+        left:27vw;
+        transform: translatex(-50%);
+        width:100px;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    #fixture-table-basquet, #fixture-table-basquet td {
+        border:3px solid black;
+        padding:1px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size:0.5rem;
+    }
+    #principal-basquet-posiciones{
+        top:120vh;
+        left:40vw;
+        transform:translatex(-50%);
+        width:150px;
+        padding-top:40px;
+        padding-bottom:40px;
+        min-height:500px;
+    }
+    #img-basquet-u23m{
+        display: none;
+    }
+}

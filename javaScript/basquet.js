@@ -1,6 +1,6 @@
 function tablaPosiciones(){
     // Obtener la tabla y las filas
-var tabla = document.getElementById("tabla-posiciones-primera");
+var tabla = document.getElementById("tabla-posiciones-basquet");
 var filas = tabla.getElementsByTagName("tr");
 
 // Ordenar las filas por puntos
@@ -29,7 +29,7 @@ tablaPosiciones();
 
 
 function arrancarDataTable () {  
-        $('#fixture-table-primera').DataTable({
+        $('#fixture-table-basquet').DataTable({
             info: false,
             paging: true,
             "lengthChange": false,
@@ -48,8 +48,8 @@ var botonVerPlayoff = document.getElementById("botonVerPlayoff");
 
 // Obtener una referencia al contenedor principal
 
-var posicionesPrincipal = document.getElementById("principal-primera-posiciones");
-var fixturePlayoff=document.getElementById("principal-primera-fixure");
+var posicionesPrincipal = document.getElementById("principal-basquet-posiciones");
+var fixturePlayoff=document.getElementById("principal-basquet-fixure");
 
 // Definir una variable para almacenar el estado del contenido
 var datosMostrados = false;
@@ -330,7 +330,7 @@ botonVerPlayoff.addEventListener("click", function() {
     }else{
     // Crear la nueva estructura HTML con los resultados deseados
     var TablaPosicionesPlayoffHTML = `
-        <table id="tabla-posiciones-primera" class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
+        <table id="tabla-posiciones-basquet" class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
             <thead>
                 <tr>
                     <th>Equipo</th>
@@ -381,7 +381,7 @@ botonVerPlayoff.addEventListener("click", function() {
         </table>
     `;
     var fixturePlayoffHTML=`
-    <table id="fixture-table-primera"  class="table table-striped table-responsive table-responsive-lg" >
+    <table id="fixture-table-basquet"  class="table table-striped table-responsive table-responsive-lg" >
         <thead>
             <tr>
                 <th>Fecha</th>
@@ -990,7 +990,7 @@ botonVerPlayoff.addEventListener("click", function() {
     datosMostrados = true;
 }
 // Inicializar DataTable con las nuevas configuraciones
-    $('#fixture-table-primera').DataTable({
+    $('#fixture-table-basquet').DataTable({
         info: false,
         paging: true,
         "lengthChange": false,
@@ -999,7 +999,7 @@ botonVerPlayoff.addEventListener("click", function() {
         "pageLength": 5,
         "aaSorting": false
     });
-    $('#fixture-table-primera').DataTable().draw();
+    $('#fixture-table-basquet').DataTable().draw();
     });
 }
 

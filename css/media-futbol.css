@@ -169,19 +169,8 @@
     .span-responsive-futbol{
         display:block;
     }
-    .pagination-basquet{
-        left:4px;
-        top:48vh !important;
-    }
     #pagination-juveniles ul li a{
         font-size:0.8rem;
-    }
-    .botonVerPlayoff{
-        display: block;
-        position:absolute;
-        color: white;
-        top:53vh;
-        left:4px
     }
 }
 @media screen and (max-width:580px) {
@@ -208,17 +197,6 @@
     #pagination-juveniles ul li a{
         font-size:0.8rem;
     }
-    .pagination-basquet{
-        left:4px;
-        top:40vh !important;
-    }
-    .botonVerPlayoff{
-        display: block;
-        position:absolute;
-        color: white;
-        top:50vh;
-        left:3px
-    }
 }
 @media screen and (max-width:450px) {
     #campeones {
@@ -234,10 +212,11 @@
     }
     #pagination-primera{
         top:57vh;
-        left:70px;
+        left:80px;
     }
     #pagination-juveniles{
-        top:50%;
+        top:61vh;
+        left:2px;
     }
     #pagination-primera ul li a{
         font-size:0.5rem;
@@ -336,16 +315,6 @@
     #subir-primera a {
         text-decoration: none;
         color:white;
-    }
-    .pagination-basquet{
-        left:5px;
-    }
-    .botonVerPlayoff{
-        display: block;
-        position:absolute;
-        color: white;
-        top:55vh;
-        left:1px
     }
 }
 @media screen and (max-width:300px) {

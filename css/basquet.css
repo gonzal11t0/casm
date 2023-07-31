@@ -1,0 +1,61 @@
+#seccion-1-basquet{
+    height:175vh;
+    background-color: #042500;
+}
+#pagination-basquet{
+    display:flex;
+    flex:row;
+    float:left;
+    position:absolute;
+    top:50vh;
+    right:42vw;
+}
+#principal-basquet-fixure{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:60vh;
+    left:51%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#fixture-table-basquet, #fixture-table-basquet td {
+    border:3px solid black;
+    padding:6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:0.9rem;
+}
+#principal-basquet-posiciones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:115%;
+    left:50%;
+    transform:translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:300px;
+}
+#tabla-posiciones-basquet{
+    font-size:1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.botonVerPlayoff{
+    display: block;
+    position:absolute;
+    color: white;
+    top:49vh;
+}
+#img-basquet-u23m{
+    width:32px;
+    height:32px;
+    border-radius:50%;
+}
