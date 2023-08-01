@@ -197,6 +197,9 @@
     #pagination-juveniles ul li a{
         font-size:0.8rem;
     }
+    #principal-primera-posiciones{
+        top:140vh;
+    }
 }
 @media screen and (max-width:450px) {
     #campeones {
@@ -207,7 +210,7 @@
         background-color: #042500;
     }
     #seccion-1-futbol-juvenil{
-        height:215vh;
+        height:225vh;
         background-color: #042500;
     }
     #pagination-primera{
@@ -234,7 +237,7 @@
         min-height:200px;
     }
     #principal-primera-posiciones,#principal-infantil-posiciones{
-        top:106%;
+        top:120vh;
         left:70%;
         transform: translatex(-70%);
         width:300px;
@@ -326,7 +329,7 @@
         background-color: #042500;
     }
     #seccion-1-futbol-juvenil {
-        height:230vh;
+        height:240vh;
         background-color: #042500;
     }
     #seccion-1-futbol-infantil{

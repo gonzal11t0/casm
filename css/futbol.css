@@ -89,7 +89,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:115%;
+    top:140vh;
     left:50%;
     transform:translatex(-50%);
     width:700px;
@@ -264,7 +264,7 @@
 }
 /*juveniles*/
 #seccion-1-futbol-juvenil{
-    height:222vh;
+    height:260vh;
     background-color: #042500;
 }
 #pagination-juveniles{
