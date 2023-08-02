@@ -31,6 +31,26 @@ $(filas[i]).css("background-color", "red");
 
 var dropdown = document.querySelector(".dropdown-propio");
 
-dropdown.addEventListener("click", function() {
-    this.querySelector(".dropdown-menu").classList.toggle("show");
-});
+
+setTimeout(function(){
+    var cajetillaPrensa=document.getElementById("cajetillaPrensa");
+    var cajetilla=document.createElement("div");
+    cajetilla.className="mensaje";
+    cajetilla.textContent="Cajetilla de prensa";
+    cajetillaPrensa.appendChild(cajetilla);
+
+    setTimeout(function() {
+        cajetilla.classList.add("mensaje-activo");
+    }, 100);
+    
+    cajetilla.addEventListener("click", function() {
+        window.open("https://drive.google.com/drive/folders/1KzmPP6HWnS2-QyH6T20NP7PcRJ2fBTi5", "_blank");
+    });
+    
+    setTimeout(function() {
+        cajetilla.classList.add("mensaje-oculto");
+        setTimeout(function() {
+            cajetillaPrensa.removeChild(cajetilla);
+    }, 700);
+    }, 15000);
+},4000);

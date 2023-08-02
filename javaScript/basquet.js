@@ -54,8 +54,8 @@ var fixturePlayoff=document.getElementById("principal-basquet-fixure");
 // Definir una variable para almacenar el estado del contenido
 var datosMostrados = false;
 var TablaPosicionesOriginalHTML = `
-<div id="principal-primera-posiciones" >
-<table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
+<div id="principal-basquet-posiciones" >
+<table id="tabla-posiciones-basquet"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
     <thead>
         <tr>
             <th>Equipo</th>
@@ -114,8 +114,8 @@ var TablaPosicionesOriginalHTML = `
 `;
 var fixtureOriginalHTML = `
     
-<div id="principal-primera-fixure">
-<table id="fixture-table-primera"  class="table table-striped table-responsive table-responsive-lg" >
+<div id="principal-basquet-fixure">
+<table id="fixture-table-basquet"  class="table table-striped table-responsive table-responsive-lg" >
     <thead>
         <tr>
             <th>Fecha</th>
