@@ -378,7 +378,10 @@
         -moz-border-radius:5px;
         -ms-border-radius:5px;
         -o-border-radius:5px;
-}
+    }
+    #mensaje-container,#cajetillaPrensa {
+        top:53vh;
+    }
 }
 @media screen  and (min-width:291px)  and (max-width:370px) {
     .btn-primary{
