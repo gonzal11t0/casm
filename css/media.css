@@ -385,9 +385,7 @@
     #mensaje-container,#cajetillaPrensa {
         top:53vh;
     }
-    #seccion-5{
-        display:none;   
-    }
+
 }
 @media screen  and (min-width:291px)  and (max-width:370px) {
     .btn-primary{
@@ -642,7 +640,10 @@
         -moz-border-radius:6px;
         -ms-border-radius:6px;
         -o-border-radius:6px;
-}
+    }
+    #seccion-5{
+        display:none;   
+    }
 }
 @media screen and (max-height:660px) {
     .bg-5{
