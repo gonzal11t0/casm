@@ -4,6 +4,7 @@
 }
 html, body {
   overflow-x: hidden;
+  background-color: #042500;
 }
 dl, ol, ul {
   margin-top: 0;
@@ -410,34 +411,7 @@ nav {
 .mensaje.mensaje-activo {
   transform: translateX(0%);
   opacity: 1;
-}/*
-#cajetillaPrensa {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 300px;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  font-size: 16px;
-  display: none;
-}*/
-
-#mensajePrensa {
-  position: absolute;
-  top:0vh;
-  width: 600px;
-  height: 600px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: #333;
-  color: #fff;
-  font-size: 16px;
-  padding: 10px;
-  border-radius: 8px;
 }
-
 #cerrarMensaje {
   background-color: #fff;
   color: #333;
@@ -447,6 +421,44 @@ nav {
   cursor: pointer;
   margin-left: 5px;
 }
+/* Estilos para el contenedor del banner */
+#seccion-5{
+  height: 200px;
+  background-color: #042500;
+  top:105vh;
+  position:sticky;
+}
+.banner-container {
+  overflow: hidden; /* Ocultar contenido que se desborde */
+  width: 100%; /* Ajustar el ancho según el diseño */
+  height:300px; /* Ajustar la altura según el diseño */
+  position:relative; /* Para posicionar los banners internos de manera absoluta */
+}
 
+/* Estilos para cada banner */
+.banner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  animation: desplazarBanner 12s linear infinite;
+  -webkit-animation: desplazarBanner 12s linear infinite;
+}
 
+/* Estilos para las imágenes dentro de los banners */
+.banner img {
+  width: 100%; /* Ajustar el tamaño de la imagen al banner */
+  height: 100%; /* Ajustar el tamaño de la imagen al banner */
+}
+
+/* Animación para el desplazamiento */
+@keyframes desplazarBanner {
+  from {
+    left: 100%; /* Inicio de la animación (fuera del contenedor a la derecha) */
+  }
+  to {
+    left: -100%; /* Fin de la animación (fuera del contenedor a la izquierda) */
+  }
+}
 /*# sourceMappingURL=style.css.map */
