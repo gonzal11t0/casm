@@ -35,10 +35,10 @@ seccion2.id = "seccion-2";
 var container = document.createElement("div");
 container.classList.add("container");
 
-var card1 = createCard("Dura derrota", "Por la séptima fecha del Clausura San Miguel recibió a la UAI Urquiza, perdió por la mínima y corto una racha de 16 fechas sin perder de local.Poco hizo la visita para llevarse los 3 puntos que defendió y de contra llegaba al arco de Pucheta.En lo defensivo la figura fue Ordano que le ganó a Regules en el duelo.");
-var card2 = createCard("Las pibas siguen sumando", "Sumo su tercer triunfo consecutivo y se afirma para continuar en la b. Mas alla que falta mucho por recorrer ah tenido un buen arranque San Miguel 2-0 Puerto Nuevo Goles:Agustina Bader -2");
-var card3 = createCard("Noticia de seleccion", "El delantero Fernando Bianchi fue selecionado para la seleccion senior oficial (+35) que el proximo 30 de julio en la catedral de San Justo jugara con Laferrere de Pergamino.Son elegidos, uno por cada equipo de la Super Liga.");
-var card4 = createCard("Lideres de la Reserva", "San Miguel en el Campeonato Primera B esta primero.Ya clasificando aguardando porque todavia falta una fecha donde el equipo de Diforti queda libre.Segun los resultados que se produzxan el trueno podra clasificar para la fase de octavos o cuartos.");
+var card1 = createCard("Sábado Perfecto!!! Ganó, goleó y es puntero.", "or la Fecha 11 del Torneo Clausura San Miguel goleó a Deportivo Merlo y se sube a lo más alto de la tabla a falta de jugar Talleres de Escalada.Un triunfo importante para mantener la lucha por el campeonato y descontando a la escolta Argentino de Quilmes que quedó libre esta fecha.San Miguel goleó 4 a 1 en este estadio después de 22 años cuando derrotó a All Boys por 4 a 1 en aquel 12/08/2001 en la B Metropolitana.");
+var card2 = createCard("Juveniles de Afa", "San Miguel - Acassuso,Categoria 7ma. division 1-4,atajo penal Octavio Villejas Gol: Franco Kron");
+var card3 = createCard("Infantiles de Afa", "C.A.S.M. vs Morón Categoria 2013: 0-2 Categoria 2012: 0-2 Categoria 2011: 2-4 Categoria 2010: 0-3");
+var card4 = createCard("Aumento socios Pleno cancha", "La cuota del club para los benefiarios PLENO CANCHA aumentara a $4000 apartir del mes de Septiembre. ");
 container.appendChild(card1);
 container.appendChild(card2);
 container.appendChild(card3);
