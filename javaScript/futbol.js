@@ -20,17 +20,9 @@ for (var i = 0; i < puntosArray.length; i++) {
 
 $(filas[1]).css("background-color", "green");
 
-/*
-for (let i = 0; i < filas.length; i++) {
-    if (i >= 2 && i <= 8) {
-        filas[i].style.backgroundColor = '#BABA56',
-        filas[i].style.color = 'black';
-    }
-}*/
 $(filas[i]).css("background-color", "red");
 
 var dropdown = document.querySelector(".dropdown-propio");
-
 
 setTimeout(function(){
     var cajetillaPrensa=document.getElementById("cajetillaPrensa");

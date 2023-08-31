@@ -81,7 +81,7 @@
         text-align:center;
         font-size: .9rem;
     }
-    #principal-primera-fixure{
+    #principal-primera-fixure,#principal-reserva-fixure{
         top:60vh;
         left:60%;
         transform: translatex(-60%);
@@ -89,6 +89,36 @@
         padding-top:20px;
         padding-bottom:20px;
         min-height:500px;
+    }
+    #principal-reserva-fixure{
+        top:100vh;
+        left:60%;
+        transform: translatex(-60%);
+        width:450px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+    }
+    #principal-reserva-fixure-fase-final{
+        top:60vh;
+        left:60%;
+        transform: translatex(-60%);
+        width:450px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+    }
+    #principal-reserva-posiciones{
+        top:160vh;
+        left:60%;
+        transform: translatex(-60%);
+        width:450px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+    }
+    #tabla-posiciones-reserva {
+        font-size:0.7rem;
     }
     #principal-primera-posiciones,#principal-infantil-posiciones{
         top:113%;
@@ -99,12 +129,12 @@
         padding-bottom:20px;
         min-height:500px;
     }
-    #fixture-table-primera, #fixture-table-primera td {
+    #fixture-table-primera, #fixture-table-primera td,#fixture-table-reserva,#fixture-table-reserva td {
         border:2px solid black;
         padding:3px;
         font-size:0.7rem;
     }
-    #tabla-posiciones-primera,#principal-infantil-posiciones {
+    #tabla-posiciones-primera,#principal-infantil-posiciones,#tabla-posiciones-reserva {
         font-size:0.7rem;
     }
     #seccion-2-futbol-primera{
@@ -191,9 +221,6 @@
     #campeones {
         top:37vh;
     }
-    #principal-primera-fixure{
-        top:65vh;
-    }
     #pagination-juveniles ul li a{
         font-size:0.8rem;
     }
@@ -227,7 +254,7 @@
     #pagination-juveniles ul li a{
         font-size:0.5rem;
     }
-    #principal-primera-fixure{
+    #principal-primera-fixure,#principal-reserva-fixure{
         top:64vh;
         left:72%;
         transform: translatex(-70%);
@@ -236,8 +263,35 @@
         padding-bottom:10px;
         min-height:200px;
     }
-    #principal-primera-posiciones,#principal-infantil-posiciones{
+    #principal-reserva-fixure-fase-final{
+        top:65vh;
+        left:72%;
+        transform: translatex(-70%);
+        width:100%;
+        padding-top:10px;
+        padding-bottom:10px;
+        min-height:200px;
+    }
+    #principal-reserva-fixure{
+        top:100vh;
+        left:72%;
+        transform: translatex(-70%);
+        width:100%;
+        padding-top:10px;
+        padding-bottom:10px;
+        min-height:200px;
+    }
+    #principal-primera-posiciones,#principal-infantil-posiciones,#principal-reserva-posiciones{
         top:120vh;
+        left:70%;
+        transform: translatex(-70%);
+        width:300px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+    }
+    #principal-reserva-posiciones{
+        top:180vh;
         left:70%;
         transform: translatex(-70%);
         width:300px;
@@ -248,12 +302,12 @@
     #principal-infantil-posiciones{
         top:120vh;
     }
-    #fixture-table-primera, #fixture-table-primera td {
+    #fixture-table-primera, #fixture-table-primera td,#fixture-table-reserva,#fixture-table-reserva td,#principal-reserva-fixure-fase-final td {
         border:2px solid black;
         padding:3px;
         font-size:0.6rem;
     }
-    #tabla-posiciones-primera,#principal-infantil-posiciones {
+    #tabla-posiciones-primera,#principal-infantil-posiciones,#tabla-posiciones-reserva {
         font-size:0.7rem;
     }
     #seccion-2-futbol-primera{
@@ -337,7 +391,7 @@
         background-color: #042500;
     }
     #pagination-primera{
-        top:60%;
+        top:63%;
         left:17%;
         transform:translatex(-30%);
     }
@@ -353,14 +407,32 @@
         font-size:0.5rem;
     }
     .page-item:first-child .page-link {
-        font-size:0.6rem;
+        font-size:.4rem;
     }
     .page-item:not(:first-child) .page-link {
-        font-size:0.6rem;
+        font-size:0.4rem;
     }
     #principal-primera-fixure{
         top:78%;
         left:30%;
+        transform: translatex(-33%);
+        width:100%;
+        padding-top:0px;
+        padding-bottom:0px;
+        min-height:200px;
+    }
+    #principal-reserva-fixure-fase-final{
+        top:70vh;
+        left:33vw;
+        transform: translatex(-33%);
+        width:100%;
+        padding-top:0px;
+        padding-bottom:0px;
+        min-height:200px;
+    }
+    #principal-reserva-fixure{
+        top:120vh;
+        left:33vw;
         transform: translatex(-33%);
         width:100%;
         padding-top:0px;
@@ -376,17 +448,26 @@
         padding-bottom:0px;
         min-height:500px;
     }
-    #fixture-table-primera, #fixture-table-primera td {
+    #principal-reserva-posiciones{
+        top:150vh;
+        left:50%;
+        transform: translatex(-50%);
+        width:100%;
+        padding-top:0px;
+        padding-bottom:0px;
+        min-height:500px;
+    }
+    #fixture-table-primera, #fixture-table-primera td,#fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td,#fixture-table-reserva-fase-final tr {
         border:1px solid black;
         padding:0px;
-        font-size:0.4rem;
+        font-size:0.5rem;
     }
-    #fixture-table-primera th:first-child,
-    #fixture-table-primera td:first-child,
-    #fixture-table-primera tr:first-child td {
+    #fixture-table-primera,#fixture-table-reserva th:first-child,
+    #fixture-table-primera,#fixture-table-reserva td:first-child,
+    #fixture-table-primera,#fixture-table-reserva tr:first-child td {
         display: none;
     }  
-    #tabla-posiciones-primera,#tabla-posiciones-infantil {
+    #tabla-posiciones-primera,#tabla-posiciones-infantil,#tabla-posiciones-reserva {
         font-size:0.6rem;
     }
     #seccion-2-futbol-primera{
