@@ -62,8 +62,7 @@
 }
 @media screen and (max-width:700px) {
     #seccion-1-futbol-primera{
-        height:190vh;  
-        background-color: #030303;
+        height:190vh;
     }
     #pagination-primera{
         top:57vh;
@@ -139,7 +138,7 @@
         font-size:0.7rem;
     }
     #seccion-2-futbol-primera{
-        height:130vh;
+        height:120vh;
         background-color: #042500;
     }
     .container-primera{
@@ -205,17 +204,13 @@
     }
 }
 @media screen and (max-width:580px) {
-    #seccion-1-futbol-primera{
-        height:220vh;
-        background-color: #aa8107;
-    }
     .dropdown-propio {
         position: relative;
         float:right;
         margin-top:40px;
     }
     #pagination-primera{
-        top:63vh;
+        top:62vh;
         left:40%;
         transform:translatex(-40%);
         -webkit-transform:translatex(-40%);
@@ -232,37 +227,6 @@
     #principal-primera-posiciones{
         top:140vh;
     }
-    #principal-primera-fixure{
-        top:75vh;
-        left:72%;
-        transform: translatex(-70%);
-        width:450px;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
-    }
-    #principal-reserva-fixure-fase-final {
-        top:63vh;
-        left:60%;
-        transform:translatex(-60%);
-        width:450px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-        -webkit-transform:translatex(-60%);
-        -moz-transform:translatex(-60%);
-        -ms-transform:translatex(-60%);
-        -o-transform:translatex(-60%);
-}
-    #card-primera {
-        position:relative;
-        top:20vh;
-        width:70%;
-        height:46vh;
-        padding-left:5vw;
-        margin-top:20px;
-        margin-bottom:9px;
-    }
 }
 @media screen and (max-width:450px) {
     #campeones {
@@ -270,14 +234,14 @@
     }
     #seccion-1-futbol-primera{
         height:220vh;
-        background-color: #ed088e;
+        background-color: #042500;
     }
     #seccion-1-futbol-juvenil{
         height:225vh;
         background-color: #042500;
     }
     #pagination-primera{
-        top:59vh;
+        top:57vh;
         left:80px;
     }
     #pagination-juveniles{
@@ -286,11 +250,11 @@
     }
     #pagination-primera ul li a{
         font-size:0.5rem;
-    }q
+    }
     #pagination-juveniles ul li a{
         font-size:0.5rem;
     }
-    #principal-primera-fixure{
+    #principal-primera-fixure,#principal-reserva-fixure{
         top:64vh;
         left:72%;
         transform: translatex(-70%);
@@ -416,7 +380,7 @@
     }
     #seccion-1-futbol-primera{
         height:230vh;
-        background-color: #fdfffd;
+        background-color: #042500;
     }
     #seccion-1-futbol-juvenil {
         height:240vh;
@@ -427,8 +391,8 @@
         background-color: #042500;
     }
     #pagination-primera{
-        top:65vh;
-        left:14vw;
+        top:63%;
+        left:17%;
         transform:translatex(-30%);
     }
     #pagination-primera ul li a{
@@ -449,8 +413,9 @@
         font-size:0.4rem;
     }
     #principal-primera-fixure{
-        top:70vh;
-        right:0vw;
+        top:78%;
+        left:30%;
+        transform: translatex(-33%);
         width:100%;
         padding-top:0px;
         padding-bottom:0px;
@@ -466,7 +431,7 @@
         min-height:200px;
     }
     #principal-reserva-fixure{
-        top:110vh;
+        top:120vh;
         left:33vw;
         transform: translatex(-33%);
         width:100%;
@@ -496,12 +461,12 @@
         border:1px solid black;
         padding:0px;
         font-size:0.5rem;
-    }/*
+    }
     #fixture-table-primera,#fixture-table-reserva th:first-child,
     #fixture-table-primera,#fixture-table-reserva td:first-child,
     #fixture-table-primera,#fixture-table-reserva tr:first-child td {
         display: none;
-    } */ 
+    }  
     #tabla-posiciones-primera,#tabla-posiciones-infantil,#tabla-posiciones-reserva {
         font-size:0.6rem;
     }
