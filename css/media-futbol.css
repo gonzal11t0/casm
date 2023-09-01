@@ -236,6 +236,19 @@
         padding-bottom:10px;
         min-height:200px;
     }
+    #principal-reserva-fixure-fase-final {
+        top:63vh;
+        left:60%;
+        transform:translatex(-60%);
+        width:450px;
+        padding-top:20px;
+        padding-bottom:20px;
+        min-height:500px;
+        -webkit-transform:translatex(-60%);
+        -moz-transform:translatex(-60%);
+        -ms-transform:translatex(-60%);
+        -o-transform:translatex(-60%);
+}
     #card-primera {
         position:relative;
         top:20vh;
@@ -448,7 +461,7 @@
         min-height:200px;
     }
     #principal-reserva-fixure{
-        top:120vh;
+        top:110vh;
         left:33vw;
         transform: translatex(-33%);
         width:100%;
