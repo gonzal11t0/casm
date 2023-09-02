@@ -6,6 +6,11 @@
         height:100vh;
         background-color: #042500;
     }
+        #pagination-primera{
+        top:40vh;
+        left:40%;
+        transform:translatex(-40%);
+    }
     .container-primera{
         display:grid;
         grid-template-columns:auto auto;
