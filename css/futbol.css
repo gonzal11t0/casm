@@ -89,7 +89,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:140vh;
+    top:120vh;
     left:50%;
     transform:translatex(-50%);
     width:700px;
