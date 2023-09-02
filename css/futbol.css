@@ -273,8 +273,16 @@
     flex:row;
     float:left;
     position:absolute;
-    top:41vh;
-    right:42vw;
+    top:40vh;
+    left:43vw;
+}
+#pagination-categorias-juveniles{
+    display:flex;
+    flex:row;
+    float:left;
+    position:absolute;
+    top:47vh;
+    left:43vw;
 }
 #pagination-juveniles ul li a{
     font-size:1rem;
