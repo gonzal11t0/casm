@@ -3,13 +3,16 @@
         height:200vh;
     }
     #seccion-2-futbol-primera{
-        height:100vh;
+        height:90vh;
         background-color: #042500;
     }
         #pagination-primera{
         top:40vh;
         left:40%;
         transform:translatex(-40%);
+    }
+    #principal-primera-posiciones,#principal-infantil-posiciones{
+        top:120vh;
     }
     .container-primera{
         display:grid;
