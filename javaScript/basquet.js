@@ -319,7 +319,7 @@ var fixtureOriginalHTML = `
 </table>
 </div> 
 `;
-// Agregar un evento de escucha al botón
+
 botonVerPlayoff.addEventListener("click", function() {
     if (datosMostrados){
         // Reemplazar la estructura HTML actual por la original
@@ -342,41 +342,71 @@ botonVerPlayoff.addEventListener("click", function() {
             </thead>
             <tbody id="tbody">
                 <tr data-row-index="1">
-                    <td>Nuevo Equipo 1</td>
+                    <td>SPORTIVO VILLA BALLESTER <img id="img-basquet-u23m" src="./img/iconos-clubes/SPORTIVO VILLA BALLESTER.jpg"></td></td>
                     <td>10</td>
-                    <td>8</td>
-                    <td>2</td>
-                    <td>18</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>17</td>
                 </tr>
                 <tr data-row-index="2">
-                    <td>Nuevo Equipo 2</td>
+                    <td>BANCO NACION <img id="img-basquet-u23m" src="./img/iconos-clubes/banco nacion.jpg"></td>
                     <td>10</td>
-                    <td>6</td>
-                    <td>4</td>
-                    <td>16</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>17</td>
                 </tr>
                 <tr data-row-index="3">
-                    <td>Nuevo Equipo 3</td>
+                    <td>BANADE <img id="img-basquet-u23m" src="./img/iconos-clubes/banade.jpg"></td>
                     <td>10</td>
-                    <td>6</td>
-                    <td>4</td>
-                    <td>16</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>17</td>
                 </tr>
                 <tr data-row-index="4">
-                    <td>Nuevo Equipo 4</td>
+                    <td>NAUTICO HACOAJ <img id="img-basquet-u23m" src="./img/iconos-clubes/nautico ha.jpg"></td>
                     <td>10</td>
-                    <td>6</td>
-                    <td>4</td>
-                    <td>16</td>
+                    <td>7</td>
+                    <td>3</td>
+                    <td>17</td>
                 </tr>   
                 <tr data-row-index="5">
-                    <td>Nuevo Equipo 5</td>
+                    <td>CENTRO GALICIA <img id="img-basquet-u23m" src="./img/iconos-clubes/centro galicia.jpg"></td>
                     <td>10</td>
-                    <td>6</td>
-                    <td>4</td>
-                    <td>16</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>13</td>
                 </tr>
+                <tr data-row-index="6">
+                    <td>San Miguel <img id="img-basquet-u23m" src="./img/iconos-clubes/san miguel.jpg"></td>
+                    <td>10</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>13</td>
+                </tr>
+                <tr data-row-index="7">
+                    <td>COOP DE TORTUGUITAS <img id="img-basquet-u23m" src="./img/iconos-clubes/coop tortu.jpg"></td>
+                    <td>10</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>12</td>
+                </tr>
+                <tr data-row-index="8">
+                    <td>CLUB 3 DE FEBRERO <img id="img-basquet-u23m" src="./img/iconos-clubes/club 3febrero.jpg"></td>
+                    <td>9</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>12</td>
+                </tr>
+                <tr data-row-index="9">
+                    <td>VICTORIA <img id="img-basquet-u23m" src="./img/iconos-clubes/victoria.jpg"></td>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>11</td>
+                </tr>
+            </tr>
                 <!-- Más filas con los nuevos resultados -->
+                
             </tbody>
         </table>
     `;
@@ -395,25 +425,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>26/6/2023</td>
                 <td>BANCO NACION</td>
-                <td>--</td>
+                <td>68-63</td>
                 <td>VICTORIA</td>
             </tr>
             <tr>
                 <td>26/6/2023</td>
                 <td>BANADE</td>
-                <td>--</td>
+                <td>70-58</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
             </tr>
             <tr>
                 <td>26/6/2023</td>
                 <td>CENTRO GALICIA</td>
-                <td>--</td>
+                <td>81-46</td>
                 <td>COOP DE TORTUGUITAS</td>
             </tr>
             <tr>
                 <td>26/6/2023</td>
                 <td>CLUB 3 DE FEBRERO</td>
-                <td>--</td>
+                <td>64-69</td>
                 <td>NAUTICO HACOAJ</td>
             </tr>
             <tr>
@@ -426,25 +456,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>3/7/2023</td>
                 <td>NAUTICO HACOAJ</td>
-                <td>--</td>
+                <td>87-53</td>
                 <td>CENTRO GALICIA</td>
             </tr>
             <tr>
                 <td>3/7/2023</td>
                 <td>COOP DE TORTUGUITAS</td>
-                <td>--</td>
+                <td>70-77</td>
                 <td>BANADE</td>
             </tr>
             <tr>
                 <td>4/7/2023</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
-                <td>--</td>
+                <td>58-74</td>
                 <td>BANCO NACION</td>
             </tr>
             <tr>
                 <td>4/7/2023</td>
                 <td>VICTORIA</td>
-                <td>--</td>
+                <td>57-72</td>
                 <td>SAN MIGUEL</td>
             </tr>
             <tr>
@@ -457,25 +487,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>10/7/2023</td>
                 <td>BANCO NACION</td>
-                <td>--</td>
+                <td>102-43</td>
                 <td>COOP DE TORTUGUITAS</td>
             </tr>
             <tr>
                 <td>10/7/2023</td>
                 <td>BANADE</td>
-                <td>--</td>
+                <td>67-45</td>
                 <td>NAUTICO HACOAJ</td>
             </tr>
             <tr>
                 <td>10/7/2023</td>
                 <td>CENTRO GALICIA</td>
-                <td>--</td>
+                <td>71-75</td>
                 <td>CLUB 3 DE FEBRERO</td>
             </tr>
             <tr>
                 <td>11/7/2023</td>
                 <td>SAN MIGUEL</td>
-                <td>--</td>
+                <td>72-66</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
             </tr>
             <tr>
@@ -488,25 +518,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>17/7/2023</td>
                 <td>CLUB 3 DE FEBRERO</td>
-                <td>--</td>
+                <td>58-75</td>
                 <td>BANADE</td>
             </tr>
             <tr>
                 <td>17/7/2023</td>
                 <td>NAUTICO HACOAJ</td>
-                <td>--</td>
+                <td>49-63</td>
                 <td>BANCO NACION</td>
             </tr>
             <tr>
                 <td>17/7/2023</td>
                 <td>COOP DE TORTUGUITAS</td>
-                <td>--</td>
+                <td>60-64</td>
                 <td>SAN MIGUEL</td>
             </tr>
             <tr>
                 <td>18/7/2023</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
-                <td>--</td>
+                <td>83-71</td>
                 <td>VICTORIA</td>
             </tr>
             <tr>
@@ -519,25 +549,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>31/7/2023</td>
                 <td>BANADE</td>
-                <td>--</td>
+                <td>69-67</td>
                 <td>CENTRO GALICIA</td>
             </tr>   
             <tr>
                 <td>1/8/2023</td>
                 <td>VICTORIA</td>
-                <td>--</td>
+                <td>65-66</td>
                 <td>COOP DE TORTUGUITAS</td>
             </tr>
             <tr>
                 <td>1/8/2023</td>
                 <td>SAN MIGUEL</td>
-                <td>--</td>
+                <td>47-56</td>
                 <td>NAUTICO HACOAJ</td>
             </tr>
             <tr>
                 <td>1/8/2023</td>
                 <td>BANCO NACION</td>
-                <td>--</td>
+                <td>74-77</td>
                 <td>CLUB 3 DE FEBRERO</td>
             </tr>
             <tr>
@@ -550,25 +580,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>7/7/2023</td>
                 <td>CENTRO GALICIA</td>
-                <td>--</td>
+                <td>68-85</td>
                 <td>BANCO NACION</td>
             </tr>   
             <tr>
                 <td>7/8/2023</td>
                 <td>CLUB 3 DE FEBRERO</td>
-                <td>--</td>
+                <td>67-63</td>
                 <td>SAN MIGUEL</td>
             </tr>
             <tr>
                 <td>7/8/2023</td>
                 <td>NAUTICO HACOAJ</td>
-                <td>--</td>
+                <td>64-60</td>
                 <td>VICTORIA</td>
             </tr>
             <tr>
                 <td>7/8/2023</td>
                 <td>COOP DE TORTUGUITAS</td>
-                <td>--</td>
+                <td>53-74</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
             </tr>
             <tr>
@@ -581,25 +611,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>14/8/2023</td>
                 <td>BANCO NACION</td>
-                <td>--</td>
+                <td>94-71</td>
                 <td>BANADE</td>
             </tr>
             <tr>
                 <td>15/8/2023</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
-                <td>--</td>
+                <td>53-36</td>
                 <td>NAUTICO HACOAJ</td>
             </tr>   
             <tr>
                 <td>15/8/2023</td>
                 <td>VICTORIA</td>
-                <td>--</td>
+                <td>67-65</td>
                 <td>CLUB 3 DE FEBRERO</td>
             </tr>
             <tr>
                 <td>15/8/2023</td>
                 <td>SAN MIGUEL</td>
-                <td>--</td>
+                <td>78-79</td>
                 <td>CENTRO GALICIA</td>
             </tr>
             <tr>
@@ -612,25 +642,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>28/7/2023</td>
                 <td>BANADE</td>
-                <td>--</td>
+                <td>71-76</td>
                 <td>SAN MIGUEL</td>
             </tr>   
             <tr>
                 <td>28/8/2023</td>
                 <td>CENTRO GALICIA</td>
-                <td>--</td>
+                <td>68-75</td>
                 <td>VICTORIA</td>
             </tr>
             <tr>
                 <td>28/8/2023</td>
                 <td>CLUB 3 DE FEBRERO</td>
-                <td>--</td>
+                <td>54-60</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
             </tr>
             <tr>
                 <td>28/8/2023</td>
                 <td>NAUTICO HACOAJ</td>
-                <td>--</td>
+                <td>58-67</td>
                 <td>COOP DE TORTUGUITAS</td>
             </tr>
             <tr>
@@ -643,25 +673,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>4/9/2023</td>
                 <td>COOP DE TORTUGUITAS</td>
-                <td>--</td>
+                <td>68-57</td>
                 <td>CLUB 3 DE FEBRERO</td>
             </tr>   
             <tr>
                 <td>5/9/2023</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
-                <td>--</td>
+                <td>71-39</td>
                 <td>CENTRO GALICIA</td>
             </tr>
             <tr>
                 <td>5/9/2023</td>
                 <td>VICTORIA</td>
-                <td>--</td>
+                <td>57-61</td>
                 <td>BANADE</td>
             </tr>
             <tr>
                 <td>5/9/2023</td>
                 <td>SAN MIGUEL</td>
-                <td>--</td>
+                <td>74-73</td>
                 <td>BANCO NACION</td>
             </tr>
             <tr>
@@ -674,25 +704,25 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>11/9/2023</td>
                 <td>NAUTICO HACOAJ</td>
-                <td>--</td>
+                <td>70-49</td>
                 <td>CLUB 3 DE FEBRERO</td>
             </tr>
             <tr>
                 <td>12/9/2023</td>
                 <td>VICTORIA</td>
-                <td>--</td>
+                <td>73-74</td>
                 <td>BANCO NACION</td>
             </tr>   
             <tr>
                 <td>12/9/2023</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
-                <td>--</td>
+                <td>82-53</td>
                 <td>BANADE</td>
             </tr>
             <tr>
                 <td>12/9/2023</td>
                 <td>COOP DE TORTUGUITAS</td>
-                <td>--</td>
+                <td>77-82</td>
                 <td>CENTRO GALICIA</td>
             </tr>
             <tr>
@@ -705,19 +735,19 @@ botonVerPlayoff.addEventListener("click", function() {
             <tr>
                 <td>18/9/2023</td>
                 <td>CENTRO GALICIA</td>
-                <td>--</td>
+                <td>50-61</td>
                 <td>NAUTICO HACOAJ</td>
             </tr>
             <tr>
                 <td>18/9/2023</td>
                 <td>BANADE</td>
-                <td>--</td>
+                <td>75-50</td>
                 <td>COOP DE TORTUGUITAS</td>
             </tr>   
             <tr>
                 <td>18/9/2023</td>
                 <td>BANCO NACION</td>
-                <td>--</td>
+                <td>81-90</td>
                 <td>SPORTIVO VILLA BALLESTER</td>
             </tr>
             <tr>
@@ -1003,4 +1033,11 @@ botonVerPlayoff.addEventListener("click", function() {
     });
 }
 
+function irConferencia1(){
+    const buttonirConferencia1=document.getElementById("buttonirConferencia1");
+    buttonirConferencia1.addEventListener("click", function(){
+        buttonirConferencia1.classList.style.display="block";
+    });
+}
+irConferencia1()
 mostrarPlayOffOriginal();
