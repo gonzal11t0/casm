@@ -1032,12 +1032,14 @@ botonVerPlayoff.addEventListener("click", function() {
     $('#fixture-table-basquet').DataTable().draw();
     });
 }
-
-function irConferencia1(){
+mostrarPlayOffOriginal();
+/*function irConferencia1(){
     const buttonirConferencia1=document.getElementById("buttonirConferencia1");
     buttonirConferencia1.addEventListener("click", function(){
         buttonirConferencia1.classList.style.display="block";
     });
 }
+
+*/
 irConferencia1()
-mostrarPlayOffOriginal();
+
