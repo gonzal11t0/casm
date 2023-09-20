@@ -10,7 +10,123 @@
     top:50vh;
     right:42vw;
 }
-#principal-basquet-fixure{
+
+/* basquet u23*/
+#principal-basquet-fixure {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:170vh;
+    left:51%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#playOff-basquet-fixture {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:70vh;
+    left:51%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#principal-basquet-posiciones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:220vh;
+    left:50%;
+    transform:translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:300px;
+}
+#playOff-basquet-posiciones{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:110vh;
+    left:50%;
+    transform:translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:300px;
+}
+#principal-basquet-posiciones span{
+    color: #fff;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#principal-basquet-fixure span{
+    color: #fff;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#playOff-basquet-posiciones span{
+    color: #fff;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#playOff-basquet-fixture span{
+    color: #fff;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* u19*/
+#principal-basquet-fixure-u19{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:170vh;
+    left:51%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#principal-basquet-posiciones-u19{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:200vh;
+    left:50%;
+    transform:translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:300px;
+}
+/*conferencia1*/
+#conferencia1-basquet-fixture{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -23,19 +139,12 @@
     padding-bottom:40px;
     min-height:500px;
 }
-#fixture-table-basquet, #fixture-table-basquet td {
-    border:3px solid black;
-    padding:6px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size:0.9rem;
-}
-#principal-basquet-posiciones{
+#conferencia1-basquet-posiciones{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:115%;
+    top:110vh;
     left:50%;
     transform:translatex(-50%);
     width:700px;
@@ -43,16 +152,58 @@
     padding-bottom:40px;
     min-height:300px;
 }
-#tabla-posiciones-basquet{
+#conferencia1-basquet-fixture span{
+    color: #fff;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conferencia1-basquet-posiciones span{
+    color: #fff;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#principal-basquet-posiciones-u19 span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#principal-basquet-fixure-u19 span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+#fixture-table-basquet, #fixture-table-basquet-conferencia1, #fixture-table-basquet td, #fixture-table-basquet-conferencia1 td,#fixture-table-basquet-playOff,#fixture-table-basquet-playOff td {
+    border:3px solid black;
+    padding:6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:0.9rem;
+}
+#tabla-posiciones-basquet,#tabla-posiciones-basquet-conferencia1,#tabla-posiciones-basquet-playOff{
     font-size:1rem;
     text-align: center;
     color: rgb(255, 255, 255);
-}
-.botonVerPlayoff{
-    display: block;
-    position:absolute;
-    color: white;
-    top:49vh;
 }
 #img-basquet-u23m{
     width:32px;
