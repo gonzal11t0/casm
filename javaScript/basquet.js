@@ -78,7 +78,7 @@ function arrancarDataTableU17 () {
         "aaSorting": false
     });
 }
-arrancarDataTableConferencia3U17();
+arrancarDataTableConferencia1();
 
 function arrancarDataTableConferencia3U17 () {  
     $('#conferencia3-fixture-table-basquet-u17').DataTable({
