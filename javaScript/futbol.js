@@ -46,3 +46,18 @@ setTimeout(function(){
     }, 700);
     }, 15000);
 },4000);
+
+function arrancarDataTableFemenino(){
+    $(document).ready(function () {
+        $('#fixture-table-primera').DataTable({
+            info:false,
+            paging:true,
+            "lengthChange":false,
+            "pagingType": "numbers",
+            "searching": false,
+            "pageLength":10,
+            "aaSorting":false
+        })
+    });
+}
+arrancarDataTableFemenino()
