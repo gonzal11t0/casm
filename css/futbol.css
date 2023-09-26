@@ -415,7 +415,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:130vh;
+    top:270vh;
     left:50%;
     transform: translatex(-50%);
     width:700px;
@@ -428,13 +428,20 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:70vh;
+    top:220vh;
     left:51%;
     transform: translatex(-50%);
     width:700px;
     padding-top:40px;
     padding-bottom:40px;
     min-height:500px;
+}
+#fixture-table-femenino-permanencia,#fixture-table-femenino-permanencia td {
+    border:3px solid black;
+    padding:6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:0.9rem;
 }
 #principal-primera-posiciones-femenino span {
     color: #fff;
@@ -452,4 +459,104 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
+#fase-permanencia-primera-posiciones-femenino span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#fase-permanencia-primera-fixure-femenino span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#seccion-2-futbol-primera-femenino{
+    height:200vh;
+    background-color: #042500;
+}
+.container-primera-femenino{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto auto;
+    row-gap:10px;
+    width:100%;
+    height:100vh;
+    margin-top:50px;
+}
+#card-primera-femenino {
+    position:relative;
+    top:160vh;
+    width:70%;
+    height:46vh;
+    padding-left:5vw;
+    margin-top:20px;
+    margin-bottom:9px;
+}
+#card-primera-femenino div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+#card-primera-femenino div h1 {
+    color: #ffffff;
+    cursor: pointer;
+    font-size:1.2rem;
+    justify-content: center;
+    text-align: center;
+}
+#card-primera-femenino .front-primera-femenino {
+    background: rgb(16, 139, 10);
+    transform: perspective(500px) rotateY(0deg);
+}
+#card-primera-femenino .back-primera-femenino {
+    background: rgb(16, 139, 10);
+    transform: perspective(500px) rotateY(180deg);
+}
+#card-primera-femenino:hover .front-primera-femenino {
+    transform: perspective(500px) rotateY(180deg);
+}
+#card-primera-femenino:hover .back-primera-femenino {
+    transform: perspective(500px) rotateY(360deg);
+}
+#card-primera-femenino div p {
+    font-size:1.2rem;
+    color: rgb(255, 254, 254);
+    left:0px;
+}
+/*Fase permanencia*/
+#fase-permanencia-primera-posiciones-femenino{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:120vh;
+    left:50%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
+#fase-permanencia-primera-fixure-femenino{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:70vh;
+    left:51%;
+    transform: translatex(-50%);
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    min-height:500px;
+}
