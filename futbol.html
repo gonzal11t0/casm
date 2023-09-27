@@ -151,6 +151,7 @@
                 </ul>
             </nav>
             <div id="principal-primera-posiciones">
+                <span>Clausura</span>
                     <table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
                             <tr>
@@ -303,6 +304,7 @@
                     </table>
             </div>
             <div id="principal-primera-fixure">
+                <span>Clausura</span>
                     <table id="fixture-table-primera"  class="table table-striped table-responsive table-responsive-lg" >
                     <thead>
                         <tr>
@@ -1149,6 +1151,36 @@
                         </tbody>
                     </table>
             </div>
+            <div id="final-reducido-primera-fixture">
+                <h4>Final Reducido</h4>
+                <span>Partido de ida y vuelta a jugarse de manera local el 1er equipo de la tabla general</span>
+                <table id="fixture-final-reducido-primera"  class="table table-striped table-responsive table-responsive-lg" >
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Equipo local</th>
+                            <th>Resultado</th>
+                            <th>Equipo visitante</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <!--Ida-->
+                        <tr>
+                            <td>14/10/2023</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                            <!--Vuelta-->
+                        <tr>
+                            <td>28/10/2023</td>
+                            <td></td>
+                            <td>--</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+            </table>
+            </div>
             <div class="dropdown dropdown-propio-futbol">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fas fa-bars"></i>
@@ -1164,12 +1196,6 @@
                 </ul>
             </div>
             <div id="cajetillaPrensa"></div>
-            <script> 
-                var dropdown = document.querySelector(".dropdown-propio-futbo");
-                    dropdown.addEventListener("click", function() {
-                        document.querySelector(".dropdown-menu").classList.toggle("show");
-                });
-            </script>
         </section>
         <section id="seccion-2-futbol-primera">
             <div class="container-primera">
@@ -1231,18 +1257,6 @@
     <!--JAVASCRIPT -->
     <script type="text/javaScript" src="javaScript/menuHaburgesa.js"></script>
     <script type="text/javaScript" src="javaScript/futbol.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#fixture-table-primera').DataTable({
-                info:false,
-                paging:true,
-                "lengthChange":false,
-                "pagingType": "numbers",
-                "searching": false,
-                "pageLength":8,
-                "aaSorting":false
-            })
-        });
-    </script>
+
 </body>
 </html>

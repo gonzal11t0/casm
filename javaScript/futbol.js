@@ -47,9 +47,41 @@ setTimeout(function(){
     }, 15000);
 },4000);
 
-function arrancarDataTableFemenino(){
+
+
+function arrancarDataTablePrimera(){
     $(document).ready(function () {
         $('#fixture-table-primera').DataTable({
+            info:false,
+            paging:true,
+            "lengthChange":false,
+            "pagingType": "numbers",
+            "searching": false,
+            "pageLength":8,
+            "aaSorting":false
+        })
+    });
+}
+arrancarDataTablePrimera()
+
+function arrancarDataTablePrimeraFinal(){
+    $(document).ready(function () {
+        $('#fixture-final-reducido-primera').DataTable({
+            info:false,
+            paging:true,
+            "lengthChange":false,
+            "pagingType": "numbers",
+            "searching": false,
+            "pageLength":1,
+            "aaSorting":false
+        })
+    });
+}
+arrancarDataTablePrimeraFinal()
+
+function arrancarDataTableFemenino(){
+    $(document).ready(function () {
+        $('#fixture-table-primera-femenino').DataTable({
             info:false,
             paging:true,
             "lengthChange":false,
