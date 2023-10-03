@@ -288,6 +288,25 @@
     text-decoration: none;
     color:white;
 }
+#principal-infantil-fixture{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:70vh;
+    left:35vw;
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#fixture-table-infantil,#fixture-table-infantil td {
+    border:3px solid black;
+    padding:6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:0.9rem;
+}
 /*juveniles*/
 #seccion-1-futbol-juvenil{
     height:260vh;
@@ -316,7 +335,42 @@
 .ocultarPosiciones{
     display: none;
 }
-
+#tabla-posiciones-juveniles{
+    font-size:1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#principal-juveniles-posiciones{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:160vh;
+    left:35vw;
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#principal-juveniles-fixture{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:70vh;
+    left:35vw;
+    width:700px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#fixture-table-juveniles,#fixture-table-juveniles td {
+    border:3px solid black;
+    padding:6px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:0.9rem;
+}
 /*reserva*/
 #principal-reserva-posiciones{
     display: flex;
@@ -343,7 +397,7 @@
     color: rgb(255, 255, 255);
     font-size:0.9rem;
 }
-#principal-reserva-fixure{
+#principal-reserva-fixure{#
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -608,3 +662,6 @@
     text-decoration: none;
     color:white;
 }
+
+
+

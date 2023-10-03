@@ -41,6 +41,7 @@ function arrancarDataTableBasquet () {
 }
 arrancarDataTableBasquet ();
 
+
 function arrancarDataTablePlayOffBasquet () {  
     $('#fixture-table-basquet-playOff').DataTable({
         info: false,
@@ -54,21 +55,11 @@ function arrancarDataTablePlayOffBasquet () {
 }
 arrancarDataTablePlayOffBasquet ();
 
-function arrancarDataTableConferencia1 () {  
-    $('#fixture-table-basquet-conferencia1').DataTable({
-        info: false,
-        paging: true,
-        "lengthChange": false,
-        "pagingType": "numbers",
-        "searching": false,
-        "pageLength":4,
-        "aaSorting": false
-    });
-}
-arrancarDataTableConferencia1 ();
+
+
 
 function arrancarDataTableU17 () {  
-    $('#fixture-table-basquet').DataTable({
+    $('#fixture-table-basquet-u17').DataTable({
         info: false,
         paging: true,
         "lengthChange": false,
@@ -78,7 +69,7 @@ function arrancarDataTableU17 () {
         "aaSorting": false
     });
 }
-arrancarDataTableConferencia1();
+arrancarDataTableU17 ()
 
 function arrancarDataTableConferencia3U17 () {  
     $('#conferencia3-fixture-table-basquet-u17').DataTable({

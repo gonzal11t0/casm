@@ -158,8 +158,8 @@
                     <a><img src="./img/iconos-clubes/uai urquiza.png">Uai urquiza</a>
                 </div>
             </div>
-            <div id="principal-primera-posiciones">
-                    <table id="tabla-posiciones-primera"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
+            <div id="principal-juveniles-posiciones">
+                    <table id="tabla-posiciones-juveniles"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
                             <tr>
                                 <th>Equipo</th>
@@ -366,8 +366,8 @@
                         </tbody>
                     </table>
             </div>
-            <div id="principal-primera-fixure">
-                    <table id="fixture-table-primera"  class="table table-striped table-responsive table-responsive-lg" >
+            <div id="principal-juveniles-fixture">
+                    <table id="fixture-table-juveniles"  class="table table-striped table-responsive table-responsive-lg" >
                     <thead>
                         <tr>
                             <th>Fecha</th>
@@ -1545,6 +1545,79 @@
                                 <td>2-6</td>
                                 <td>COMUNICACIONES</td>
                             </tr>
+                            <!--FECHA 17-->
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>FENIX</td>
+                                <td>2-1</td>
+                                <td>ARGENTINO DE MERLO</td>
+                            </tr>
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>COMUNICACIONES</td>
+                                <td>1-0</td>
+                                <td>CAÑUELAS</td>
+                            </tr>
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>LOS ANDES</td>
+                                <td>2-3</td>
+                                <td>REAL PILAR </td>
+                            </tr>
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>SACACHISPAS</td>
+                                <td>0-5</td>
+                                <td>VILLA SAN CARLOS</td>
+                            </tr>
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>BERAZATEGUI</td>
+                                <td>2-1</td>
+                                <td>DEP. MERLO</td>
+                            </tr>
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>LAFERRERE</td>
+                                <td>1-2</td>
+                                <td>ARGENTINO DE QUILMES</td>
+                            </tr>
+                            <tr>
+                                <td>1/10/2023</td>
+                                <td>SAN MIGUEL</td>
+                                <td>2-6</td>
+                                <td>ITUZAINGO</td>
+                            </tr>
+                            <tr>
+                                <td>1/10/2023</td>
+                                <td>SP. ITALIANO</td>
+                                <td>1-1</td>
+                                <td>SP. DOCK SUD</td>
+                            </tr>
+                            <tr>
+                                <td>1/10/2023</td>
+                                <td>J.J. DE URQUIZA</td>
+                                <td>0-6</td>
+                                <td>UAI URQUIZA</td>
+                            </tr>
+                            <tr>
+                                <td>1/10/2023</td>
+                                <td>COLEGIALES</td>
+                                <td>3-0</td>
+                                <td>LUJAN</td>
+                            </tr>
+                            <tr>
+                                <td>POST</td>
+                                <td>SAN MARTIN (B)</td>
+                                <td>4-0</td>
+                                <td>ACASSUSO</td>
+                            </tr>
+                            <tr>
+                                <td>POST</td>
+                                <td>EXCURSIONISTAS</td>
+                                <td>4-3</td>
+                                <td>DEP. ARMENIO</td>
+                            </tr>
                         </tbody>
                     </table>
             </div>
@@ -1562,12 +1635,6 @@
                     <li><a class="dropdown-item">Vier -- 10-12hs</a></li>
                 </ul>
             </div>
-            <script> 
-                var dropdown = document.querySelector(".dropdown-propio-futbo");
-                    dropdown.addEventListener("click", function() {
-                        document.querySelector(".dropdown-menu").classList.toggle("show");
-                });
-            </script>
         </section>
     </main>
     <!--BOOTSTRAP-->
@@ -1585,7 +1652,7 @@
     <script type="text/javaScript" src="javaScript/futbol.js"></script>
     <script>
         $(document).ready(function () {
-            $('#fixture-table-primera').DataTable({
+            $('#fixture-table-juveniles').DataTable({
                 info:false,
                 paging:true,
                 "lengthChange":false,
