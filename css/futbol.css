@@ -1,4 +1,10 @@
 /*PRIMERA*/
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
 #seccion-1-futbol-primera{
     height:200vh;
     background-color: #042500;
@@ -489,6 +495,11 @@
 }
 
 /*Femenino*/
+#tabla-posiciones-femenino,#tabla-posiciones-femenino-fase-permanencia{
+    font-size:1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
 #principal-primera-posiciones-femenino{
     display: flex;
     flex-direction: column;

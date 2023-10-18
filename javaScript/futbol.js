@@ -79,33 +79,4 @@ function arrancarDataTablePrimeraFinal(){
 }
 arrancarDataTablePrimeraFinal()
 
-function arrancarDataTableFemenino(){
-    $(document).ready(function () {
-        $('#fixture-table-primera-femenino').DataTable({
-            info:false,
-            paging:true,
-            "lengthChange":false,
-            "pagingType": "numbers",
-            "searching": false,
-            "pageLength":10,
-            "aaSorting":false
-        })
-    });
-}
-arrancarDataTableFemenino()
-
-function arrancarDataTableFemeninoFasePermanencia(){
-    $(document).ready(function () {
-        $('#fixture-table-femenino-permanencia').DataTable({
-            info:false,
-            paging:true,
-            "lengthChange":false,
-            "pagingType": "numbers",
-            "searching": false,
-            "pageLength":5,
-            "aaSorting":false
-        })
-    });
-}
-arrancarDataTableFemeninoFasePermanencia()
 
