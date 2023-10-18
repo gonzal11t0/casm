@@ -1,867 +1,158 @@
-@media screen and (max-width:1250px) {
-    #seccion-1-futbol-primera{
-        height:200vh;
+@media screen and (max-width:800px) {
+    .Container {
+        max-width: 600px;
     }
-    #seccion-2-futbol-primera{
-        height:100vh;
-        background-color: #042500;
-    }
-    #pagination-primera{
-        top:50vh;
-        left:40%;
-        transform:translatex(-40%);
-    }
-    #pagination-reserva{
-        top:50vh;
-        left:40%;
-        transform:translatex(-40%);
-    }
-    #campeones {
-        top:45vh;
-    }
-    #principal-infantil-posiciones{
-        top:120vh;
-    }
-    #final-reducido-primera-fixture{
+    #pagination-primera {
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        position:absolute;
-        top:70vh;
-        left:1vw;
-        width:700px;
-        padding-top:50px;
-        padding-bottom:40px;
-        height:auto;
-    }
-    #principal-primera-fixure{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        position:absolute;
-        top:110vh;
-        left:1vw;
-        width:700px;
-        padding-top:40px;
-        padding-bottom:40px;
-        height:auto;
-    }
-    #principal-primera-posiciones{
-        display: flex;
-        flex-direction:column;
-        flex-wrap: nowrap;
-        position:absolute;
-        top:160vh;
-        left:1vw;
-        width:700px;
-        padding-top:40px;
-        padding-bottom:40px;
-        height:auto;
-    }
-    #seccion-1-futbol-reserva{
-        height:200vh;
-        background-color: #042500;
-    }
-    #principal-reserva-fixure{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        position:absolute;
-        top:110vh;
-        left:51%;
-        transform: translatex(-50%);
-        width:700px;
-        padding-top:40px;
-        padding-bottom:40px;
-        min-height:500px;
-    }
-    #fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td {
-        border:3px solid black;
-        padding:6px;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size:0.9rem;
-    }
-    #principal-reserva-fixure-fase-final{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        position:absolute;
-        top:70vh;
-        left:51%;
-        transform: translatex(-50%);
-        width:700px;
-        padding-top:40px;
-        padding-bottom:40px;
-        min-height:500px;
-    }
-    #fixture-table-reserva-fase-final{
-        border:3px solid black;
-        padding:6px;
-        text-align: center;
-        color: rgb(255, 255, 255);
-        font-size:0.9rem;
-    }
-    #principal-reserva-posiciones{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        position:absolute;
-        top:170vh;
-        left:51%;
-        transform:translatex(-50%);
-        width:700px;
-        padding-top:40px;
-        padding-bottom:40px;
-        min-height:500px;
-    }
-    #tabla-posiciones-reserva{
-        font-size:1rem;
-        text-align: center;
-        color: rgb(255, 255, 255);
-    }
-    #fixture-table-primera, #fixture-table-primera td,#final-reducido-primera-fixture tr,#final-reducido-primera-fixture td,#fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td,#fixture-table-reserva-fase-final tr {
-        border:1px solid black;
-        padding:0px;
-        font-size:1.1rem;
-    }
-    .container-primera{
-        display:grid;
-        grid-template-columns:auto auto;
-        grid-template-rows:auto auto;
-        row-gap:10px;
-        width:100%;
-        height:50vh;
-    }
-    #card-primera {
-        position:relative;
-        top:10vh;
-        width:80%;
-        height:45vh;
-        padding-left:5vw;
-        margin-top:10px;
-        margin-bottom:9px;
-    }
-    #card-primera div {
+        flex-direction: row;
+        justify-content: center;
         position: absolute;
+        top: 49vh;
         width: 100%;
-        height: 100%;
+    }
+    #principal-primera-posiciones {
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-        backface-visibility: hidden;
-        transition: 1s;
+        position: absolute;
+        top: 166vh;
+        width: 100%;
+        padding-left: 0px;
     }
-    #card-primera div h1 {
-        color: #ffffff;
-        cursor: pointer;
-        font-size:1rem;
-        justify-content: center;
-        text-align: center;
+    #principal-primera-fixure {
+        top: 110vh;
+        width: 600px;
     }
-    #card-primera .front-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(0deg);
+    #final-reducido-primera-fixture {
+        top: 70vh;
+        width: 600px;
     }
-    #card-primera .back-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(180deg);
+    .container-primera {
+        column-gap: 90px;
+        row-gap: 30px;
     }
-    #card-primera:hover .front-primera {
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .back-primera {
-        transform: perspective(500px) rotateY(360deg);
+    #card-primera {
+        position: relative;
+        top: 60vh;
+        height: 35vh;
     }
     #card-primera div p {
-        font-size:1rem;
-        color: rgb(255, 254, 254);
-        left:0px;
+        font-size: 0.7rem;
     }
 }
-@media screen and (max-width:712px) {
-    #seccion-1-futbol-primera{
-        height:190vh;
+@media screen and (max-width:600px) {
+    .Container {
+        max-width:400px;
     }
-    #pagination-primera{
-        top:57vh;
-        left:40%;
-        transform:translatex(-40%);
+    #pagination-primera {
+        margin: 0 auto;
+        position: absolute;
+        top:49vh;
+        width:400px;
     }
     #pagination-primera ul li a{
-        font-size:0.7rem;
+        font-size:.8rem;
     }
-    #pagination-reserva{
-        top:60vh;
-        left:40%;
-        transform:translatex(-40%);
+    #final-reducido-primera-fixture {
+        top:70vh;
+        width:400px;
     }
-    #pagination-reserva ul li a{
-        font-size:0.7rem;
-    }
-    #campeones {
-        display: flex;
-        flex-direction: column;
-        top:35vh;
-        background: #125e2a;
-        color:#fff;
-        text-align:center;
-        font-size: .9rem;
-    }
-    #principal-primera-fixure{
-        top:60vh;
-        left:60%;
-        transform: translatex(-60%);
-        width:450px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #principal-reserva-fixure{
+    #principal-primera-fixure {
         top:110vh;
-        left:60%;
-        transform: translatex(-60%);
-        width:100%;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
+        width:400px;
+        margin: 0 auto;
     }
-    #principal-reserva-fixure-fase-final{
-        top:65vh;
-        left:60%;
-        transform: translatex(-60%);
-        width:100%;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
+    #fixture-table-primera,
+    #fixture-table-primera td,#final-reducido-primera-fixture td {
+        padding: 3px;
+        font-size:0.8rem;
     }
-    #principal-reserva-posiciones{
-        top:160vh;
-        left:60%;
-        transform: translatex(-60%);
-        width:100%;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
+    #principal-primera-posiciones {
+        top: 166vh;
+        width:400px;
     }
-    #tabla-posiciones-reserva {
-        font-size:0.7rem;
-    }
-    #principal-infantil-posiciones{
-        top:113%;
-        left:60%;
-        transform: translatex(-60%);
-        width:450px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #fixture-table-primera, #fixture-table-primera td,#fixture-table-reserva,#fixture-table-reserva td {
-        border:2px solid black;
-        padding:3px;
-        font-size:0.7rem;
-    }
-    #tabla-posiciones-primera,#principal-infantil-posiciones,#tabla-posiciones-reserva {
-        font-size:0.7rem;
-    }
-    #final-reducido-primera-fixture{
-        top:80vh;
-        left:33vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-primera-fixure{
-        top:110vh;
-        left:32vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-        -webkit-transform: translatex(-33%);
-        -moz-transform: translatex(-33%);
-        -ms-transform: translatex(-33%);
-        -o-transform: translatex(-33%);
-    }
-    #principal-primera-posiciones{
-        top:150vh;
-        left:50%;
-        transform: translatex(-50%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:500px;
-        -webkit-transform: translatex(-50%);
-        -moz-transform: translatex(-50%);
-        -ms-transform: translatex(-50%);
-        -o-transform: translatex(-50%);
-    }
-    #fixture-table-primera, #fixture-table-primera td,#final-reducido-primera-fixture tr,#final-reducido-primera-fixture td,#fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td,#fixture-table-reserva-fase-final tr {
-        border:1px solid black;
-        padding:0px;
-        font-size:0.9rem;
+    #principal-primera-posiciones td {
+        padding: 3px;
+        font-size:0.8rem;
     }
     #seccion-2-futbol-primera{
-        height:120vh;
-        background-color: #042500;
+        height:220vh;
     }
-    .container-primera{
-        display: grid;
-        grid-template-columns:auto auto;
-        grid-template-rows: auto auto;
-        row-gap:10px;
-        column-gap:10px;
-        width:100%;
-        height:10vw;
+    .container-primera {
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        row-gap:30px;
+        width:96%;
+        
     }
     #card-primera {
-        position:relative;
-        top:0vh;
-        width:100%;
-        height:36vh;
-        padding-left:0px;
-        margin-top:0px;
-        margin-bottom:0px;
+        position: relative;
+        top:100vh;
+        height:35vh;
     }
     #card-primera div h1 {
-        color: #ffffff;
-        cursor: pointer;
-        font-size:1rem;
-        justify-content: center;
-        text-align: center;
-    }
-    #card-primera .front-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(0deg);
-    }
-    #card-primera .back-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .front-primera {
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .back-primera {
-        transform: perspective(500px) rotateY(360deg);
+        font-size:0.9rem;
     }
     #card-primera div p {
         font-size:0.9rem;
-        color: rgb(255, 254, 254);
-        left:0px;
-    }
-    .dropdown-propio {
-        position: relative;
-        float: left;
-    }
-    .dropdown-menu {
-        padding:.3rem 0;
-        margin:.105rem 0 0;
-    }
-    .span-futbol{
-        display:none;
-    }
-    .span-responsive-futbol{
-        display:block;
-    }
-    #pagination-juveniles ul li a{
-        font-size:0.8rem;
     }
 }
-@media screen and (max-width:580px) {
-    #campeones {
-        top:42vh;
+@media screen and (min-width:200px) and (max-width:400px) {
+    .Container {
+        max-width:200px;
     }
-    .dropdown-propio {
-        position: relative;
-        float:right;
-        margin-top:40px;
+    #col1,#campeones{
+        display: none;
     }
-    #pagination-primera{
-        top:71vh;
-        left:30vw;
-        transform:translatex(-40%);
-        -webkit-transform:translatex(-40%);
-        -moz-transform:translatex(-40%);
-        -ms-transform:translatex(-40%);
-        -o-transform:translatex(-40%);
-    }
-    #pagination-reserva{
-        top:71vh;
-        left:30vw;
-        transform:translatex(-40%);
-        -webkit-transform:translatex(-40%);
-        -moz-transform:translatex(-40%);
-        -ms-transform:translatex(-40%);
-        -o-transform:translatex(-40%);
-    }
-    #pagination-juveniles ul li a{
-        font-size:0.8rem;
-    }
-    #pagination-reserva ul li a{
-        font-size:0.8rem;
-    }
-    #principal-reserva-fixure-fase-final{
-        top:75vh;
-        left:70vw;
-        transform: translatex(-70%);
-        width:100%;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
-    }
-    #principal-reserva-fixure{
-        top:110vh;
-        left:72vw;
-        transform: translatex(-70%);
-        width:100%;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
-        -webkit-transform: translatex(-70%);
-        -moz-transform: translatex(-70%);
-        -ms-transform: translatex(-70%);
-        -o-transform: translatex(-70%);
-    }
-    #final-reducido-primera-fixture{
-        top:110vh;
-        left:33vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-primera-fixure{
-        top:110vh;
-        left:32vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-        -webkit-transform: translatex(-33%);
-        -moz-transform: translatex(-33%);
-        -ms-transform: translatex(-33%);
-        -o-transform: translatex(-33%);
-    }
-    #principal-primera-posiciones{
-        top:150vh;
-        left:50%;
-        transform: translatex(-50%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:500px;
-        -webkit-transform: translatex(-50%);
-        -moz-transform: translatex(-50%);
-        -ms-transform: translatex(-50%);
-        -o-transform: translatex(-50%);
-    }
-    #principal-reserva-posiciones{
-        top:160vh;
-        left:70vw;
-        transform: translatex(-70%);
-        width:100%;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #fixture-table-primera, #fixture-table-primera td,#final-reducido-primera-fixture tr,#final-reducido-primera-fixture td,#fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td,#fixture-table-reserva-fase-final tr {
-        border:1px solid black;
-        padding:0px;
-        font-size:0.9rem;
-    }
-    #card-primera {
-        position:relative;
-        top:15vh;
-        width:100%;
-        height:50vh;
-        padding-left:0px;
-        margin-top:0px;
-        margin-bottom:0px;
-    }
-}
-@media screen and (max-width:450px) {
-    #campeones {
-        top:40vh;
-    }
-    #seccion-1-futbol-primera{
-        height:220vh;
-        background-color: #042500;
-    }
-    #seccion-1-futbol-juvenil{
-        height:225vh;
-        background-color: #042500;
-    }
-    #pagination-primera{
-        top:65vh;
-        left:60px;
-    }
-    #pagination-reserva{
-        top:69vh;
-        left:36vw;
-    }
-    #pagination-juveniles{
-        top:61vh;
-        left:2px;
+    #pagination-primera {
+        margin: 0 auto;
+        top:54vh;
+        width:200px;
     }
     #pagination-primera ul li a{
+        font-size:.4rem;
+    }
+    #final-reducido-primera-fixture {
+        top:70vh;
+        width:200px;
+    }
+    #principal-primera-fixure {
+        top:105vh;
+        width:200px;
+        margin: 0 auto;
+    }
+    #fixture-table-primera,
+    #fixture-table-primera td,#final-reducido-primera-fixture td {
+        padding:3px;
         font-size:0.6rem;
     }
-    #pagination-reserva ul li a{
-        font-size:0.6rem;
-    }
-    #pagination-juveniles ul li a{
-        font-size:0.6rem;
-    }
-    #final-reducido-primera-fixture{
-        top:80vh;
-        left:33vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-primera-fixure{
-        top:110vh;
-        left:32vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-        -webkit-transform: translatex(-33%);
-        -moz-transform: translatex(-33%);
-        -ms-transform: translatex(-33%);
-        -o-transform: translatex(-33%);
-    }
-    #principal-primera-posiciones{
-        top:150vh;
-        left:50%;
-        transform: translatex(-50%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:500px;
-        -webkit-transform: translatex(-50%);
-        -moz-transform: translatex(-50%);
-        -ms-transform: translatex(-50%);
-        -o-transform: translatex(-50%);
-    }
-    #principal-reserva-fixure{
-        top:75vh;
-        left:72%;
-        transform: translatex(-70%);
-        width:300px;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
-    }
-    #principal-reserva-fixure-fase-final{
-        top:73vh;
-        left:70vw;
-        transform: translatex(-70%);
-        width:100%;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
-    }
-    #principal-reserva-fixure{
-        top:100vh;
-        left:72%;
-        transform: translatex(-70%);
-        width:100%;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
-    }
-    #principal-infantil-posiciones,#principal-reserva-posiciones{
-        top:125vh;
-        left:70%;
-        transform: translatex(-70%);
-        width:300px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #principal-reserva-posiciones{
-        top:140vh;
-        left:70vw;
-        transform: translatex(-70%);
-        width:100%;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #principal-infantil-posiciones{
-        top:120vh;
-    }
-    #fixture-table-primera, #fixture-table-primera td,#final-reducido-primera-fixture tr,#final-reducido-primera-fixture td,#fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td,#fixture-table-reserva-fase-final tr {
-        border:1px solid black;
+    #fixture-table-primera tr,#final-reducido-primera-fixture tr {
         padding:0px;
         font-size:0.5rem;
     }
-    #tabla-posiciones-primera,#principal-infantil-posiciones,#tabla-posiciones-reserva {
-        font-size:0.7rem;
+    #principal-primera-posiciones {
+        top:170vh;
+        width:200px;
+    }
+    #principal-primera-posiciones td,#principal-primera-posiciones tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #fixture-table-primera th:first-child,
+    #fixture-table-primera td:first-child,
+    #fixture-table-primera tr:first-child  {
+        display: none;
     }
     #seccion-2-futbol-primera{
-        height: auto;
-        background-color: #042500;
+        display: none;
     }
-    .container-primera{
-        display: grid;
-        grid-template-columns:auto;
-        grid-template-rows: auto;
-        row-gap:10px;
-        width:100%;
-        height:max-content;
-    }
-    #card-primera {
-        position:relative;
-        top:15vh;
-        width:100%;
-        height:30vh;
-        padding-left:0px;
-        margin-top:0px;
-        margin-bottom:0px;
-    }
-    #card-primera div h1 {
-        color: #ffffff;
-        cursor: pointer;
-        font-size:1rem;
-        justify-content: center;
-        text-align: center;
-    }
-    #card-primera .front-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(0deg);
-    }
-    #card-primera .back-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .front-primera {
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .back-primera {
-        transform: perspective(500px) rotateY(360deg);
-    }
-    #card-primera div p {
-        font-size:0.8rem;
-        color: rgb(255, 254, 254);
-        left:0px;
-    }
-    #subir-primera {
-        position:fixed;
-        right:2vw;
-        padding:0;
-        width:auto;
-        top:90vh;
-        cursor:pointer;
-        text-overflow:ellipsis;
-        box-shadow:0 0px 0px 0px rgba(98, 255, 0, 0.2);
-        border-radius:5px;
-        background-color:#000000;
+    .container-primera {
+        display: none;
     }
     #subir-primera a {
         text-decoration: none;
         color:white;
-    }
-    .page-item:first-child .page-link {
-        font-size:.4rem;
-    }
-    .page-item:not(:first-child) .page-link {
-        font-size:0.4rem;
-    }
-}
-@media screen and (max-width:300px) {
-    #campeones {
-        display: none;
-    }
-    #seccion-1-futbol-primera{
-        height:230vh;
-        background-color: #042500;
-    }
-    #seccion-1-futbol-juvenil {
-        height:240vh;
-        background-color: #042500;
-    }
-    #seccion-1-futbol-infantil{
-        height:230vh;
-        background-color: #042500;
-    }
-    #pagination-primera{
-        top:78vh;
-        left:17%;
-        transform:translatex(-30%);
-    }
-    #pagination-primera ul li a{
-        font-size:0.5rem;
-    }
-    #pagination-juveniles{
-        top:65%;
-        left:17%;
-        transform:translatex(-30%);
-    }
-    #pagination-juveniles ul li a{
-        font-size:0.5rem;
-    }
-    .page-item:first-child .page-link {
-        font-size:.4rem;
-    }
-    .page-item:not(:first-child) .page-link {
-        font-size:0.4rem;
-    }
-    #final-reducido-primera-fixture{
-        top:30vh;
-        left:33vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-primera-fixure{
-        top:88vh;
-        left:32%;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-reserva-fixure-fase-final{
-        top: 88vh;
-        left:33vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-reserva-fixure{
-        top:120vh;
-        left:33vw;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
-    }
-    #principal-primera-posiciones{
-        top:130vh;
-        left:50%;
-        transform: translatex(-50%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:500px;
-        -webkit-transform: translatex(-50%);
-        -moz-transform: translatex(-50%);
-        -ms-transform: translatex(-50%);
-        -o-transform: translatex(-50%);
-    }
-    #principal-infantil-posiciones{
-        top:130%;
-        left:50%;
-        transform: translatex(-50%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:500px;
-        -webkit-transform: translatex(-50%);
-        -moz-transform: translatex(-50%);
-        -ms-transform: translatex(-50%);
-        -o-transform: translatex(-50%);
-    }
-    #principal-reserva-posiciones{
-        top:155vh;
-        left:50%;
-        transform: translatex(-50%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:500px;
-    }
-    #fixture-table-primera, #fixture-table-primera td,#final-reducido-primera-fixture tr,#final-reducido-primera-fixture td,#fixture-table-reserva,#fixture-table-reserva td,#fixture-table-reserva-fase-final td,#fixture-table-reserva-fase-final tr {
-        border:1px solid black;
-        padding:0px;
         font-size:0.7rem;
-    }/*
-    #fixture-table-primera,#fixture-table-reserva th:first-child,
-    #fixture-table-primera,#fixture-table-reserva td:first-child,
-    #fixture-table-primera,#fixture-table-reserva tr:first-child td {
-        display: none;
-    }  */
-    #tabla-posiciones-primera,#tabla-posiciones-infantil,#tabla-posiciones-reserva {
-        font-size:0.6rem;
-    }
-    #seccion-2-futbol-primera{
-        height:auto;
-        overflow:scroll;
-        background-color: #042500;
-    }
-    .container-primera{
-        display: grid;
-        grid-template-columns:auto;
-        grid-template-rows: auto;
-        row-gap:10px;
-        width:100%;
-        height:100vw;
-    }
-    #card-primera {
-        position:relative;
-        top:0vh;
-        width:100%;
-        height:140vw;
-        padding-left:0px;
-        margin-top:0px;
-        margin-bottom:0px;
-    }
-    #card-primera div h1 {
-        color: #ffffff;
-        cursor: pointer;
-        font-size:1rem;
-        justify-content: center;
-        text-align: center;
-    }
-    #card-primera .front-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(0deg);
-    }
-    #card-primera .back-primera {
-        background: rgb(16, 139, 10);
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .front-primera {
-        transform: perspective(500px) rotateY(180deg);
-    }
-    #card-primera:hover .back-primera {
-        transform: perspective(500px) rotateY(360deg);
-    }
-    #card-primera div p {
-        font-size:0.8rem;
-        color: rgb(255, 254, 254);
-        left:0px;
-    }
-    #subir-infantil {
-        position:absolute;
-        right:2vw;
-        padding:5px 10px;
-        width:auto;
-        top:240vh;
-        cursor:pointer;
-        text-overflow:ellipsis;
-        box-shadow:0 5px 20px 10px rgba(98, 255, 0, 0.2);
-        border-radius:10px;
-        background-color:#000000;
-    }
-    #subir-infantil a {
-        text-decoration: none;
-        color:white;
     }
 }
+

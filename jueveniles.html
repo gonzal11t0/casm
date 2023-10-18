@@ -134,32 +134,33 @@
     </header>
     <main>
         <section id="seccion-1-futbol-juvenil">
-            <nav id="pagination-juveniles" aria-label="Page navigation example">
-                <ul class="pagination pagination-sm pagination-lg">
-                    <li class="page-item"><a class="page-link active" href="jueveniles.html">Juveniles</a></li>
-                    <li class="page-item"><a class="page-link " href="futbol.html">Primera</a></li>
-                    <li class="page-item"><a class="page-link" href="reserva.html">Reserva</a></li>
-                    <li class="page-item"><a class="page-link" href="infantil.html">Infantiles</a></li>
-                    <li class="page-item"><a class="page-link" href="femenino.html">Femenino</a></li>
-                </ul>
-            </nav>
-            <nav id="pagination-categorias-juveniles" aria-label="Page navigation example">
-                <ul class="pagination pagination-sm pagination-lg">
-                    <li class="page-item"><a class="page-link active" href="jueveniles.html">9va</a></li>
-                    <li class="page-item"><a class="page-link" href="octava.html">8va</a></li>
-                    <li class="page-item"><a class="page-link" href="septima.html">7ma</a></li>
-                    <li class="page-item"><a class="page-link" href="sexta.html">6ta</a></li>
-                    <li class="page-item"><a class="page-link" href="quinta.html">5ta</a></li>
-                    <li class="page-item"><a class="page-link" href="cuarta.html">4ta</a></li>
-                </ul>
-            </nav>
-            <div id="campeones">
-                <div id="col1">
-                    <span class="titulo-campeon">Campeón</span><br>
-                    <a><img src="./img/iconos-clubes/acassuso.png">Acassuso</a>
+            <div class="Container">
+                <div id="campeones">
+                    <div id="col1">
+                        <span class="titulo-campeon">Campeón</span><br>
+                        <a><img src="./img/iconos-clubes/acassuso.png">Acassuso</a>
+                    </div>
                 </div>
-            </div>
-            <div id="principal-juveniles-posiciones">
+                <nav id="pagination-juveniles" aria-label="Page navigation example">
+                    <ul class="pagination pagination-sm pagination-lg">
+                        <li class="page-item"><a class="page-link active" href="jueveniles.html">Juveniles</a></li>
+                        <li class="page-item"><a class="page-link " href="futbol.html">Primera</a></li>
+                        <li class="page-item"><a class="page-link" href="reserva.html">Reserva</a></li>
+                        <li class="page-item"><a class="page-link" href="infantil.html">Infantiles</a></li>
+                        <li class="page-item"><a class="page-link" href="femenino.html">Femenino</a></li>
+                    </ul>
+                </nav>
+                <nav id="pagination-categorias-juveniles" aria-label="Page navigation example">
+                    <ul class="pagination pagination-sm pagination-lg">
+                        <li class="page-item"><a class="page-link active" href="jueveniles.html">9va</a></li>
+                        <li class="page-item"><a class="page-link" href="octava.html">8va</a></li>
+                        <li class="page-item"><a class="page-link" href="septima.html">7ma</a></li>
+                        <li class="page-item"><a class="page-link" href="sexta.html">6ta</a></li>
+                        <li class="page-item"><a class="page-link" href="quinta.html">5ta</a></li>
+                        <li class="page-item"><a class="page-link" href="cuarta.html">4ta</a></li>
+                    </ul>
+                </nav>
+                <div id="principal-juveniles-posiciones">
                     <table id="tabla-posiciones-juveniles"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
                             <tr>
@@ -366,8 +367,8 @@
                             </tr>
                         </tbody>
                     </table>
-            </div>
-            <div id="principal-juveniles-fixture">
+                </div>
+                <div id="principal-juveniles-fixture">
                     <table id="fixture-table-juveniles"  class="table table-striped table-responsive table-responsive-lg" >
                     <thead>
                         <tr>
@@ -1768,21 +1769,8 @@
                         </tbody>
                     </table>
             </div>
-            <div class="dropdown dropdown-propio-futbol">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                    <span class="span-futbol">Entrenamiento</span>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end dropdown-menu-lg-start dropdown-menu-sm-end">
-                    <span class="span-responsive-futbol">Entrenamiento</span>
-                    <li><a class="dropdown-item">Lun  -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Mar  -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Mier -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Jue  -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Vier -- 10-12hs</a></li>
-                </ul>
-            </div>
         </section>
+        
     </main>
     <!--BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -1796,7 +1784,7 @@
     <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
     <!--JAVASCRIPT -->
     <script type="text/javaScript" src="javaScript/menuHaburgesa.js"></script>
-    <script type="text/javaScript" src="javaScript/futbol.js"></script>
+    <script type="text/javaScript" src="javaScript/jueveniles.js"></script>
     <script>
         $(document).ready(function () {
             $('#fixture-table-juveniles').DataTable({
