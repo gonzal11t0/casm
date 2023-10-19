@@ -1,3 +1,10 @@
+.Container{
+    display: flex;
+    flex-direction:row;
+    max-width:800px;
+    height:auto;
+    margin: 0 auto;
+}
 #seccion-1-tenis{
     height:200vh;
     background-color: #042500;
@@ -16,40 +23,40 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:50%;
-    left:50%;
-    transform: translatex(-50%);
-    width:700px;
+    top:50vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-2-tenis-fixure{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:90%;
-    left:50%;
-    transform: translatex(-50%);
-    width:700px;
+    top:100vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-3-tenis-fixure{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:130%;
-    left:50%;
-    transform: translatex(-50%);
-    width:700px;
+    top:140vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #fixture-table-tenis, #fixture-table-tenis-2,#fixture-table-tenis-3, #fixture-table-tenis td, #fixture-table-tenis-2 td,#fixture-table-tenis-3 td  {
     border:3px solid black;
@@ -57,50 +64,4 @@
     text-align: center;
     color: rgb(255, 255, 255);
     font-size:0.9rem;
-}
-.dropdown-propio-futbol {
-    position: relative;
-    display: inline-block;
-    float: right;
-}
-.dropdown-menu {
-    position: absolute;
-    top:100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width:8rem;
-    padding: .5rem 0;
-    margin: .125rem 0 0;
-    font-size: 1rem;
-    color: #212529;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
-}
-.span-responsive-futbol{
-    display: none;
-}
-.dropdown-menu-dark {
-    background-color: #343a40;
-    color: rgba(255,255,255,.9);
-}
-.dropdown-menu-lg-end {
-    right: 0;
-    left: auto;
-}
-.dropdown-menu-lg-start {
-    right: auto;
-    left: 0;
-}
-.dropdown-menu-sm-end {
-    right: 0;
-    left: auto;
-}
-.dropdown-menu.show {
-    display: block;
 }

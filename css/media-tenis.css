@@ -1,134 +1,83 @@
-@media screen and (max-width:700px) {
-    #principal-tenis-fixure{
-        top:52%;
-        left:60%;
-        transform: translatex(-60%);
-        width:450px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #principal-2-tenis-fixure{
-        top:100%;
-        left:60%;
-        transform: translatex(-60%);
-        width:450px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #principal-3-tenis-fixure{
-        top:160%;
-        left:60%;
-        transform: translatex(-60%);
-        width:450px;
-        padding-top:20px;
-        padding-bottom:20px;
-        min-height:500px;
-    }
-    #fixture-table-tenis,#fixture-table-tenis-2,#fixture-table-tenis-3, #fixture-table-tenis td, #fixture-table-tenis-2 td,#fixture-table-tenis-3 td {
-        border:2px solid black;
-        padding:3px;
-        font-size:0.7rem;
-    }
-    .dropdown-propio {
-        position: relative;
-        float: left;
-    }
-    .dropdown-menu {
-        padding:.3rem 0;
-        margin:.105rem 0 0;
-    }
-    .span-futbol{
-        display:none;
-    }
-    .span-responsive-futbol{
-        display:block;
-    }
-}
-@media screen and (max-width:580px) {
-    .dropdown-propio {
-        position: relative;
-        float:right;
-        margin-top:40px;
+@media  screen and (max-width:800px) {
+    .Container{
+        max-width: 600px;
     }
     #principal-tenis-fixure{
-        top:58%;
-        left:70%;
-        transform: translatex(-70%);
-        width:300px;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
+        width:600px;
     }
     #principal-2-tenis-fixure{
-        top:110%;
-        left:70%;
-        transform: translatex(-70%);
-        width:300px;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
+        width:600px;
+        top:110vh;
     }
     #principal-3-tenis-fixure{
-        top:160%;
-        left:70%;
-        transform: translatex(-70%);
-        width:300px;
-        padding-top:10px;
-        padding-bottom:10px;
-        min-height:200px;
+        width:600px;
+        top:180vh;
     }
 }
-@media screen and (max-width:450px) {
-    #fixture-table-tenis,#fixture-table-tenis-2,#fixture-table-tenis-3, #fixture-table-tenis td, #fixture-table-tenis-2 td,#fixture-table-tenis-3 td {
-        border:2px solid black;
-        padding:3px;
-        font-size:0.6rem;
+@media  screen and (max-width:600px) {
+    .Container{
+        max-width:400px;
     }
-    .dropdown-propio {
-        position: relative;
-        float:right;
-        margin-top:40px;
-    }
-}
-@media screen and (max-width:300px) {
     #principal-tenis-fixure{
-        top:78%;
-        left:33%;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
+        width:400px;
     }
     #principal-2-tenis-fixure{
-        top:110%;
-        left:33%;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
+        width:400px;
+        top:110vh;
     }
     #principal-3-tenis-fixure{
-        top:140%;
-        left:33%;
-        transform: translatex(-33%);
-        width:100%;
-        padding-top:0px;
-        padding-bottom:0px;
-        min-height:200px;
+        width:400px;
+        top:180vh;
     }
-    #fixture-table-tenis,#fixture-table-tenis-2,#fixture-table-tenis-3, #fixture-table-tenis td, #fixture-table-tenis-2 td,#fixture-table-tenis-3 td     {
-        border:0px solid black;
-        padding:0px;
-        font-size:0.4rem;
+}
+@media screen and (min-width: 200px) and (max-width: 400px) {
+    .Container {
+        max-width: 200px;
     }
-    .page-item:first-child .page-link {
+    #principal-tenis-fixure,
+    #principal-2-tenis-fixure,
+    #principal-3-tenis-fixure {
+        width:200px;
+        margin: 0 auto;
+    }
+    #fixture-table-tenis,
+    #fixture-table-tenis-2,
+    #fixture-table-tenis-3 {
+        border: 1px solid black;
+        padding: 2px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 0.5rem;
+    }
+    #fixture-table-tenis tr,
+    #fixture-table-tenis-2 tr,
+    #fixture-table-tenis-3 tr {
+        border: 1px solid black;
+        padding: 1px;
+        text-align: center;
+        color: rgb(255, 255, 255);
         font-size:0.5rem;
     }
-    .page-item:not(:first-child) .page-link {
-        font-size:0.5rem;
+    #fixture-table-tenis th:first-child,
+    #fixture-table-tenis td:first-child,
+    #fixture-table-tenis tr:first-child,
+    #fixture-table-tenis-2 th:first-child,
+    #fixture-table-tenis-2 td:first-child,
+    #fixture-table-tenis-2 tr:first-child,
+    #fixture-table-tenis-3 th:first-child,
+    #fixture-table-tenis-3 td:first-child,
+    #fixture-table-tenis-3 tr:first-child {
+        display: none;
+    }
+    .page-link {
+        position: relative;
+        display: block;
+        padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+        font-size: 0.5rem;
+        color: var(--bs-pagination-color);
+        text-decoration: none;
+        background-color: var(--bs-pagination-bg);
+        border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
 }
