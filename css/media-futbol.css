@@ -1,4 +1,5 @@
 @media screen and (max-width:800px) {
+    /*PRIMERA*/
     .Container {
         max-width:600px;
     }
@@ -39,8 +40,27 @@
     #card-primera div p {
         font-size: 0.7rem;
     }
+    /*RESERVA*/
+    #pagination-reserva {
+        margin: 0 auto;
+        top: 49vh;
+        width: 100%;
+    }
+    #principal-reserva-fixure-fase-final{
+        top:65vh;
+        width:600px;
+    }
+    #principal-reserva-fixure{
+        top:100vh;
+        width:600px;
+    }
+    #principal-reserva-posiciones{
+        top:170vh;
+        width:600px;
+    }
 }
 @media screen and (max-width:600px) {
+    /*PRIMERA*/
     .Container {
         max-width:400px;
     }
@@ -96,8 +116,28 @@
     #card-primera div p {
         font-size:0.9rem;
     }
+    /*RESERVA*/
+    #pagination-reserva {
+        margin: 0 auto;
+        position: absolute;
+        top:50vh;
+        width:400px;
+    }
+    #principal-reserva-fixure-fase-final{
+        top:70vh;
+        width:400px;
+    }
+    #principal-reserva-fixure{
+        top:110vh;
+        width:400px;
+    }
+    #principal-reserva-posiciones{
+        top:180vh;
+        width:400px;
+    }
 }
 @media screen and (min-width:200px) and (max-width:400px) {
+    /*PRIMERA*/
     .Container {
         max-width:200px;
     }
@@ -153,6 +193,58 @@
         text-decoration: none;
         color:white;
         font-size:0.7rem;
+    }
+    /*RESERVA*/
+    #pagination-reserva {
+        margin: 0 auto;
+        top:65vh;
+        width:200px;
+    }
+    #pagination-reserva ul li a{
+        font-size:.4rem;
+    }
+    #principal-reserva-fixure-fase-final{
+        top:70vh;
+        width:200px;
+    }
+    #principal-primera-fixure-fase-final {
+        top:70vh;
+        width:200px;
+    }
+    #principal-reserva-fixure {
+        top:105vh;
+        width:200px;
+        margin:0 auto;
+    }
+    #fixture-table-reserva,
+    #fixture-table-reserva td,#fixture-table-reserva-fase-final td {
+        padding:3px;
+        font-size:0.6rem;
+    }
+    #fixture-table-reserva tr,#fixture-table-reserva-fase-final tr {
+        padding:0px;
+        font-size:0.5rem;
+    }
+    #fixture-table-reserva th:first-child,
+    #fixture-table-reserva td:first-child,
+    #fixture-table-reserva tr:first-child  {
+        display: none;
+    }
+    #fixture-table-reserva-fase-final th:first-child,
+    #fixture-table-reserva-fase-final td:first-child,
+    #fixture-table-reserva-fase-final tr:first-child  {
+        display: none;
+    }
+    #principal-reserva-posiciones {
+        top:170vh;
+        width:200px;
+    }
+    #principal-reserva-posiciones td,#principal-reserva-posiciones tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    .page-link {
+        font-size: 0.5rem;
     }
 }
 
