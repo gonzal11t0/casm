@@ -58,6 +58,25 @@
         top:170vh;
         width:600px;
     }
+    /*JUVENILES*/
+    #pagination-juveniles{
+        margin: 0 auto;
+        top:47vh;
+        width:100%;
+    }
+    #pagination-categorias-juveniles{
+        margin: 0 auto;
+        top:53vh;
+        width: 100%;
+    }
+    #principal-juveniles-posiciones{
+        top:160vh;
+        width:600px;
+    }
+    #principal-juveniles-fixture{
+        top:70vh;
+        width:600px;
+    }
 }
 @media screen and (max-width:600px) {
     /*PRIMERA*/
@@ -133,6 +152,25 @@
     }
     #principal-reserva-posiciones{
         top:180vh;
+        width:400px;
+    }
+    /*JUVENILES*/
+    #pagination-juveniles{
+        margin: 0 auto;
+        top:47vh;
+        width:100%;
+    }
+    #pagination-categorias-juveniles{
+        margin: 0 auto;
+        top:53vh;
+        width: 100%;
+    }
+    #principal-juveniles-posiciones{
+        top:160vh;
+        width:400px;
+    }
+    #principal-juveniles-fixture{
+        top:70vh;
         width:400px;
     }
 }
@@ -245,6 +283,41 @@
     }
     .page-link {
         font-size: 0.5rem;
+    }
+    /*JUVENILES*/
+    #pagination-juveniles {
+        margin: 0 auto;
+        top:65vh;
+        width:200px;
+    }
+    #pagination-juveniles ul li a{
+        font-size:.4rem;
+    }
+    #principal-juveniles-posiciones{
+        top:160vh;
+        width:200px;
+    }
+    #principal-juveniles-fixture{
+        top:70vh;
+        width:200px;
+    }
+    #fixture-table-juveniles,
+    #fixture-table-juveniles td{
+        padding:3px;
+        font-size:0.6rem;
+    }
+    #fixture-table-juveniles tr{
+        padding:0px;
+        font-size:0.5rem;
+    }
+    #fixture-table-juveniles th:first-child,
+    #fixture-table-juveniles td:first-child,
+    #fixture-table-juveniles tr:first-child  {
+        display: none;
+    }
+    #principal-juveniles-posiciones td,#principal-juveniles-posiciones tr {
+        padding:1px;
+        font-size:0.5rem;
     }
 }
 
