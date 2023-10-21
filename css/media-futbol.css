@@ -81,6 +81,13 @@
         padding:0px;
         font-size:0.8rem;
     }
+    /*INFANTILES*/
+    #principal-infantil-posiciones{
+        width:600px;
+    }
+    #principal-infantil-fixture{
+        width:600px;
+    }
 }
 @media screen and (max-width:600px) {
     /*PRIMERA*/
@@ -175,6 +182,14 @@
     }
     #principal-juveniles-fixture{
         top:70vh;
+        width:400px;
+    }
+    /*INFANTILES*/
+    #principal-infantil-posiciones{
+        width:400px;
+        top:180vh;
+    }
+    #principal-infantil-fixture{
         width:400px;
     }
 }
@@ -322,6 +337,37 @@
     #principal-juveniles-posiciones td,#principal-juveniles-posiciones tr {
         padding:1px;
         font-size:0.5rem;
+    }
+    /*INFANTILES*/
+    #principal-infantil-posiciones{
+        width:200px;
+        top:150vh;
+    }
+    #principal-infantil-fixture{
+        width:200px;
+        }
+    #fixture-table-infantil tr{
+        padding:0px;
+        font-size:0.5rem;
+    }
+    #fixture-table-infantil,
+    #fixture-table-infantil td{
+        padding:3px;
+        font-size:0.6rem;
+    }
+    #fixture-table-infantil th:first-child,
+    #fixture-table-infantil td:first-child,
+    #fixture-table-infantil tr:first-child  {
+        display: none;
+    }
+    #subir-infantil {
+        position: fixed;
+        top:94vh;
+}
+    #subir-infantil a {
+        text-decoration: none;
+        color:white;
+        font-size:0.7rem;
     }
 }
 
