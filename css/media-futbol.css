@@ -77,9 +77,9 @@
         top:70vh;
         width:600px;
     }
-    #fixture-table-juveniles tr{
+    #fixture-table-juveniles td{
         padding:0px;
-        font-size:.3.8rem;
+        font-size:0.8rem;
     }
 }
 @media screen and (max-width:600px) {
