@@ -455,11 +455,11 @@
     font-size:0.9rem;
 }
 #subir-infantil {
-    position:absolute;
+    position:fixed;
     right:2vw;
     padding:5px 10px;
     width:auto;
-    top:216vh;
+    top:90vh;
     cursor:pointer;
     text-overflow:ellipsis;
     box-shadow:0 5px 20px 10px rgba(98, 255, 0, 0.2);
