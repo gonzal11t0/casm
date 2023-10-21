@@ -77,6 +77,10 @@
         top:70vh;
         width:600px;
     }
+    #fixture-table-primera tr,#final-reducido-primera-fixture tr {
+        padding:0px;
+        font-size:.3.8rem;
+    }
 }
 @media screen and (max-width:600px) {
     /*PRIMERA*/
