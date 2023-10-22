@@ -223,6 +223,10 @@
     padding-bottom:40px;
     height:auto;
 }
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    --bs-table-accent-bg: var(--bs-table-striped-bg);
+    color: #ffffff;
+}
 /*Conferencia 3*/
 #conferencia3-basquet-posiciones-u17{
     display: flex;

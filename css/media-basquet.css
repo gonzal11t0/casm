@@ -45,6 +45,53 @@
     #conferencia3-basquet-fixture-u17{
         width:600px;
     }
+    /*U15*/
+    #principal-basquet-fixure-u15{
+        width:600px;
+    }
+    #principal-basquet-posiciones-u15{
+        width:600px;
+    }
+    #conferencia1-basquet-posiciones-u15{
+        width:600px;
+    }
+    #conferencia1-basquet-fixture-u15{
+        width:600px;
+    }
+    /*U13*/
+    #principal-basquet-fixure-u13{
+        width:600px;
+    }
+    #principal-basquet-posiciones-u13{
+        width:600px;
+    }
+    #conferencia1-basquet-posiciones-u13{
+        width:600px;
+    }
+    #conferencia1-basquet-fixture-u13{
+        top:70vh;
+        width:600px;
+    }
+    /*U12*/
+    #principal-basquet-fixure-u12{
+        width:600px;
+    }
+    #principal-basquet-posiciones-u12{
+        width:600px;
+    }
+    #conferencia1-basquet-posiciones-u12{
+        width:600px;
+    }
+    #conferencia1-basquet-fixture-u12{
+        width:600px;
+    }
+    /*U+41*/
+    #principal-basquet-fixure-u41{
+        width:600px;
+    }
+    #principal-basquet-posiciones-u41{
+        width:600px;
+    }
 }
 @media screen and (max-width:600px) {
     /*U23*/
@@ -79,32 +126,86 @@
     /*U19*/
     #principal-basquet-fixure-u19 {
         width:400px;
+        top:200vh;
     }
     #principal-basquet-posiciones-u19{
         width:400px;
+        top:260vh;
     }
     #conferencia1-basquet-fixture {
         width:400px;
     }
     #conferencia1-basquet-posiciones{
         width:400px;
-        top:100vh;
+        top:130vh;
     }
     /*U17*/
     #principal-basquet-fixure-u17{
         width:400px;
-        top:160vh;
+        top:190vh;
     }
     #principal-basquet-posiciones-u17{
         width:400px;
-        top:230vh;
+        top:260vh;
     }
     #conferencia3-basquet-posiciones-u17{
         width:400px;
-        top:120vh;
+        top:130vh;
     }
     #conferencia3-basquet-fixture-u17{
         width:400px;
+    }
+    /*U15*/
+    #principal-basquet-fixure-u15{
+        width:400px;
+    }
+    #principal-basquet-posiciones-u15{
+        width:400px;
+    }
+    #conferencia1-basquet-posiciones-u15{
+        width:400px;
+
+    }
+    #conferencia1-basquet-fixture-u15{
+        width:400px;
+        top:65vh;
+    }
+    /*U13*/
+    #principal-basquet-fixure-u13{
+        width:400px;
+    }
+    #principal-basquet-posiciones-u13{
+        width:400px;
+    }
+    #conferencia1-basquet-posiciones-u13{
+        width:400px;
+        top:120vh;
+    }
+    #conferencia1-basquet-fixture-u13{
+        top:70vh;
+        width:400px;
+    }
+    /*U12*/
+    #principal-basquet-fixure-u12{
+        width:400px;
+    }
+    #principal-basquet-posiciones-u12{
+        width:400px;
+    }
+    #conferencia1-basquet-posiciones-u12{
+        width:400px;
+        top: 115vh;
+    }
+    #conferencia1-basquet-fixture-u12{
+        width:400px;
+    }
+    /*u+41*/
+    #principal-basquet-fixure-u41{
+        width:400px;
+    }
+    #principal-basquet-posiciones-u41{
+        width:400px;
+        TOP: 160VH;
     }
 }
 @media screen and (min-width:200px)  and (max-width:400px) {
@@ -195,7 +296,7 @@
             padding:0px;
             font-size:0.5rem;
     }
-        /*U17*/
+    /*U17*/
     #principal-basquet-fixure-u17{
         width:200px;
         top:160vh;
@@ -211,8 +312,6 @@
     #conferencia3-basquet-fixture-u17{
         width:200px;
     }
-
-
     #conferencia3-basquet-posiciones-u17 img,#conferencia3-basquet-posiciones-u17 img{
         display: none;
     }
@@ -232,5 +331,136 @@
     #principal-basquet-fixure-u17 tr,#conferencia3-fixture-table-basquet-u17 tr {
             padding:0px;
             font-size:0.5rem;
+    }
+    /*U15*/
+    #principal-basquet-fixure-u15{
+        width:200px;
+        top:140vh;
+    }
+    #principal-basquet-posiciones-u15{
+        width:200px;
+        top:190vh;
+    }
+    #conferencia1-basquet-posiciones-u15{
+        width:200px;
+    }
+    #conferencia1-basquet-fixture-u15{
+        width:200px;
+        top:65vh;
+    }
+    #principal-basquet-posiciones-u15 img,#conferencia1-basquet-posiciones-u15 img{
+        display: none;
+    }
+    #principal-basquet-posiciones-u15 td,#principal-basquet-posiciones-u15 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #conferencia1-basquet-posiciones-u15 td,#conferencia1-basquet-posiciones-u15 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #principal-basquet-fixure-u15 tr,#conferencia1-fixture-table-basquet-u15 tr {
+        padding:0px;
+        font-size:0.5rem;
+    }
+    #fixture-table-basquet,
+    #fixture-table-basquet td,#conferencia3-fixture-table-basquet-u17 td {
+            padding:3px;
+            font-size:0.6rem;
+    }
+    /*U13*/
+    #principal-basquet-fixure-u13{
+        width:200px;
+        top:140vh;
+    }
+    #principal-basquet-posiciones-u13{
+        width:200px;
+        top:190vh;
+    }
+    #conferencia1-basquet-posiciones-u13{
+        width:200px;
+        top:120vh;
+    }
+    #conferencia1-basquet-fixture-u13{
+        top:65vh;
+        width:200px;
+    }
+    #principal-basquet-posiciones-u13 img,#conferencia1-basquet-posiciones-u13 img{
+            display: none;
+    }
+    #principal-basquet-posiciones-u13 td,#principal-basquet-posiciones-u13 tr {
+            padding:1px;
+            font-size:0.5rem;
+    }
+    #conferencia1-basquet-posiciones-u13 td,#conferencia1-basquet-posiciones-u13 tr {
+            padding:1px;
+            font-size:0.5rem;
+    }
+    #principal-basquet-fixure-u13 tr,#conferencia1-fixture-table-basquet-u13 tr {
+            padding:0px;
+            font-size:0.5rem;
+    }
+    #fixture-table-basquet,
+    #fixture-table-basquet td,#conferencia3-fixture-table-basquet-u17 td {
+                padding:3px;
+                font-size:0.6rem;
+    }
+    /*U12*/
+    #principal-basquet-fixure-u12{
+        width:200px;
+        top:180vh;
+    }
+    #principal-basquet-posiciones-u12{
+        width:200px;
+        top:150vh;
+    }
+    #conferencia1-basquet-posiciones-u12{
+        width:200px;
+    }
+    #conferencia1-basquet-fixture-u12{
+        width:200px;
+    }
+    #principal-basquet-posiciones-u12 img,#conferencia1-basquet-posiciones-u12 img{
+        display: none;
+    }
+    #principal-basquet-posiciones-u12 td,#principal-basquet-posiciones-u12 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #conferencia1-basquet-posiciones-u12 td,#conferencia1-basquet-posiciones-u12 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #principal-basquet-fixure-u12 tr,#conferencia1-fixture-table-basquet-u12 tr {
+        padding:0px;
+        font-size:0.5rem;
+    }
+    #fixture-table-basquet,
+    #fixture-table-basquet td,#conferencia3-fixture-table-basquet-u12 td {
+        padding:3px;
+        font-size:0.6rem;
+    }
+    /*u+41*/
+    #principal-basquet-fixure-u41{
+        width:200px;
+    }
+    #principal-basquet-posiciones-u41{
+        width:200px;
+    }
+    #principal-basquet-posiciones-u41 imG{
+        display: none;
+    }
+    #principal-basquet-posiciones-u41 td,#principal-basquet-posiciones-u41 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #principal-basquet-fixure-u41 tr{
+        padding:0px;
+        font-size:0.5rem;
+    }
+    #fixture-table-basquet-u41,
+    #fixture-table-basquet-u41 td{
+        padding:3px;
+        font-size:0.4rem;
     }
 }
