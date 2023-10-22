@@ -88,6 +88,28 @@
     #principal-infantil-fixture{
         width:600px;
     }
+    /*FEMENINO*/
+    #principal-primera-posiciones-femenino{
+        width:600px;
+        top:240vh;
+    }
+    #principal-primera-fixure-femenino{
+        width:600px;
+    }
+    #fase-permanencia-primera-posiciones-femenino{
+        width:600px;
+        top:120vh;
+    }
+    #fase-permanencia-primera-fixure-femenino{
+        width:600px;
+    }
+    .container-primera-femenino {
+        column-gap: 90px;
+        row-gap: 30px;
+    }
+    #card-primera-femenino {
+        top:130vh;
+    }
 }
 @media screen and (max-width:600px) {
     /*PRIMERA*/
@@ -133,7 +155,6 @@
         grid-template-rows:auto;
         row-gap:30px;
         width:96%;
-        
     }
     #card-primera {
         position: relative;
@@ -191,6 +212,40 @@
     }
     #principal-infantil-fixture{
         width:400px;
+    }
+    /*FEMENINO*/
+    #principal-primera-posiciones-femenino{
+        width:400px;
+        top:255vh;
+    }
+    #principal-primera-fixure-femenino{
+        width:400px;
+        top:180vh;
+    }
+    #fase-permanencia-primera-posiciones-femenino{
+        width:400px;
+        top:125vh;
+    }
+    #fase-permanencia-primera-fixure-femenino{
+        width:400px;
+    }
+    #seccion-2-futbol-primera-femenino{
+        height:290vh;
+    }
+    .container-primera-femenino {
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        row-gap:30px;
+        width:96%;
+    }
+    #card-primera-femenino {
+        top:150vh;
+    }
+    #card-primera-femenino div h1 {
+        font-size:0.9rem;
+    }
+    #card-primera-femenino div p {
+        font-size:0.9rem;
     }
 }
 @media screen and (min-width:200px) and (max-width:400px) {
@@ -345,7 +400,7 @@
     }
     #principal-infantil-fixture{
         width:200px;
-        }
+    }
     #fixture-table-infantil tr{
         padding:0px;
         font-size:0.5rem;
@@ -361,6 +416,69 @@
         display: none;
     }
     #subir-infantil a {
+        text-decoration: none;
+        color:white;
+        font-size:0.7rem;
+    }
+    /*FEMENINO*/
+    #principal-primera-posiciones-femenino{
+        width:200px;
+        top:280vh;
+    }
+    #principal-primera-posiciones-femenino td,#principal-primera-posiciones-femenino tr {
+            padding:1px;
+            font-size:0.5rem;
+    }
+    #fase-permanencia-primera-posiciones-femenino img{
+            display: none;
+    }
+    #principal-primera-fixure-femenino{
+            width:200px;
+            top:180vh;
+    }
+    #fixture-table-primera-femenino,#fase-permanencia-primera-posiciones-femenino
+    #fixture-table-primera-femenino td,#fixture-table-femenino-permanencia td,#fase-permanencia-primera-posiciones-femenino tr,#fase-permanencia-primera-posiciones-femeninotd {
+            padding:3px;
+            font-size:0.6rem;
+    }
+    #fixture-table-primera-femenino tr,#fixture-table-femenino-permanencia tr {
+            padding:0px;
+            font-size:0.5rem;
+    }
+    #fixture-table-femenino-permanencia th:first-child,
+    #fixture-table-femenino-permanencia td:first-child,
+    #fixture-table-femenino-permanencia tr:first-child  {
+            display: none;
+    }
+    #fixture-table-femenino-permanencia, #fixture-table-femenino-permanencia td {
+            border: 3px solid black;
+            padding: 6px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 0.6rem;
+    }
+    #fixture-table-primera-femenino th:first-child,
+    #fixture-table-primera-femenino td:first-child,
+    #fixture-table-primera-femenino tr:first-child  {
+            display: none;
+    }
+    #fase-permanencia-primera-posiciones-femenino{
+            width:200px;
+            top:125vh;
+    }
+    #fase-permanencia-primera-fixure-femenino{
+            width:200px;
+    }
+    #seccion-2-futbol-primera-femenino{
+        height:50vh;
+    }
+    .container-primera-femenino {
+            display: none;
+    }
+    #subir-primera-femenino {
+        top:96vh;
+    }
+    #subir-primera-femenino a {
         text-decoration: none;
         color:white;
         font-size:0.7rem;

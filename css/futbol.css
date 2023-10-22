@@ -479,7 +479,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:230vh;
+    top:240vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -565,7 +565,7 @@
 }
 #card-primera-femenino {
     position:relative;
-    top:120vh;
+    top:130vh;
     width:100%;
     height:46vh;
     margin: 0 auto;
@@ -614,7 +614,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:110vh;
+    top:120vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
