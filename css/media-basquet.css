@@ -1,3 +1,236 @@
 @media screen and (max-width:800px) {
-    
+    /*u23*/
+    .Container{
+        max-width:600px;
+    }
+    #principal-basquet-fixure {
+        width:600px;
+    }
+    #playOff-basquet-fixture {
+        width:600px;
+    }
+    #principal-basquet-posiciones{
+        width:600px;
+    }
+    #playOff-basquet-posiciones{
+        width:600px;
+    }
+    /*u19*/
+    #principal-basquet-fixure-u19 {
+        width:600px;
+    }
+    #principal-basquet-posiciones-u19{
+        width:600px;
+    }
+    #conferencia1-basquet-fixture {
+        width:600px;
+    }
+    #conferencia1-basquet-posiciones{
+        width:600px;
+        top:100vh;
+    }
+    /*U17*/
+    #principal-basquet-fixure-u17{
+        width:600px;
+        padding-bottom:40px;
+        height:auto;
+    }
+    #principal-basquet-posiciones-u17{
+        width:600px;
+    }
+    #conferencia3-basquet-posiciones-u17{
+        width:600px;
+        top:100vh;
+    }
+    #conferencia3-basquet-fixture-u17{
+        width:600px;
+    }
+}
+@media screen and (max-width:600px) {
+    /*U23*/
+    .Container{
+        max-width:400px;
+    }
+    #pagination-basquet{
+        margin: 0 auto;
+        position: absolute;
+        top:49vh;
+        width:400px;
+    }
+    #principal-basquet-fixure {
+        width:400px;
+        margin: 0 auto;
+        top:200vh;
+    }
+    #playOff-basquet-fixture {
+        width:400px;
+        margin: 0 auto;
+    }
+    #principal-basquet-posiciones{
+        width:400px;
+        margin: 0 auto;
+        top:260vh;
+    }
+    #playOff-basquet-posiciones{
+        width:400px;
+        margin: 0 auto;
+        top:130vh;
+    }
+    /*U19*/
+    #principal-basquet-fixure-u19 {
+        width:400px;
+    }
+    #principal-basquet-posiciones-u19{
+        width:400px;
+    }
+    #conferencia1-basquet-fixture {
+        width:400px;
+    }
+    #conferencia1-basquet-posiciones{
+        width:400px;
+        top:100vh;
+    }
+    /*U17*/
+    #principal-basquet-fixure-u17{
+        width:400px;
+        top:160vh;
+    }
+    #principal-basquet-posiciones-u17{
+        width:400px;
+        top:230vh;
+    }
+    #conferencia3-basquet-posiciones-u17{
+        width:400px;
+        top:120vh;
+    }
+    #conferencia3-basquet-fixture-u17{
+        width:400px;
+    }
+}
+@media screen and (min-width:200px)  and (max-width:400px) {
+    .Container{
+        max-width:200px;
+    }
+    /* u23*/
+    #pagination-basquet {
+        margin: 0 auto;
+        top:54vh;
+        width:200px;
+    }
+    #pagination-basquet ul li a{
+        font-size:.4rem;
+    }
+    #principal-basquet-fixure {
+        width:200px;
+        margin: 0 auto;
+        top:230vh;
+    }
+    #playOff-basquet-fixture {
+        width:200px;
+        margin: 0 auto;
+    }
+    #principal-basquet-posiciones{
+        width:200px;
+        margin: 0 auto;
+        top:280vh;
+    }
+    #principal-basquet-posiciones img,#playOff-basquet-posiciones img{
+        display: none;
+    }
+    #playOff-basquet-posiciones{
+        width:200px;
+        margin: 0 auto;
+        top:130vh;
+    }
+    #principal-basquet-posiciones td,#principal-basquet-posiciones tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #playOff-basquet-posiciones td,#playOff-basquet-posiciones tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #fixture-table-basquet,
+    #fixture-table-basquet td,#playOff-basquet-fixture td {
+        padding:3px;
+        font-size:0.6rem;
+    }
+    #fixture-table-basquet tr,#playOff-basquet-fixture tr {
+        padding:0px;
+        font-size:0.5rem;
+    }
+    /*U19*/
+    #principal-basquet-fixure-u19 {
+        width:200px;
+        top:130vh;
+    }
+    #principal-basquet-posiciones-u19{
+        width:200px;
+        top:170vh;
+    }
+    #conferencia1-basquet-fixture {
+        width:200px;
+    }
+    #conferencia1-basquet-posiciones{
+        width:200px;
+        top:100vh;
+    }
+    #principal-basquet-posiciones-u19 img,#conferencia1-basquet-posiciones img{
+        display: none;
+    }
+    #principal-basquet-posiciones-u19 td,#principal-basquet-posiciones-u19 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #conferencia1-basquet-posiciones td,#conferencia1-basquet-posiciones tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #fixture-table-basquet,
+    #fixture-table-basquet td,#fixture-table-basquet-conferencia1 td {
+            padding:3px;
+            font-size:0.6rem;
+    }
+    #principal-basquet-fixure-u19 tr,#conferencia1-basquet-fixture tr {
+            padding:0px;
+            font-size:0.5rem;
+    }
+        /*U17*/
+    #principal-basquet-fixure-u17{
+        width:200px;
+        top:160vh;
+    }
+    #principal-basquet-posiciones-u17{
+        width:200px;
+        top:230vh;
+    }
+    #conferencia3-basquet-posiciones-u17{
+        width:200px;
+        top:120vh;
+    }
+    #conferencia3-basquet-fixture-u17{
+        width:200px;
+    }
+
+
+    #conferencia3-basquet-posiciones-u17 img,#conferencia3-basquet-posiciones-u17 img{
+        display: none;
+    }
+    #principal-basquet-posiciones-u17 td,#principal-basquet-posiciones-u17 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #conferencia3-basquet-posiciones-u17 td,#conferencia3-basquet-posiciones-u17 tr {
+        padding:1px;
+        font-size:0.5rem;
+    }
+    #fixture-table-basquet-u17,
+    #fixture-table-basquet-u17 td,#conferencia3-fixture-table-basquet-u17 td {
+            padding:3px;
+            font-size:0.6rem;
+    }
+    #principal-basquet-fixure-u17 tr,#conferencia3-fixture-table-basquet-u17 tr {
+            padding:0px;
+            font-size:0.5rem;
+    }
 }
