@@ -1,68 +1,78 @@
+.Container{
+    display: flex;
+    flex-direction:row;
+    max-width:800px;
+    height:auto;
+    margin: 0 auto;
+}
 #seccion-1-basquet{
     height:175vh;
     background-color: #042500;
 }
 #pagination-basquet{
     display:flex;
-    flex:row;
-    float:left;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:50vh;
-    right:42vw;
+    top:46vh;
+    width:100%;
 }
-
+#pagination-basquet ul li a{
+    font-size:.9rem;
+}
 /* basquet u23*/
 #principal-basquet-fixure {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
     top:170vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #playOff-basquet-fixture {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
     top:70vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
     top:220vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #playOff-basquet-posiciones{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
     top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #principal-basquet-posiciones span{
     color: #fff;
@@ -103,54 +113,54 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:170vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    top:160vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u19{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
     top:200vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 /*conferencia1*/
 #conferencia1-basquet-fixture{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
     top:60vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #conferencia1-basquet-posiciones{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    top:95vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #conferencia1-basquet-fixture span{
     color: #fff;
@@ -191,56 +201,55 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:220vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    top:150vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u17{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:170vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    top:200vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 /*Conferencia 3*/
 #conferencia3-basquet-posiciones-u17{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    top:95vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #conferencia3-basquet-fixture-u17{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:70vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    top:60vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
-
 #principal-basquet-posiciones-u17 span {
     color: #fff;
     display: flex;
@@ -281,12 +290,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:220vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u15{
     display: flex;
@@ -294,12 +301,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:170vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 /*Conferencia 15*/
 #conferencia1-basquet-posiciones-u15{
@@ -308,12 +313,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #conferencia1-basquet-fixture-u15{
     display: flex;
@@ -321,12 +324,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:70vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u15 span {
     color: #fff;
@@ -368,12 +369,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:220vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u13{
     display: flex;
@@ -381,12 +380,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:170vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 /*Conferencia 1*/
 #conferencia1-basquet-posiciones-u13{
@@ -395,12 +392,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #conferencia1-basquet-fixture-u13{
     display: flex;
@@ -408,12 +403,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:70vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u13 span {
     color: #fff;
@@ -455,12 +448,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:220vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u12{
     display: flex;
@@ -468,12 +459,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:170vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 /*Conferencia 1*/
 #conferencia1-basquet-posiciones-u12{
@@ -482,12 +471,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
 #conferencia1-basquet-fixture-u12{
     display: flex;
@@ -495,12 +482,10 @@
     flex-wrap: nowrap;
     position:absolute;
     top:70vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u12 span {
     color: #fff;
@@ -541,28 +526,22 @@
     flex-wrap: nowrap;
     position:absolute;
     top:70vh;
-    left:51%;
-    transform: translatex(-50%);
-    width:700px;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:500px;
+    height:auto;
 }
 #principal-basquet-posiciones-u41{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:110vh;
-    left:50%;
-    transform:translatex(-50%);
-    width:700px;
+    top:120vh;
+    width:800px;
     padding-top:40px;
     padding-bottom:40px;
-    min-height:300px;
+    height:auto;
 }
-
-
 #fixture-table-basquet, #fixture-table-basquet-conferencia1, #fixture-table-basquet td, #fixture-table-basquet-conferencia1 td,#fixture-table-basquet-playOff,#fixture-table-basquet-playOff td, #conferencia3-fixture-table-basquet-u17,#conferencia3-fixture-table-basquet-u17 td,#fixture-table-basquet-u17 tr,#fixture-table-basquet-u41 td,#fixture-table-basquet-u41 tr,#fixture-table-basquet-u41   {
     border:3px solid black;
     padding:6px;

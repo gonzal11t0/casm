@@ -136,19 +136,283 @@
     </header>
     <main>
         <section id="seccion-1-basquet">
-            <nav id="pagination-basquet"class="pagination-basquet" aria-label="Page navigation example">
-                <ul class="pagination pagination-sm pagination-lg">
-                    <li class="page-item"><a class="page-link active" href="basquet-u13M.html">U13 M</a></li>
-                    <li class="page-item"><a class="page-link  " href="basquet-u12M.html">U12 M</a></li>
-                    <li class="page-item"><a class="page-link " href="basquet-+41.html">+41</a></li>
-                    <li class="page-item"><a class="page-link" href="basquet-u15M.html">U15 M</a></li>
-                    <li class="page-item"><a class="page-link" href="basquet-u17M.html">U17 M</a></li>
-                    <li class="page-item"><a class="page-link" href="basquet-u19M.html">U19 M</a></li>
-                    <li class="page-item"><a class="page-link" href="basquet.html">U23 M</a></li>
-                </ul>
-            </nav>
-            <div id="principal-basquet-posiciones">
-                <span>Fase regular</span>
+            <div class="Container">
+                <nav id="pagination-basquet"class="pagination-basquet" aria-label="Page navigation example">
+                    <ul class="pagination pagination-sm pagination-lg">
+                        <li class="page-item"><a class="page-link active" href="basquet-u13M.html">U13 M</a></li>
+                        <li class="page-item"><a class="page-link  " href="basquet-u12M.html">U12 M</a></li>
+                        <li class="page-item"><a class="page-link " href="basquet-+41.html">+41</a></li>
+                        <li class="page-item"><a class="page-link" href="basquet-u15M.html">U15 M</a></li>
+                        <li class="page-item"><a class="page-link" href="basquet-u17M.html">U17 M</a></li>
+                        <li class="page-item"><a class="page-link" href="basquet-u19M.html">U19 M</a></li>
+                        <li class="page-item"><a class="page-link" href="basquet.html">U23 M</a></li>
+                    </ul>
+                </nav>
+                <div id="principal-basquet-posiciones">
+                    <span>Fase regular</span>
+                        <table id="tabla-posiciones-basquet"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Equipo</th>
+                                    <th>PJ</th>
+                                    <th>PG</th>
+                                    <th>PP</th>
+                                    <th>Pts</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody">
+                                <tr data-row-index="1">
+                                    <td>HURACAN DE SAN JUSTO ROJO<img id="img-basquet-u23m" src="./img/iconos-clubes/huracan san justo.jpg"></td> 
+                                    <td>10</td>
+                                    <td>9</td>
+                                    <td>1</td>
+                                    <td>19</td>
+                                </tr>
+                                <tr data-row-index="2">
+                                    <td>PORTEÑO ATLETICO CLUB<img id="img-basquet-u23m" src="./img/iconos-clubes/porteño atletico club.jpg"></td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>8</td>
+                                    <td>11</td>
+                                </tr>
+                                <tr data-row-index="3">
+                                    <td>ESTUDIANTIL PORTEÑO "B"<img id="img-basquet-u23m" src="./img/iconos-clubes/estudianil porteño.jpg"></td>
+                                    <td>10</td>
+                                    <td>0</td>
+                                    <td>10</td>
+                                    <td>7</td>
+                                </tr>
+                                <tr data-row-index="4">
+                                    <td>SAN MIGUEL<img  id="img-basquet-u23m" src="./img/iconos-clubes/san miguel.png" ></td>
+                                    <td>10</td>
+                                    <td>9</td>
+                                    <td>1</td>
+                                    <td>19</td>
+                                </tr>
+                                <tr data-row-index="5">
+                                    <td>DEPORTIVO MORON<img id="img-basquet-u23m" src="./img/iconos-clubes/moron-basquet.jpg"></td>
+                                    <td>10</td>
+                                    <td>6</td>
+                                    <td>4</td>
+                                    <td>16</td>
+                                </tr>
+                                <tr data-row-index="6">
+                                    <td>CEDEM<img id="img-basquet-u23m" src="./img/iconos-clubes/cedem.jpg"></td>
+                                    <td>10</td>
+                                    <td>4</td>
+                                    <td>6</td>
+                                    <td>14</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div id="principal-basquet-fixure">
+                    <span>Fase regular</span>
+                        <table id="fixture-table-basquet"  class="table table-striped table-responsive table-responsive-lg" >
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Equipo local</th>
+                                <th>Resultado</th>
+                                <th>Equipo visitante</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <!--FECHA 1-->
+                                <tr>
+                                    <td>18/3/2023</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                    <td>20-0</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                </tr>
+                                <tr>
+                                    <td>18/3/2023</td>
+                                    <td>SAN MIGUEL</td>
+                                    <td>69-67</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                </tr>
+                                <tr>
+                                    <td>18/3/2023</td>
+                                    <td>CEDEM</td>
+                                    <td>35-43</td>
+                                    <td>DEPORTIVO MORON</td>
+                                </tr>
+                                <!--FECHA 2-->
+                                <tr>
+                                    <td>25/3/2023</td>
+                                    <td>CEDEM</td>
+                                    <td>75-56</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                </tr>
+                                <tr>
+                                    <td>25/3/2023</td>
+                                    <td>DEPORTIVO MORON</td>
+                                    <td>54-55</td>
+                                    <td>SAN MIGUEL</td>
+                                </tr>
+                                <tr>
+                                    <td>25/3/2023</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                    <td>20-0</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                </tr>
+                                <!--FECHA 3-->
+                                <tr>
+                                    <td>15/4/2023</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                    <td>34-62</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                </tr>
+                                <tr>
+                                    <td>15/4/2023</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                    <td>28-69</td>
+                                    <td>DEPORTIVO MORON</td>
+                                </tr>
+                                <tr>
+                                    <td>15/4/2023</td>
+                                    <td>SAN MIGUEL</td>
+                                    <td>58-44</td>
+                                    <td>CEDEM</td>
+                                </tr>
+                                <!--FECHA 4-->
+                                <tr>
+                                    <td>22/4/2023</td>
+                                    <td>SAN MIGUEL</td>
+                                    <td>20-0</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                </tr>
+                                <tr>
+                                    <td>22/4/2023</td>
+                                    <td>CEDEM</td>
+                                    <td>63-21</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                </tr>
+                                <tr>
+                                    <td>22/4/2023</td>
+                                    <td>DEPORTIVO MORON</td>
+                                    <td>44-63</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                </tr>
+                                <!--FECHA 5-->
+                                <tr>
+                                    <td>29/4/2023</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                    <td>48-71</td>
+                                    <td>DEPORTIVO MORON</td>
+                                </tr>
+                                <tr>
+                                    <td>29/4/2023</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                    <td>89-38</td>
+                                    <td>CEDEM</td>
+                                </tr>
+                                <tr>
+                                    <td>29/4/2023</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                    <td>0-20</td>
+                                    <td>SAN MIGUEL</td>
+                                </tr>
+                                <!--FECHA 6-->
+                                <tr>
+                                    <td>25/5/2023</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                    <td>--</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                </tr>
+                                <tr>
+                                    <td>6/5/2023</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                    <td>84-74</td>
+                                    <td>SAN MIGUEL</td>
+                                </tr>
+                                <tr>
+                                    <td>6/5/2023</td>
+                                    <td>DEPORTIVO MORON</td>
+                                    <td>78-68</td>
+                                    <td>CEDEM</td>
+                                </tr>
+                                <!--FECHA 7-->
+                                <tr>
+                                    <td>13/5/2023</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                    <td>55-65</td>
+                                    <td>CEDEM</td>
+                                </tr>
+                                <tr>
+                                    <td>13/5/2023</td>
+                                    <td>SAN MIGUEL</td>
+                                    <td>66-52</td>
+                                    <td>DEPORTIVO MORON</td>
+                                </tr>
+                                <tr>
+                                    <td>13/5/2023</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                    <td>39-79</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                </tr>
+                                <!--FECHA 8-->
+                                <tr>
+                                    <td>20/5/2023</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                    <td>81-45</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                </tr>
+                                <tr>
+                                    <td>20/5/2023</td>
+                                    <td>DEPORTIVO MORON	</td>
+                                    <td>87-15</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"	</td>
+                                </tr>
+                                <tr>
+                                    <td>20/5/2023</td>
+                                    <td>CEDEM</td>
+                                    <td>40-67</td>
+                                    <td>SAN MIGUEL</td>
+                                </tr>
+                                <!--FECHA 9-->
+                                <tr>
+                                    <td>3/6/2023</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                    <td>44-74</td>
+                                    <td>SAN MIGUEL</td>
+                                </tr>
+                                <tr>
+                                    <td>3/6/2023</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                    <td>17-51</td>
+                                    <td>CEDEM</td>
+                                </tr>
+                                <tr>
+                                    <td>3/6/2023</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                    <td>73-71</td>
+                                    <td>DEPORTIVO MORON</td>
+                                </tr>
+                                <!--FECHA 10-->
+                                <tr>
+                                    <td>10/6/2023</td>
+                                    <td>DEPORTIVO MORON</td>
+                                    <td>84-13</td>
+                                    <td>PORTEÑO ATLETICO CLUB</td>
+                                </tr>
+                                <tr>
+                                    <td>10/6/2023</td>
+                                    <td>CEDEM</td>
+                                    <td>47-57</td>
+                                    <td>HURACAN DE SAN JUSTO ROJO</td>
+                                </tr>
+                                <tr>
+                                    <td>10/6/2023</td>
+                                    <td>SAN MIGUEL</td>
+                                    <td>97-12</td>
+                                    <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+                <div id="conferencia1-basquet-posiciones-u13">
+                    <span>conferencia 1</span>
                     <table id="tabla-posiciones-basquet"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
                         <thead>
                             <tr>
@@ -161,53 +425,67 @@
                         </thead>
                         <tbody id="tbody">
                             <tr data-row-index="1">
-                                <td>HURACAN DE SAN JUSTO ROJO<img id="img-basquet-u23m" src="./img/iconos-clubes/huracan san justo.jpg"></td> 
+                                <td>GEI AZUL<img id="img-basquet-u23m" src="./img/iconos-clubes/gei azul.jpg"></td> 
+                                <td>11</td>
                                 <td>10</td>
-                                <td>9</td>
                                 <td>1</td>
-                                <td>19</td>
+                                <td>21</td>
                             </tr>
                             <tr data-row-index="2">
-                                <td>PORTEÑO ATLETICO CLUB<img id="img-basquet-u23m" src="./img/iconos-clubes/porteño atletico club.jpg"></td>
-                                <td>10</td>
-                                <td>2</td>
-                                <td>8</td>
-                                <td>11</td>
-                            </tr>
-                            <tr data-row-index="3">
-                                <td>ESTUDIANTIL PORTEÑO "B"<img id="img-basquet-u23m" src="./img/iconos-clubes/estudianil porteño.jpg"></td>
-                                <td>10</td>
-                                <td>0</td>
-                                <td>10</td>
-                                <td>7</td>
-                            </tr>
-                            <tr data-row-index="4">
-                                <td>SAN MIGUEL<img  id="img-basquet-u23m" src="./img/iconos-clubes/san miguel.png" ></td>
-                                <td>10</td>
-                                <td>9</td>
-                                <td>1</td>
-                                <td>19</td>
-                            </tr>
-                            <tr data-row-index="5">
-                                <td>DEPORTIVO MORON<img id="img-basquet-u23m" src="./img/iconos-clubes/moron-basquet.jpg"></td>
+                                <td>CLARIDAD<img id="img-basquet-u23m" src="./img/iconos-clubes/claridad.jpg"></td>
                                 <td>10</td>
                                 <td>6</td>
                                 <td>4</td>
                                 <td>16</td>
                             </tr>
-                            <tr data-row-index="6">
-                                <td>CEDEM<img id="img-basquet-u23m" src="./img/iconos-clubes/cedem.jpg"></td>
-                                <td>10</td>
+                            <tr data-row-index="3">
+                                <td>U13 INDIOS NEGRO<img id="img-basquet-u23m" src="./img/iconos-clubes/indios negros.jpg"></td>
+                                <td>11</td>
+                                <td>11</td>
+                                <td>0</td>
+                                <td>22</td>
+                            </tr>
+                            <tr data-row-index="4">
+                                <td>SAN MIGUEL<img  id="img-basquet-u23m" src="./img/iconos-clubes/san miguel.png" ></td>
+                                <td>11</td>
+                                <td>7</td>
                                 <td>4</td>
-                                <td>6</td>
+                                <td>18</td>
+                            </tr>
+                            <tr data-row-index="5">
+                                <td>DEFENSORES DE HURLINGHAM<img id="img-basquet-u23m" src="./img/iconos-clubes/DEFENSORES DE HURLINGHAM.jpg"></td>
+                                <td>11</td>
+                                <td>3</td>
+                                <td>8</td>
                                 <td>14</td>
+                            </tr>
+                            <tr data-row-index="6">
+                                <td>MIDLAND<img id="img-basquet-u23m" src="./img/iconos-clubes/middlan.jpg"></td>
+                                <td>10</td>
+                                <td>1</td>
+                                <td>9</td>
+                                <td>11</td>
+                            </tr>
+                            <tr data-row-index="7">
+                                <td>DEPORTIVO MORON<img id="img-basquet-u23m" src="./img/iconos-clubes/moron-basquet.jpg"></td>
+                                <td>11</td>
+                                <td>4</td>
+                                <td>7</td>
+                                <td>15</td>
+                            </tr>
+                            <tr data-row-index="8">
+                                <td>ALEM<img id="img-basquet-u23m" src="./img/iconos-clubes/ALEM.jpg"></td>
+                                <td>11</td>
+                                <td>1</td>
+                                <td>10</td>
+                                <td>12</td>
                             </tr>
                         </tbody>
                     </table>
-            </div>
-            <div id="principal-basquet-fixure">
-                <span>Fase regular</span>
-                    <table id="fixture-table-basquet"  class="table table-striped table-responsive table-responsive-lg" >
+                </div>
+                <div id="conferencia1-basquet-fixture-u13">
+                    <span>conferencia 1</span>
+                    <table id="conferencia3-fixture-table-basquet-u17"  class="table table-striped table-responsive table-responsive-lg" >
                     <thead>
                         <tr>
                             <th>Fecha</th>
@@ -219,647 +497,357 @@
                         <tbody>
                             <!--FECHA 1-->
                             <tr>
-                                <td>18/3/2023</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
-                                <td>20-0</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                <td>24/6/2023</td>
+                                <td>ALEM</td>
+                                <td>36-79</td>
+                                <td>CLARIDAD</td>
                             </tr>
                             <tr>
-                                <td>18/3/2023</td>
-                                <td>SAN MIGUEL</td>
-                                <td>69-67</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                            </tr>
-                            <tr>
-                                <td>18/3/2023</td>
-                                <td>CEDEM</td>
-                                <td>35-43</td>
+                                <td>24/6/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>69-56</td>
                                 <td>DEPORTIVO MORON</td>
+                            </tr>
+                            <tr>
+                                <td>24/6/2023</td>
+                                <td>U13 INDIOS NEGRO</td>
+                                <td>89-31</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                            </tr>
+                            <tr>
+                                <td>24/6/2023</td>
+                                <td>MIDLAND</td>
+                                <td>45-67</td>
+                                <td>SAN MIGUEL</td>
                             </tr>
                             <!--FECHA 2-->
                             <tr>
-                                <td>25/3/2023</td>
-                                <td>CEDEM</td>
-                                <td>75-56</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
+                                <td>1/7/2023</td>
+                                <td>MIDLAND</td>
+                                <td>42-30</td>
+                                <td>ALEM</td>
                             </tr>
                             <tr>
-                                <td>25/3/2023</td>
-                                <td>DEPORTIVO MORON</td>
-                                <td>54-55</td>
+                                <td>1/7/2023</td>
                                 <td>SAN MIGUEL</td>
+                                <td>49-71</td>
+                                <td>U13 INDIOS NEGRO</td>
                             </tr>
                             <tr>
-                                <td>25/3/2023</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                                <td>20-0</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                <td>1/7/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>43-52</td>
+                                <td>GEI AZUL</td>
+                            </tr>
+                            <tr>
+                                <td>1/7/2023</td>
+                                <td>DEPORTIVO MORON</td>
+                                <td>75-91</td>
+                                <td>CLARIDAD</td>
                             </tr>
                             <!--FECHA 3-->
                             <tr>
-                                <td>15/4/2023</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
-                                <td>34-62</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                            </tr>
-                            <tr>
-                                <td>15/4/2023</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
-                                <td>28-69</td>
+                                <td>15/7/2023</td>
+                                <td>ALEM</td>
+                                <td>36-73</td>
                                 <td>DEPORTIVO MORON</td>
                             </tr>
                             <tr>
-                                <td>15/4/2023</td>
+                                <td>15/7/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>81-64</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                            </tr>
+                            <tr>
+                                <td>15/7/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>66-64</td>
                                 <td>SAN MIGUEL</td>
-                                <td>58-44</td>
-                                <td>CEDEM</td>
+                            </tr>
+                            <tr>
+                                <td>15/7/2023</td>
+                                <td>U13 INDIOS NEGRO</td>
+                                <td>54-27</td>
+                                <td>MIDLAND</td>
                             </tr>
                             <!--FECHA 4-->
                             <tr>
-                                <td>22/4/2023</td>
+                                <td>5/8/2023</td>
+                                <td>U13 INDIOS NEGRO</td>
+                                <td>91-25</td>
+                                <td>ALEM</td>
+                            </tr>
+                            <tr>
+                                <td>5/8/2023</td>
+                                <td>MIDLAND</td>
+                                <td>26-59</td>
+                                <td>GEI AZUL</td>
+                            </tr>
+                            <tr>
+                                <td>5/8/2023</td>
                                 <td>SAN MIGUEL</td>
-                                <td>20-0</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
+                                <td>79-43</td>
+                                <td>CLARIDAD</td>
                             </tr>
                             <tr>
-                                <td>22/4/2023</td>
-                                <td>CEDEM</td>
-                                <td>63-21</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
-                            </tr>
-                            <tr>
-                                <td>22/4/2023</td>
+                                <td>5/8/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>65-55</td>
                                 <td>DEPORTIVO MORON</td>
-                                <td>44-63</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
                             </tr>
                             <!--FECHA 5-->
                             <tr>
-                                <td>29/4/2023</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
-                                <td>48-71</td>
+                                <td>7/9/2023</td>
+                                <td>ALEM</td>
+                                <td>28-41</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                            </tr>
+                            <tr>
+                                <td>6/9/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>49-68</td>
+                                <td>U13 INDIOS NEGRO</td>
+                            </tr>
+                            <tr>
+                                <td>26/8/2023</td>
                                 <td>DEPORTIVO MORON</td>
-                            </tr>
-                            <tr>
-                                <td>29/4/2023</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                                <td>89-38</td>
-                                <td>CEDEM</td>
-                            </tr>
-                            <tr>
-                                <td>29/4/2023</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
-                                <td>0-20</td>
+                                <td>48-88</td>
                                 <td>SAN MIGUEL</td>
+                            </tr>
+                            <tr>
+                                <td>21/10/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>--</td>
+                                <td>MIDLAND</td>
                             </tr>
                             <!--FECHA 6-->
                             <tr>
-                                <td>25/5/2023</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
-                                <td>--</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
+                                <td>2/9/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>89-19</td>
+                                <td>ALEM</td>
                             </tr>
                             <tr>
-                                <td>6/5/2023</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                                <td>84-74</td>
-                                <td>SAN MIGUEL</td>
+                                <td>2/9/2023</td>
+                                <td>U13 INDIOS NEGRO</td>
+                                <td>85-66</td>
+                                <td>CLARIDAD</td>
                             </tr>
                             <tr>
-                                <td>6/5/2023</td>
+                                <td>2/9/2023</td>
+                                <td>MIDLAND</td>
+                                <td>42-54</td>
                                 <td>DEPORTIVO MORON</td>
-                                <td>78-68</td>
-                                <td>CEDEM</td>
+                            </tr>
+                            <tr>
+                                <td>2/9/2023</td>
+                                <td>SAN MIGUEL</td>
+                                <td>62-57</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
                             </tr>
                             <!--FECHA 7-->
                             <tr>
-                                <td>13/5/2023</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
-                                <td>55-65</td>
-                                <td>CEDEM</td>
-                            </tr>
-                            <tr>
-                                <td>13/5/2023</td>
+                                <td>9/9/2023</td>
+                                <td>ALEM</td>
+                                <td>38-67</td>
                                 <td>SAN MIGUEL</td>
-                                <td>66-52</td>
-                                <td>DEPORTIVO MORON</td>
                             </tr>
                             <tr>
-                                <td>13/5/2023</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
-                                <td>39-79</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
+                                <td>9/9/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>49-32</td>
+                                <td>MIDLAND</td>
+                            </tr>
+                            <tr>
+                                <td>9/9/2023</td>
+                                <td>DEPORTIVO MORON</td>
+                                <td>53-90</td>
+                                <td>U15 INDIOS NEGRO</td>
+                            </tr>
+                            <tr>
+                                <td>9/9/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>62-85</td>
+                                <td>GEI AZUL</td>
                             </tr>
                             <!--FECHA 8-->
                             <tr>
-                                <td>20/5/2023</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                                <td>81-45</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
+                                <td>13/9/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>44-79</td>
+                                <td>U13 INDIOS NEGRO</td>
                             </tr>
                             <tr>
-                                <td>20/5/2023</td>
-                                <td>DEPORTIVO MORON	</td>
-                                <td>87-15</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"	</td>
-                            </tr>
-                            <tr>
-                                <td>20/5/2023</td>
-                                <td>CEDEM</td>
-                                <td>40-67</td>
+                                <td>16/9/2023</td>
                                 <td>SAN MIGUEL</td>
+                                <td>71-30</td>
+                                <td>MIDLAND</td>
+                            </tr>
+                            <tr>
+                                <td>16/9/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>59-38</td>
+                                <td>ALEM</td>
+                            </tr>
+                            <tr>
+                                <td>16/9/2023</td>
+                                <td>DEPORTIVO MORON</td>
+                                <td>61-71</td>
+                                <td>GEI AZUL</td>
                             </tr>
                             <!--FECHA 9-->
                             <tr>
-                                <td>3/6/2023</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
-                                <td>44-74</td>
+                                <td>23/9/2023</td>
+                                <td>ALEM</td>
+                                <td>50-32</td>
+                                <td>MIDLAND</td>
+                            </tr>
+                            <tr>
+                                <td>23/9/2023</td>
+                                <td>U13 INDIOS NEGRO</td>
+                                <td>64-57</td>
                                 <td>SAN MIGUEL</td>
                             </tr>
                             <tr>
-                                <td>3/6/2023</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
-                                <td>17-51</td>
-                                <td>CEDEM</td>
+                                <td>23/9/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>76-41</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
                             </tr>
                             <tr>
-                                <td>3/6/2023</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
-                                <td>73-71</td>
+                                <td>23/9/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>100-76</td>
                                 <td>DEPORTIVO MORON</td>
                             </tr>
                             <!--FECHA 10-->
                             <tr>
-                                <td>10/6/2023</td>
+                                <td>30/9/2023</td>
                                 <td>DEPORTIVO MORON</td>
-                                <td>84-13</td>
-                                <td>PORTEÑO ATLETICO CLUB</td>
+                                <td>--</td>
+                                <td>ALEM</td>
                             </tr>
                             <tr>
-                                <td>10/6/2023</td>
-                                <td>CEDEM</td>
-                                <td>47-57</td>
-                                <td>HURACAN DE SAN JUSTO ROJO</td>
+                                <td>30/9/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>63-85</td>
+                                <td>CLARIDAD</td>
                             </tr>
                             <tr>
-                                <td>10/6/2023</td>
+                                <td>30/9/2023</td>
                                 <td>SAN MIGUEL</td>
-                                <td>97-12</td>
-                                <td>ESTUDIANTIL PORTEÑO "B"</td>
+                                <td>55-85</td>
+                                <td>GEI AZUL</td>
+                            </tr>
+                            <tr>
+                                <td>30/9/2023</td>
+                                <td>MIDLAND</td>
+                                <td>28-85</td>
+                                <td>U15 INDIOS NEGRO</td>
+                            </tr>
+                            <!--FECHA 11-->
+                            <tr>
+                                <td>7/10/2023</td>
+                                <td>ALEM</td>
+                                <td>31-75</td>
+                                <td>U15 INDIOS NEGRO</td>
+                            </tr>
+                            <tr>
+                                <td>7/10/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>92-23</td>
+                                <td>MIDLAND</td>
+                            </tr>
+                            <tr>
+                                <td>7/10/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>77-80</td>
+                                <td>SAN MIGUEL</td>
+                            </tr>
+                            <tr>
+                                <td>7/10/2023</td>
+                                <td>DEPORTIVO MORON</td>
+                                <td>64-48</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                            </tr>
+                            <!--FECHA 12-->
+                            <tr>
+                                <td>28/10/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>--</td>
+                                <td>ALEM</td>
+                            </tr>
+                            <tr>
+                                <td>28/10/2023</td>
+                                <td>SAN MIGUEL</td>
+                                <td>--</td>
+                                <td>DEPORTIVO MORON</td>
+                            </tr>
+                            <tr>
+                                <td>28/10/2023</td>
+                                <td>MIDLAND</td>
+                                <td>--</td>
+                                <td>CLARIDAD</td>
+                            </tr>
+                            <tr>
+                                <td>28/10/2023</td>
+                                <td>U15 INDIOS NEGRO</td>
+                                <td>--</td>
+                                <td>GEI AZUL</td>
+                            </tr>
+                            <!--FECHA 13-->
+                            <tr>
+                                <td>4/11/2023</td>
+                                <td>ALEM</td>
+                                <td>--</td>
+                                <td>GEI AZUL</td>
+                            </tr>
+                            <tr>
+                                <td>4/11/2023</td>
+                                <td>CLARIDAD</td>
+                                <td>--</td>
+                                <td>U15 INDIOS NEGRO</td>
+                            </tr>
+                            <tr>
+                                <td>4/11/2023</td>
+                                <td>DEPORTIVO MORON</td>
+                                <td>--</td>
+                                <td>MIDLAND</td>
+                            </tr>
+                            <tr>
+                                <td>4/11/2023</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                                <td>--</td>
+                                <td>SAN MIGUEL</td>
+                            </tr>
+                            <!--FECHA 14-->
+                            <tr>
+                                <td>11/11/2023</td>
+                                <td>SAN MIGUEL</td>
+                                <td>--</td>
+                                <td>ALEM</td>
+                            </tr>
+                            <tr>
+                                <td>11/11/2023</td>
+                                <td>MIDLAND</td>
+                                <td>--</td>
+                                <td>DEFENSORES DE HURLINGHAM</td>
+                            </tr>
+                            <tr>
+                                <td>11/11/2023</td>
+                                <td>U15 INDIOS NEGRO</td>
+                                <td>--</td>
+                                <td>DEPORTIVO MORON</td>
+                            </tr>
+                            <tr>
+                                <td>11/11/2023</td>
+                                <td>GEI AZUL</td>
+                                <td>--</td>
+                                <td>CLARIDAD</td>
                             </tr>
                         </tbody>
                     </table>
-            </div>
-            <div id="conferencia1-basquet-posiciones-u13">
-                <span>conferencia 1</span>
-                <table id="tabla-posiciones-basquet"class="table table-active table-responsive table-responsive-lg table-responsive-md table-responsive-sm table-sm">
-                    <thead>
-                        <tr>
-                            <th>Equipo</th>
-                            <th>PJ</th>
-                            <th>PG</th>
-                            <th>PP</th>
-                            <th>Pts</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tbody">
-                        <tr data-row-index="1">
-                            <td>GEI AZUL<img id="img-basquet-u23m" src="./img/iconos-clubes/gei azul.jpg"></td> 
-                            <td>11</td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>21</td>
-                        </tr>
-                        <tr data-row-index="2">
-                            <td>CLARIDAD<img id="img-basquet-u23m" src="./img/iconos-clubes/claridad.jpg"></td>
-                            <td>10</td>
-                            <td>6</td>
-                            <td>4</td>
-                            <td>16</td>
-                        </tr>
-                        <tr data-row-index="3">
-                            <td>U13 INDIOS NEGRO<img id="img-basquet-u23m" src="./img/iconos-clubes/indios negros.jpg"></td>
-                            <td>11</td>
-                            <td>11</td>
-                            <td>0</td>
-                            <td>22</td>
-                        </tr>
-                        <tr data-row-index="4">
-                            <td>SAN MIGUEL<img  id="img-basquet-u23m" src="./img/iconos-clubes/san miguel.png" ></td>
-                            <td>11</td>
-                            <td>7</td>
-                            <td>4</td>
-                            <td>18</td>
-                        </tr>
-                        <tr data-row-index="5">
-                            <td>DEFENSORES DE HURLINGHAM<img id="img-basquet-u23m" src="./img/iconos-clubes/DEFENSORES DE HURLINGHAM.jpg"></td>
-                            <td>11</td>
-                            <td>3</td>
-                            <td>8</td>
-                            <td>14</td>
-                        </tr>
-                        <tr data-row-index="6">
-                            <td>MIDLAND<img id="img-basquet-u23m" src="./img/iconos-clubes/middlan.jpg"></td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>9</td>
-                            <td>11</td>
-                        </tr>
-                        <tr data-row-index="7">
-                            <td>DEPORTIVO MORON<img id="img-basquet-u23m" src="./img/iconos-clubes/moron-basquet.jpg"></td>
-                            <td>11</td>
-                            <td>4</td>
-                            <td>7</td>
-                            <td>15</td>
-                        </tr>
-                        <tr data-row-index="8">
-                            <td>ALEM<img id="img-basquet-u23m" src="./img/iconos-clubes/ALEM.jpg"></td>
-                            <td>11</td>
-                            <td>1</td>
-                            <td>10</td>
-                            <td>12</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div id="conferencia1-basquet-fixture-u13">
-                <span>conferencia 1</span>
-                <table id="conferencia3-fixture-table-basquet-u17"  class="table table-striped table-responsive table-responsive-lg" >
-                <thead>
-                    <tr>
-                        <th>Fecha</th>
-                        <th>Equipo local</th>
-                        <th>Resultado</th>
-                        <th>Equipo visitante</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                        <!--FECHA 1-->
-                        <tr>
-                            <td>24/6/2023</td>
-                            <td>ALEM</td>
-                            <td>36-79</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                        <tr>
-                            <td>24/6/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>69-56</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <tr>
-                            <td>24/6/2023</td>
-                            <td>U13 INDIOS NEGRO</td>
-                            <td>89-31</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <tr>
-                            <td>24/6/2023</td>
-                            <td>MIDLAND</td>
-                            <td>45-67</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <!--FECHA 2-->
-                        <tr>
-                            <td>1/7/2023</td>
-                            <td>MIDLAND</td>
-                            <td>42-30</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>1/7/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>49-71</td>
-                            <td>U13 INDIOS NEGRO</td>
-                        </tr>
-                        <tr>
-                            <td>1/7/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>43-52</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <tr>
-                            <td>1/7/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>75-91</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                        <!--FECHA 3-->
-                        <tr>
-                            <td>15/7/2023</td>
-                            <td>ALEM</td>
-                            <td>36-73</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <tr>
-                            <td>15/7/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>81-64</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <tr>
-                            <td>15/7/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>66-64</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <tr>
-                            <td>15/7/2023</td>
-                            <td>U13 INDIOS NEGRO</td>
-                            <td>54-27</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <!--FECHA 4-->
-                        <tr>
-                            <td>5/8/2023</td>
-                            <td>U13 INDIOS NEGRO</td>
-                            <td>91-25</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>5/8/2023</td>
-                            <td>MIDLAND</td>
-                            <td>26-59</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <tr>
-                            <td>5/8/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>79-43</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                        <tr>
-                            <td>5/8/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>65-55</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <!--FECHA 5-->
-                        <tr>
-                            <td>7/9/2023</td>
-                            <td>ALEM</td>
-                            <td>28-41</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <tr>
-                            <td>6/9/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>49-68</td>
-                            <td>U13 INDIOS NEGRO</td>
-                        </tr>
-                        <tr>
-                            <td>26/8/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>48-88</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <tr>
-                            <td>21/10/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>--</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <!--FECHA 6-->
-                        <tr>
-                            <td>2/9/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>89-19</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>2/9/2023</td>
-                            <td>U13 INDIOS NEGRO</td>
-                            <td>85-66</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                        <tr>
-                            <td>2/9/2023</td>
-                            <td>MIDLAND</td>
-                            <td>42-54</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <tr>
-                            <td>2/9/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>62-57</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <!--FECHA 7-->
-                        <tr>
-                            <td>9/9/2023</td>
-                            <td>ALEM</td>
-                            <td>38-67</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <tr>
-                            <td>9/9/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>49-32</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <tr>
-                            <td>9/9/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>53-90</td>
-                            <td>U15 INDIOS NEGRO</td>
-                        </tr>
-                        <tr>
-                            <td>9/9/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>62-85</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <!--FECHA 8-->
-                        <tr>
-                            <td>13/9/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>44-79</td>
-                            <td>U13 INDIOS NEGRO</td>
-                        </tr>
-                        <tr>
-                            <td>16/9/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>71-30</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <tr>
-                            <td>16/9/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>59-38</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>16/9/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>61-71</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <!--FECHA 9-->
-                        <tr>
-                            <td>23/9/2023</td>
-                            <td>ALEM</td>
-                            <td>50-32</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <tr>
-                            <td>23/9/2023</td>
-                            <td>U13 INDIOS NEGRO</td>
-                            <td>64-57</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <tr>
-                            <td>23/9/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>76-41</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <tr>
-                            <td>23/9/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>100-76</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <!--FECHA 10-->
-                        <tr>
-                            <td>30/9/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>--</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>30/9/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>63-85</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                        <tr>
-                            <td>30/9/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>55-85</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <tr>
-                            <td>30/9/2023</td>
-                            <td>MIDLAND</td>
-                            <td>28-85</td>
-                            <td>U15 INDIOS NEGRO</td>
-                        </tr>
-                        <!--FECHA 11-->
-                        <tr>
-                            <td>7/10/2023</td>
-                            <td>ALEM</td>
-                            <td>31-75</td>
-                            <td>U15 INDIOS NEGRO</td>
-                        </tr>
-                        <tr>
-                            <td>7/10/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>92-23</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <tr>
-                            <td>7/10/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>77-80</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <tr>
-                            <td>7/10/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>64-48</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <!--FECHA 12-->
-                        <tr>
-                            <td>28/10/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>--</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>28/10/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>--</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <tr>
-                            <td>28/10/2023</td>
-                            <td>MIDLAND</td>
-                            <td>--</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                        <tr>
-                            <td>28/10/2023</td>
-                            <td>U15 INDIOS NEGRO</td>
-                            <td>--</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <!--FECHA 13-->
-                        <tr>
-                            <td>4/11/2023</td>
-                            <td>ALEM</td>
-                            <td>--</td>
-                            <td>GEI AZUL</td>
-                        </tr>
-                        <tr>
-                            <td>4/11/2023</td>
-                            <td>CLARIDAD</td>
-                            <td>--</td>
-                            <td>U15 INDIOS NEGRO</td>
-                        </tr>
-                        <tr>
-                            <td>4/11/2023</td>
-                            <td>DEPORTIVO MORON</td>
-                            <td>--</td>
-                            <td>MIDLAND</td>
-                        </tr>
-                        <tr>
-                            <td>4/11/2023</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                            <td>--</td>
-                            <td>SAN MIGUEL</td>
-                        </tr>
-                        <!--FECHA 14-->
-                        <tr>
-                            <td>11/11/2023</td>
-                            <td>SAN MIGUEL</td>
-                            <td>--</td>
-                            <td>ALEM</td>
-                        </tr>
-                        <tr>
-                            <td>11/11/2023</td>
-                            <td>MIDLAND</td>
-                            <td>--</td>
-                            <td>DEFENSORES DE HURLINGHAM</td>
-                        </tr>
-                        <tr>
-                            <td>11/11/2023</td>
-                            <td>U15 INDIOS NEGRO</td>
-                            <td>--</td>
-                            <td>DEPORTIVO MORON</td>
-                        </tr>
-                        <tr>
-                            <td>11/11/2023</td>
-                            <td>GEI AZUL</td>
-                            <td>--</td>
-                            <td>CLARIDAD</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="dropdown dropdown-propio-futbol">
-                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-bars"></i>
-                    <span class="span-futbol">Entrenamiento</span>
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-lg-end dropdown-menu-lg-start dropdown-menu-sm-end">
-                    <span class="span-responsive-futbol">Entrenamiento</span>
-                    <li><a class="dropdown-item">Lun  -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Mar  -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Mier -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Jue  -- 10-12hs</a></li>
-                    <li><a class="dropdown-item">Vier -- 10-12hs</a></li>
-                </ul>
+                </div>
             </div>
         </section>
     </main>
