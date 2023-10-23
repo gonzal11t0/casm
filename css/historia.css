@@ -24,7 +24,8 @@ body{
     color:rgb(255, 255, 255);
     max-width:800px;
     top:30vh;
-    line-height:70px;
+    line-height:40px;
+    padding-left:7px;
     font-weight: bold;
     margin: 0 auto;
 }
@@ -42,7 +43,7 @@ body{
 .index-historia {
     position: fixed;
     right: 2vw;
-    bottom: 5vh; /* Ajusta la posición vertical del botón según tu preferencia */
+    bottom: 5vh;
     padding: 3px 5px;
     width: auto;
     cursor: pointer;
@@ -52,6 +53,6 @@ body{
     background-color: #000000;
 }
 .index-historia a {
-    color: white; /* Agrega estilos para el enlace si es necesario */
+    color: white; 
     text-decoration: none;
 }

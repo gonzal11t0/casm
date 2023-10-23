@@ -205,6 +205,11 @@ nav {
   justify-content: center;
   backface-visibility: hidden;
   transition: 1s;
+  border-radius:6%;
+  -webkit-border-radius:6%;
+  -moz-border-radius:6%;
+  -ms-border-radius:6%;
+  -o-border-radius:6%;
 }
 #card div h1 {
   color: #ffffff;
@@ -231,6 +236,7 @@ nav {
   font-size:1.1rem;
   color: rgb(255, 254, 254);
   left: 50px;
+  padding-left:5px;
 }
 /*    seccion 3 */
 #seccion-3{
@@ -439,8 +445,8 @@ nav {
   position: absolute;
   top: 0;
   left:100%;
-  animation: desplazarBanner 12s linear infinite;
-  -webkit-animation: desplazarBanner 12s linear infinite;
+  animation: desplazarBanner 20s linear 2s infinite;
+  -webkit-animation: desplazarBanner 20s linear 2s infinite;
 }
 .banner img {
   width:auto; 
@@ -449,10 +455,10 @@ nav {
 /* Animación para el desplazamiento */
 @keyframes desplazarBanner {
   from {
-    left: 100%; /* Inicio de la animación (fuera del contenedor a la derecha) */
+    left: 100%;
   }
   to {
-    left: -100%; /* Fin de la animación (fuera del contenedor a la izquierda) */
+    left: -100%;
   }
 }
-/*# sourceMappingURL=style.css.map */
+

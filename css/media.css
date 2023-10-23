@@ -105,10 +105,10 @@
 }
 @media screen and (max-width:767px) {
     #card div p {
-        font-size:.8rem;
+        font-size:.6rem;
     }
     #card {
-        width:90%;
+        width:98%;
         height:72%;
     }
     .banner-container {
