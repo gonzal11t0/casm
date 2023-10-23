@@ -5,13 +5,6 @@ function ordenarYResaltarTabla(tableId) {
 
     var puntosArray = [];
     for (var i = 1; i < filas.length; i++) {
-        if (i < 6) {
-        } else if (i >= filas.length - 4) {
-            // Las últimas 4 filas son rojas
-            filas[i].classList.add("red");
-        } else {
-            filas[i].classList.remove("red"); // Asegurarse de eliminar cualquier resaltado rojo previo
-        }
         var celdas = filas[i].getElementsByTagName("td");
         var puntos = parseInt(celdas[5].textContent);
         puntosArray.push([puntos, filas[i]]);
@@ -24,10 +17,33 @@ function ordenarYResaltarTabla(tableId) {
         tabla.appendChild(puntosArray[i][1]);
     }
 }
+function aplicarColoresTabla(tableId, esFasePermanencia) {
+    var tabla = document.getElementById(tableId);
+    var filas = tabla.getElementsByTagName("tr");
+    
+    for (var i = 1; i < filas.length; i++) {
+        if (i >= filas.length - 4 && esFasePermanencia) {
+            filas[i].classList.add("red");
+        } else {
+            filas[i].classList.remove("red");
+        }
+    }
+}
+
+function resaltarPrimerasFilasVerde(tableId) {
+    var tabla = document.getElementById(tableId);
+    var filas = tabla.getElementsByTagName("tr");
+
+    for (var i = 1; i <= 6; i++) { // Resalta las primeras 6 filas en verde
+        filas[i].classList.add("green");
+    }
+}
+
 
 // Aplicar la función a la tabla de la fase regular
 $(document).ready(function () {
     ordenarYResaltarTabla("tabla-posiciones-femenino");
+    resaltarPrimerasFilasVerde("principal-primera-posiciones-femenino");
     $('#fixture-table-primera-femenino').DataTable({
         info: false,
         paging: true,
@@ -42,6 +58,7 @@ $(document).ready(function () {
 // Aplicar la función a la tabla de la fase de permanencia
 $(document).ready(function () {
     ordenarYResaltarTabla("tabla-posiciones-femenino-fase-permanencia");
+    aplicarColoresTabla("tabla-posiciones-femenino-fase-permanencia", true);
     $('#fixture-table-femenino-permanencia').DataTable({
         info: false,
         paging: true,
