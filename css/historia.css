@@ -7,7 +7,8 @@ body{
     overflow-y:hidden;
 }
 #seccion-1-historia{
-    width:100%;
+    height:340vh;
+    background-color: #042500;
 }
 .historia-container{
     width: 100%;
@@ -21,13 +22,11 @@ body{
     align-items:center;
     position:relative;
     color:rgb(255, 255, 255);
-    background-color:rgb(11, 22, 18);
-    opacity:0.9;
-    width:100%;
+    max-width:800px;
     top:30vh;
     line-height:70px;
     font-weight: bold;
-
+    margin: 0 auto;
 }
 .titulo-historia {
     text-align: center;

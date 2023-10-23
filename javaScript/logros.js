@@ -26,6 +26,10 @@ buttonIrArriba.appendChild(textoButtonIrArriba);
 
 var logros = [
     {
+        tituloLogros:"Campeonato apertura 2023",
+        textoLogros:"El Lunes 29 de mayo SAN MIGUEL se consagró campeón del torneo Apertura de la Primera B de fútbol, tras el empate de Comunicaciones ante UAI Urquiza por 1-1, como visitante. De este modo, San Miguel, que ayer venció a Villa San Carlos por 1 a 0 con gol de Francisco Manenti, se quedó con el Apertura a una fecha de su finalización, debido a que suma 30 puntos, 4 más que Comunicaciones, cuando quedan sólo tres unidades en juego. San Miguel, dirigido por el Sapito Gustavo Coleoni, se quedó con el Apertura y, mínimamente, jugará una final con el vencedor del Clausura(Talleres RdE) para definir el ascenso a la Primera Nacional, mientras que de quedarse también con el segundo certamen, promocionará directamente."
+    },
+    {
         tituloLogros: "Ascenso a Primera B (2016/17)",
         textoLogros: "El 29 de julio de 2017 San Miguel logra en Zárate el ascenso a la Primera B venciendo a Defensores Unidos por 2 tantos contra 1.San Miguel volvió a la tercera categoría después de 14 años. Finalizó la etapa regular en la sexta posición con 57 puntos, producto de 14 triunfos, 15 empates y 9 derrotas."
     },
