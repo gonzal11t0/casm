@@ -383,7 +383,6 @@ nav {
   transform: translateY(-50%);
   z-index:9999;
 }
-
 .mensaje,#mensajePrensa {
   background-color: #1d5d01;
   box-shadow: 10px 10px 10px 10px #00170f;
@@ -447,7 +446,6 @@ nav {
   width:auto; 
   height: auto; 
 }
-
 /* Animación para el desplazamiento */
 @keyframes desplazarBanner {
   from {
