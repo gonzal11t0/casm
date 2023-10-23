@@ -445,8 +445,8 @@ nav {
   position: absolute;
   top: 0;
   left:100%;
-  animation: desplazarBanner 20s linear 2s infinite;
-  -webkit-animation: desplazarBanner 20s linear 2s infinite;
+  animation: desplazarBanner 16s linear 2s infinite;
+  -webkit-animation: desplazarBanner 16s linear 2s infinite;
 }
 .banner img {
   width:auto; 
