@@ -13,6 +13,25 @@
         width:600px;
         top:180vh;
     }
+    #seccion-1-tenis{
+        height:235vh;
+        background-color: #042500;
+    }
+    .publicidadClases{
+        max-width:600px;
+        top:230vh;
+    }
+    .publicidadClases h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.8rem;
+        color: #ffff;
+        margin:25px 25px 25px 25px;
+    }
+    .publicidadClases img{
+        width:100px;
+        height:100px;
+        margin-left:200px;
+    }
 }
 @media  screen and (max-width:600px) {
     .Container{
@@ -28,6 +47,24 @@
     #principal-3-tenis-fixure{
         width:400px;
         top:180vh;
+    }
+    #seccion-1-tenis{
+        height:260vh;
+    }
+    .publicidadClases{
+        max-width:400px;
+        top:240vh;
+    }
+    .publicidadClases h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.7rem;
+        color: #ffff;
+        margin:15px 15px 25px 15px;
+    }
+    .publicidadClases img{
+        width:100px;
+        height:100px;
+        margin-left:70px;
     }
 }
 @media screen and (min-width: 200px) and (max-width: 400px) {
@@ -79,5 +116,21 @@
         background-color: var(--bs-pagination-bg);
         border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    #seccion-1-tenis{
+        height:235vh;
+    }
+    .publicidadClases{
+        max-width:200px;
+        top:220vh;
+    }
+    .publicidadClases h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.7rem;
+        color: #ffff;
+        margin:10px 10px 10px 10px;
+    }
+    .publicidadClases img{
+        display: none;
     }
 }
