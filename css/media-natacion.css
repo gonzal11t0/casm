@@ -1,0 +1,106 @@
+@media screen and (max-width:800px)  {
+    .Container {
+        display: flex;
+        flex-direction: row;
+        max-width:600px;
+        height: auto;
+        margin: 0 auto;
+        padding-top:400px;
+        margin-bottom:0px;
+    }
+    .w-100{
+        max-width:600px;
+    }
+    #card-natacion {
+        height:36vh;
+    }
+    .carousel{
+        max-width:600px;
+        padding-top:100px;
+    }
+}
+@media  screen and (max-width:600px) {
+    .Container {
+        display: flex;
+        flex-direction: row;
+        max-width:400px;
+        height: auto;
+        margin: 0 auto;
+        padding-top:400px;
+        margin-bottom:0px;
+    }
+    .banner {
+        width:400%;
+        height:30%;
+        position: absolute;
+        top:60vh;
+        left: 0;
+        animation: desplazarBanner 25s linear infinite;
+        -webkit-animation: desplazarBanner 25s linear infinite;
+    }
+    .w-100{
+        max-width:400px;
+    }
+    .h-100{
+        height: 400px !important;;
+    }
+    .container-natacion{
+        display:grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        column-gap:0px;
+        row-gap:30px;
+    }
+    #card-natacion {
+        height:30vh;
+    }
+    #card-natacion div p {
+        font-size:0.9rem;
+        padding-left:8px;
+        padding-top: 8px;
+    }
+    .carousel{
+        max-width:600px;
+        padding-top:100px;
+    }
+}  
+@media screen and (min-width:556px){ 
+    .Container {
+        padding-top:100px;
+    }
+}
+@media screen and (min-width:200px) and (max-width:400px){
+    #section-1-natacion{
+        display: none;
+    }
+    .banner-container {
+        display: none;
+    }
+    .Container {
+        display: flex;
+        flex-direction: row;
+        max-width:200px;
+        height: auto;
+        margin: 0 auto;
+        padding-top:400px;
+        margin-bottom:0px;
+    }
+    .container-natacion{
+        display:grid;
+        grid-template-columns:auto;
+        grid-template-rows:auto;
+        column-gap:0px;
+        row-gap:30px;
+    }
+    #card-natacion {
+        height:38vh;
+    }
+    #card-natacion div p {
+        font-size:0.7rem;
+        padding-left:3px;
+    }
+    .carousel{
+        max-width: 200px;
+        padding-top:130px;
+    }
+}

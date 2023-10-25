@@ -1,0 +1,102 @@
+#section-1-natacion{
+    height:100vh;
+    background-color: #042500;
+}
+.banner {
+    width:400%;
+    height:100%;
+    position: absolute;
+    top:50vh;
+    left: 0;
+    animation: desplazarBanner 25s linear infinite;
+    -webkit-animation: desplazarBanner 25s linear infinite;
+}
+.banner img {
+    width:auto; 
+    height: auto; 
+    float: left;
+}
+/* Animación para el desplazamiento */
+@keyframes desplazarBanner {
+    0% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    75% {
+        left: 0%;
+    }
+    100% {
+        left: 0; 
+    }
+}
+.Container{
+    display: flex;
+    flex-direction:row;
+    max-width:800px;
+    height:auto;
+    margin: 0 auto;
+    padding-top:200px;
+    margin-bottom:100px;
+}
+.container-natacion{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows:auto auto;
+    column-gap:70px;
+    row-gap:70px;
+    margin: 0 auto;
+    width:100%;
+    height:auto;
+}
+#card-natacion {
+    position:relative;
+    width:100%;
+    height:30vh;
+    margin: 0 auto;
+}
+#card-natacion div {
+    position: absolute;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+#card-natacion div h1 {
+    color: #ffffff;
+    cursor: pointer;
+    font-size:1rem;
+    justify-content: center;
+    text-align: center;
+}
+#card-natacion .front-natacion {
+    background: rgb(16, 139, 10);
+    transform: perspective(500px) rotateY(0deg);
+}
+#card-natacion .back-natacion {
+    background: rgb(16, 139, 10);
+    transform: perspective(500px) rotateY(180deg);
+}
+#card-natacion:hover .front-natacion {
+    transform: perspective(500px) rotateY(180deg);
+}
+#card-natacion:hover .back-natacion {
+    transform: perspective(500px) rotateY(360deg);
+}
+#card-natacion div p {
+    font-size:0.8rem;
+    color: rgb(255, 254, 254);
+    left:0px;
+    padding-left: 7px;
+}
+.carousel{
+    max-width:600px;
+    padding-top:100px;
+}
