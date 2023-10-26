@@ -92,8 +92,29 @@
     #principal-basquet-posiciones-u41{
         width:600px;
     }
+    .publicidadClases-basquet{
+        max-width:600px;
+        top:260vh;
+    }
+    .publicidadClases-basquet h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.8rem;
+        color: #ffff;
+        margin:10px 10px 10px 10px;
+    }
+    .publicidadClases-basquet img{
+        width:100px;
+        height:100px;
+        margin-left:100px;
+    }
 }
 @media screen and (max-width:600px) {
+    #seccion-1-basquet{
+        height:305vh;;
+    }
+    #seccion-1-basquet-u17{
+        height:310vh;;
+    }
     /*U23*/
     .Container{
         max-width:400px;
@@ -164,7 +185,6 @@
     }
     #conferencia1-basquet-posiciones-u15{
         width:400px;
-
     }
     #conferencia1-basquet-fixture-u15{
         width:400px;
@@ -207,10 +227,61 @@
         width:400px;
         TOP: 160VH;
     }
+    .publicidadClases-basquet{
+        max-width:400px;
+        top:295vh;
+    }
+    .publicidadClases-basquet-u19{
+        max-width:400px;
+        top:295vh;
+    }
+    .publicidadClases-basquet-u17{
+        max-width:400px;
+        top:295vh;
+    }
+    .publicidadClases-basquet h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.6rem;
+        color: #ffff;
+        margin:5px 5px 5px 5px;
+    }
+    .publicidadClases-basquet-u19 h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.6rem;
+        color: #ffff;
+        margin:5px 5px 5px 5px;
+    }
+    .publicidadClases-basquet-u17 h1,h2,h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.6rem;
+        color: #ffff;
+        margin:5px 5px 5px 5px;
+    }
+    .publicidadClases-basquet img{
+        width:100px;
+        height:100px;
+        margin-left:2px;
+    }
+    .publicidadClases-basquet-u19 img{
+        width:100px;
+        height:100px;
+        margin-left:2px;
+    }
+    .publicidadClases-basquet-u17 img{
+        width:100px;
+        height:100px;
+        margin-left:2px;
+    }
 }
 @media screen and (min-width:200px)  and (max-width:400px) {
     .Container{
         max-width:200px;
+    }
+    #seccion-1-basquet{
+        height:305vh;;
+    }
+    #seccion-1-basquet-u17{
+        height:270vh;;
     }
     /* u23*/
     #pagination-basquet {
@@ -462,5 +533,47 @@
     #fixture-table-basquet-u41 td{
         padding:3px;
         font-size:0.4rem;
+    }
+    .publicidadClases-basquet{
+        max-width:200px;
+        top:290vh;
+    }
+    .publicidadClases-basquet h1,h2,h3,span{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.5rem;
+        color: #ffff;
+        margin:1px 1px 1px 1px;
+    }
+    .publicidadClases-basquet img{
+        display: none;
+    }
+    #seccion-1-basquet-u19{
+        height:190vh;;
+    }
+    .publicidadClases-basquet-u19{
+        max-width:200px;
+        top:180vh;
+    }
+    .publicidadClases-basquet-u19 h1,h2,h3,span{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.5rem;
+        color: #ffff;
+        margin:1px 1px 1px 1px;
+    }
+    .publicidadClases-basquet-u19 img{
+        display: none;
+    }
+    .publicidadClases-basquet-u17{
+        max-width:200px;
+        top:260vh;
+    }
+    .publicidadClases-basquet-u17 h1,h2,h3,span{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size:0.5rem;
+        color: #ffff;
+        margin:1px 1px 1px 1px;
+    }
+    .publicidadClases-basquet-u17 img{
+        display: none;
     }
 }
