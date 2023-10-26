@@ -9,7 +9,7 @@
     background-color: #042500;
 }
 #seccion-1-basquet{
-    height:270vh;
+    height:275vh;
 }
 #seccion-1-basquet-u13{
     height:270vh;
@@ -22,6 +22,9 @@
 }
 #seccion-1-basquet-u17{
     height:270vh;
+}
+#seccion-1-basquet-u15{
+    height:280vh;
 }
 #pagination-basquet{
     display:flex;
@@ -602,13 +605,13 @@
     top:240vh;
 }
 .publicidadClases-basquet-u15{
-    top:250vh;
+    top:260vh;
 }
 .publicidadClases-basquet-u13{
     top:250vh;
 }
 .publicidadClases-basquet-u12{
-    top:250vh;
+    top:260vh;
 }
 .publicidadClases-basquet-u41{
     top:180vh;
