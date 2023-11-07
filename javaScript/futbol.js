@@ -80,3 +80,17 @@ function arrancarDataTablePrimeraFinal(){
 arrancarDataTablePrimeraFinal()
 
 
+function arrancarDataTableReducido(){
+    $(document).ready(function () {
+        $('#fixture-reducido-primera').DataTable({
+            info:false,
+            paging:true,
+            "lengthChange":false,
+            "pagingType": "numbers",
+            "searching": false,
+            "pageLength":3,
+            "aaSorting":false
+        })
+    });
+}
+arrancarDataTableReducido()

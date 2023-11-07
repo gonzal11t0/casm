@@ -16,17 +16,21 @@
         flex-direction: row;
         justify-content: center;
         position: absolute;
-        top: 166vh;
-        width: 100%;
+        top:220vh;
+        width:600px;
         padding-left: 0px;
     }
     #principal-primera-fixure {
-        top: 110vh;
-        width: 600px;
+        top:150vh;
+        width:600px;
     }
     #final-reducido-primera-fixture {
-        top: 70vh;
-        width: 600px;
+        top:115vh;
+        width:600px;
+    }
+    #reducido-primera-fixture {
+        top:75vh;
+        width:600px;
     }
     .container-primera {
         column-gap: 90px;
@@ -125,30 +129,42 @@
     #pagination-primera ul li a{
         font-size:.8rem;
     }
-    #final-reducido-primera-fixture {
-        top:70vh;
+    #seccion-1-futbol-primera{
+        height:320vh;
+        background-color: #042500;
+    }
+    #principal-primera-posiciones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        top:220vh;
         width:400px;
+        padding-left: 0px;
     }
     #principal-primera-fixure {
-        top:110vh;
+        top:150vh;
         width:400px;
-        margin: 0 auto;
+    }
+    #final-reducido-primera-fixture {
+        top:120vh;
+        width:400px;
+    }
+    #reducido-primera-fixture {
+        top:75vh;
+        width:400px;
     }
     #fixture-table-primera,
     #fixture-table-primera td,#final-reducido-primera-fixture td {
         padding: 3px;
         font-size:0.8rem;
     }
-    #principal-primera-posiciones {
-        top: 166vh;
-        width:400px;
-    }
     #principal-primera-posiciones td {
         padding: 3px;
         font-size:0.8rem;
     }
     #seccion-2-futbol-primera{
-        height:220vh;
+        height:150vh;
     }
     .container-primera {
         grid-template-columns:auto;
@@ -158,7 +174,7 @@
     }
     #card-primera {
         position: relative;
-        top:100vh;
+        top:20vh;
         height:35vh;
     }
     #card-primera div h1 {
@@ -264,27 +280,38 @@
     #pagination-primera ul li a{
         font-size:.4rem;
     }
-    #final-reducido-primera-fixture {
-        top:70vh;
+    #principal-primera-posiciones {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        top:220vh;
         width:200px;
+        padding-left: 0px;
     }
     #principal-primera-fixure {
-        top:105vh;
+        top:150vh;
         width:200px;
-        margin: 0 auto;
+    }
+    #final-reducido-primera-fixture {
+        top:120vh;
+        width:200px;
+    }
+    #fixture-reducido-primera   {
+        top:75vh;
+        width:200px;
     }
     #fixture-table-primera,
-    #fixture-table-primera td,#final-reducido-primera-fixture td {
+    #fixture-table-primera td,#final-reducido-primera-fixture td, #fixture-reducido-primera td {
         padding:3px;
         font-size:0.6rem;
     }
-    #fixture-table-primera tr,#final-reducido-primera-fixture tr {
+    #fixture-table-primera tr,#final-reducido-primera-fixture tr, #fixture-reducido-primera tr {
         padding:0px;
         font-size:0.5rem;
     }
-    #principal-primera-posiciones {
-        top:170vh;
-        width:200px;
+    #reducido-primera-fixture span {
+        font-size: 0.7rem;
     }
     #principal-primera-posiciones td,#principal-primera-posiciones tr {
         padding:1px;
@@ -293,6 +320,11 @@
     #fixture-table-primera th:first-child,
     #fixture-table-primera td:first-child,
     #fixture-table-primera tr:first-child  {
+        display: none;
+    }
+    #reducido-primera-fixture th:first-child,
+    #reducido-primera-fixture td:first-child,
+    #reducido-primera-fixture tr:first-child  {
         display: none;
     }
     #seccion-2-futbol-primera{

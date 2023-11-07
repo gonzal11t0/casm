@@ -25,7 +25,7 @@
     background-color: red;
 }
 #seccion-1-futbol-primera{
-    height:200vh;
+    height:270vh;
     background-color: #042500;
 }
 .Container{
@@ -107,7 +107,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:166vh;
+    top:200vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -125,7 +125,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:110vh;
+    top:150vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -138,20 +138,33 @@
     align-content: center;
     justify-content: center;
     position:absolute;
+    top:110vh;
+    width:800px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#reducido-primera-fixture{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
     top:70vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
     height:auto;
 }
-#fixture-table-primera,#fixture-table-primera td,#fixture-final-reducido-primera, #fixture-final-reducido-primera td {
+#fixture-table-primera,#fixture-table-primera td,#fixture-final-reducido-primera, #fixture-final-reducido-primera td,#fixture-reducido-primera, #fixture-reducido-primera td,#fixture-reducido-primera tr {
     border:3px solid black;
     padding:6px;
     text-align: center;
     color: rgb(255, 255, 255);
     font-size:0.9rem;
 }
-#final-reducido-primera-fixture,#principal-primera-posiciones,#principal-primera-fixure span,#principal-reserva-posiciones span {
+#final-reducido-primera-fixture,#principal-primera-posiciones,#principal-primera-fixure span,#principal-reserva-posiciones,#reducido-primera-fixture span {
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -176,7 +189,7 @@
 }
 #card-primera {
     position:relative;
-    top:60vh;
+    top:20vh;
     width:100%;
     height:46vh;
     margin: 0 auto;
