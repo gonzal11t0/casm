@@ -84,6 +84,41 @@ function arrancarDataTableConferencia3U17 () {
 }
 arrancarDataTableConferencia3U17();
 
+function arrancarDataTableConferencia3U17PlayOff() {  
+    $('#conferencia3-fixture-table-basquet-u17-playOff').DataTable({
+        info: false,
+        paging: true,
+        "lengthChange": false,
+        "pagingType": "numbers",
+        "searching": false,
+        "pageLength":2,
+        "aaSorting": false
+    });
+}
+arrancarDataTableConferencia3U17PlayOff();
 
+function arrancarDataTableConferencia1U15PlayOff() {  
+    $('#conferencia1-fixture-table-basquet-u15-playOff').DataTable({
+        info: false,
+        paging: true,
+        "lengthChange": false,
+        "pagingType": "numbers",
+        "searching": false,
+        "pageLength":4,
+        "aaSorting": false
+    });
+}
+arrancarDataTableConferencia1U15PlayOff();
 
-    
+function arrancarDataTableConferencia1U13PlayOff() {  
+    $('#conferencia1-fixture-table-basquet-u13-playOff').DataTable({
+        info: false,
+        paging: true,
+        "lengthChange": false,
+        "pagingType": "numbers",
+        "searching": false,
+        "pageLength":4,
+        "aaSorting": false
+    });
+}
+arrancarDataTableConferencia1U13PlayOff();

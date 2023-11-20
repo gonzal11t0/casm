@@ -11,9 +11,7 @@
 #seccion-1-basquet{
     height:275vh;
 }
-#seccion-1-basquet-u13{
-    height:270vh;
-}
+
 #seccion-1-basquet-u41{
     height:200vh;
 }
@@ -21,10 +19,13 @@
     height:250vh;
 }
 #seccion-1-basquet-u17{
-    height:270vh;
+    height:320vh;
 }
 #seccion-1-basquet-u15{
-    height:280vh;
+    height:320vh;
+}
+#seccion-1-basquet-u13{
+    height:320vh;
 }
 #pagination-basquet{
     display:flex;
@@ -221,7 +222,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:150vh;
+    top:200vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -234,7 +235,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:200vh;
+    top:250vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -252,7 +253,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:95vh;
+    top:140vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -265,7 +266,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:60vh;
+    top:95vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -303,14 +304,44 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+/*Conferencia 3 Play Off*/
 
+#conferencia3-basquet-fixture-u17-playOff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    top:60vh;
+    width:800px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#principal-basquet-fixure-u17-playOff span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conferencia3-basquet-fixture-u17-playOff span{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 /* u15*/
 #principal-basquet-fixure-u15{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:220vh;
+    top:200vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -321,7 +352,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:170vh;
+    top:250vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -333,7 +364,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:110vh;
+    top:140vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -344,7 +375,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:70vh;
+    top:95vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -382,6 +413,38 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+/*Conferencia 5 Play Off*/
+
+#conferencia1-basquet-fixture-u15-playOff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    top:60vh;
+    width:800px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#principal-basquet-fixure-u15-playOff span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conferencia1-basquet-fixture-u15-playOff span{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 /* u13*/
 #principal-basquet-fixure-u13{
@@ -389,7 +452,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:220vh;
+    top:200vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -400,7 +463,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:170vh;
+    top:250vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -412,7 +475,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:110vh;
+    top:140vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -423,7 +486,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:70vh;
+    top:100vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -454,6 +517,37 @@
     flex-wrap: wrap;
 }
 #conferencia1-basquet-fixture-u13 span{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*Conferencia 1 Play u13 Off*/
+
+#conferencia1-basquet-fixture-u13-playOff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    top:60vh;
+    width:800px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#principal-basquet-fixure-u13-playOff span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conferencia1-basquet-fixture-u13-playOff span{
     color: #fff;
     display: flex;
     flex-direction: row;
@@ -563,7 +657,19 @@
     padding-bottom:40px;
     height:auto;
 }
-#fixture-table-basquet, #fixture-table-basquet-conferencia1, #fixture-table-basquet td, #fixture-table-basquet-conferencia1 td,#fixture-table-basquet-playOff,#fixture-table-basquet-playOff td, #conferencia3-fixture-table-basquet-u17,#conferencia3-fixture-table-basquet-u17 td,#fixture-table-basquet-u17 tr,#fixture-table-basquet-u41 td,#fixture-table-basquet-u41 tr,#fixture-table-basquet-u41   {
+#fixture-table-basquet, #fixture-table-basquet-conferencia1, #fixture-table-basquet td, 
+#fixture-table-basquet-conferencia1 td,#fixture-table-basquet-playOff,#fixture-table-basquet-playOff td, 
+#conferencia3-fixture-table-basquet-u17, #conferencia3-fixture-table-basquet-u17-playOff,
+#conferencia3-fixture-table-basquet-u17playOff td,#conferencia3-fixture-table-basquet-u17playOff tr , 
+#conferencia3-fixture-table-basquet-u17 td,#fixture-table-basquet-u17 tr,
+#conferencia1-fixture-table-basquet-u15-playOff,
+#conferencia3-fixture-table-basquet-u15-playOff td,
+#conferencia3-fixture-table-basquet-u15-playOff tr,
+#conferencia1-fixture-table-basquet-u13-playOff,
+#conferencia3-fixture-table-basquet-u13-playOff td,
+#conferencia3-fixture-table-basquet-u13-playOff tr,
+#fixture-table-basquet-u41 td,
+#fixture-table-basquet-u41 tr,#fixture-table-basquet-u41   {
     border:3px solid black;
     padding:6px;
     text-align: center;
@@ -602,13 +708,13 @@
     top:235vh;
 }
 .publicidadClases-basquet-u17{
-    top:240vh;
+    top:290vh;
 }
 .publicidadClases-basquet-u15{
-    top:260vh;
+    top:290vh;
 }
 .publicidadClases-basquet-u13{
-    top:250vh;
+    top:290vh;
 }
 .publicidadClases-basquet-u12{
     top:260vh;
