@@ -11,20 +11,22 @@
 #seccion-1-basquet{
     height:275vh;
 }
-
 #seccion-1-basquet-u41{
-    height:200vh;
+    height:280vh;
 }
 #seccion-1-basquet-u19{
-    height:250vh;
+    height:270vh;
 }
 #seccion-1-basquet-u17{
     height:320vh;
 }
 #seccion-1-basquet-u15{
-    height:320vh;
+    height:330vh;
 }
 #seccion-1-basquet-u13{
+    height:320vh;
+}
+#seccion-1-basquet-u12{
     height:320vh;
 }
 #pagination-basquet{
@@ -33,7 +35,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:46vh;
+    top:50vh;
     width:100%;
 }
 #pagination-basquet ul li a{
@@ -134,7 +136,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:160vh;
+    top:165vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -147,7 +149,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:200vh;
+    top:205vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -174,7 +176,7 @@
     align-content: center;
     justify-content: center;
     position:absolute;
-    top:95vh;
+    top:102vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -341,7 +343,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:200vh;
+    top:215vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -352,7 +354,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:250vh;
+    top:260vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -364,7 +366,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:140vh;
+    top:155vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -375,7 +377,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:95vh;
+    top:110vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -562,7 +564,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:220vh;
+    top:200vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -573,7 +575,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:170vh;
+    top:250vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -585,7 +587,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:110vh;
+    top:140vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -596,7 +598,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     position:absolute;
-    top:70vh;
+    top:95vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
@@ -634,19 +636,40 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-/*u+41*/
-#principal-basquet-fixure-u41{
+/*Conferencia 1 Play u12 Off*/
+
+#conferencia1-basquet-fixture-u12-playOff{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     position:absolute;
-    top:70vh;
+    top:60vh;
     width:800px;
     padding-top:40px;
     padding-bottom:40px;
     height:auto;
 }
-#principal-basquet-posiciones-u41{
+#principal-basquet-fixure-u12-playOff span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#conferencia1-basquet-fixture-u12-playOff span{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*u+41*/
+#principal-basquet-fixure-u41{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -657,6 +680,49 @@
     padding-bottom:40px;
     height:auto;
 }
+#principal-basquet-posiciones-u41{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:180vh;
+    width:800px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+/*  DEFINICIONES U41*/
+
+#basquet-fixture-u41-playOff{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    position:absolute;
+    top:60vh;
+    width:800px;
+    padding-top:40px;
+    padding-bottom:40px;
+    height:auto;
+}
+#basquet-fixture-u41-playOff span {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#fixture-table-basquet-u41-playOff span{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 #fixture-table-basquet, #fixture-table-basquet-conferencia1, #fixture-table-basquet td, 
 #fixture-table-basquet-conferencia1 td,#fixture-table-basquet-playOff,#fixture-table-basquet-playOff td, 
 #conferencia3-fixture-table-basquet-u17, #conferencia3-fixture-table-basquet-u17-playOff,
@@ -668,6 +734,19 @@
 #conferencia1-fixture-table-basquet-u13-playOff,
 #conferencia3-fixture-table-basquet-u13-playOff td,
 #conferencia3-fixture-table-basquet-u13-playOff tr,
+#conferencia1-fixture-table-basquet-u12-playOff,
+#conferencia3-fixture-table-basquet-u12-playOff td,
+#conferencia3-fixture-table-basquet-u12-playOff tr,
+#fixture-table-basquet-u41-playOff,
+#conferencia1-fixture-table-basquet-u12-playOff td,
+#conferencia1-fixture-table-basquet-u12-playOff tr
+
+
+
+
+
+
+
 #fixture-table-basquet-u41 td,
 #fixture-table-basquet-u41 tr,#fixture-table-basquet-u41   {
     border:3px solid black;
@@ -705,22 +784,22 @@
     top: 255vh;
 }
 .publicidadClases-basquet-u19{
-    top:235vh;
+    top:245vh;
 }
 .publicidadClases-basquet-u17{
     top:290vh;
 }
 .publicidadClases-basquet-u15{
-    top:290vh;
+    top:310vh;
 }
 .publicidadClases-basquet-u13{
     top:290vh;
 }
 .publicidadClases-basquet-u12{
-    top:260vh;
+    top:290vh;
 }
 .publicidadClases-basquet-u41{
-    top:180vh;
+    top:250vh;
 }
 .publicidadClases-basquet:hover{
     background: linear-gradient(to top, #042500 , rgb(37, 77, 64) 100%);

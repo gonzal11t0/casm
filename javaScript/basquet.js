@@ -122,3 +122,30 @@ function arrancarDataTableConferencia1U13PlayOff() {
     });
 }
 arrancarDataTableConferencia1U13PlayOff();
+
+
+function arrancarDataTableConferencia1U12PlayOff() {  
+    $('#conferencia1-fixture-table-basquet-u12-playOff').DataTable({
+        info: false,
+        paging: true,
+        "lengthChange": false,
+        "pagingType": "numbers",
+        "searching": false,
+        "pageLength":4,
+        "aaSorting": false
+    });
+}
+arrancarDataTableConferencia1U12PlayOff();
+
+function arrancarDataTableU41PlayOff() {  
+    $('#fixture-table-basquet-u41-playOff').DataTable({
+        info: false,
+        paging: true,
+        "lengthChange": false,
+        "pagingType": "numbers",
+        "searching": false,
+        "pageLength":2,
+        "aaSorting": false
+    });
+}
+arrancarDataTableU41PlayOff();

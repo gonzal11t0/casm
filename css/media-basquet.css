@@ -27,7 +27,7 @@
     }
     #conferencia1-basquet-posiciones{
         width:600px;
-        top:100vh;
+        top:106vh;
     }
     /*U17*/
     #principal-basquet-fixure-u17{
@@ -45,9 +45,20 @@
     #conferencia3-basquet-fixture-u17{
         width:600px;
     }
+    /*CONFERENCIA 3*/
+    #conferencia3-basquet-posiciones-u17{
+        top:140vh;
+        width:600px;
+    }
+    /*PLAY OFF*/
+    #conferencia3-basquet-fixture-u17-playOff{
+        top:60vh;
+        width:600px;
+        height:auto;
+    }
     /*U15*/
     #seccion-1-basquet-u15{
-        height:290vh;;
+        height:335vh;
     }
     #principal-basquet-fixure-u15{
         width:600px;
@@ -61,38 +72,72 @@
     #conferencia1-basquet-fixture-u15{
         width:600px;
     }
+    #conferencia1-basquet-fixture-u15-playOff{
+        top:60vh;
+        width:600px;
+    }
     /*U13*/
+    #seccion-1-basquet-u13{
+        height:330vh;;
+    }
     #principal-basquet-fixure-u13{
         width:600px;
+        top:225vh;
     }
     #principal-basquet-posiciones-u13{
         width:600px;
+        top:270vh;
     }
     #conferencia1-basquet-posiciones-u13{
         width:600px;
+        top:160vh;
     }
     #conferencia1-basquet-fixture-u13{
-        top:70vh;
+        top:110vh;
         width:600px;
+    }
+    #conferencia1-basquet-fixture-u13-playOff{
+        top:60vh;
+        width:600px;
+    }
+    .publicidadClases-basquet-u13{
+        top:310vh;
     }
     /*U12*/
     #principal-basquet-fixure-u12{
         width:600px;
+        top:220vh;
     }
     #principal-basquet-posiciones-u12{
         width:600px;
+        top:265vh;
     }
     #conferencia1-basquet-posiciones-u12{
         width:600px;
+        top:160vh;
     }
     #conferencia1-basquet-fixture-u12{
         width:600px;
+        top:110vh;
+    }
+    #conferencia1-basquet-fixture-u12-playOff{
+        width:600px;
+    }
+    #seccion-1-basquet-u12{
+        height:330vh;
+    }
+    .publicidadClases-basquet-u12{
+        top:310vh;
     }
     /*U+41*/
     #principal-basquet-fixure-u41{
         width:600px;
     }
     #principal-basquet-posiciones-u41{
+        width:600px;
+    }
+    #basquet-fixture-u41-playOff{
+        top:60vh;
         width:600px;
     }
     .publicidadClases-basquet{
@@ -115,17 +160,23 @@
     #seccion-1-basquet{
         height:305vh;;
     }
-    #seccion-1-basquet-u17{
+    #seccion-1-basquet-u19{
         height:310vh;;
     }
+    #seccion-1-basquet-u17{
+        height:360vh;;
+    }
     #seccion-1-basquet-u15{
-        height:290vh;;
+        height:360vh;;
     }
     #seccion-1-basquet-u13{
-        height:290vh;;
+        height:350vh;
+    }
+    #seccion-1-basquet-u12{
+        height:350vh;
     }
     #seccion-1-basquet-u41{
-        height:235vh;;
+        height:280vh;
     }
     /*U23*/
     .Container{
@@ -134,7 +185,7 @@
     #pagination-basquet{
         margin: 0 auto;
         position: absolute;
-        top:49vh;
+        top:58vh;
         width:400px;
     }
     #principal-basquet-fixure {
@@ -175,60 +226,86 @@
     /*U17*/
     #principal-basquet-fixure-u17{
         width:400px;
-        top:190vh;
+        top:222vh;
     }
     #principal-basquet-posiciones-u17{
         width:400px;
-        top:260vh;
+        top:299vh;
     }
     #conferencia3-basquet-posiciones-u17{
         width:400px;
-        top:130vh;
+        top:170vh;
     }
     #conferencia3-basquet-fixture-u17{
+        width:400px;
+        top:105vh;
+    }
+    /*PLAY OFF*/
+    #conferencia3-basquet-fixture-u17-playOff{
+        top:60vh;
         width:400px;
     }
     /*U15*/
     #principal-basquet-fixure-u15{
         width:400px;
+        top:230vh;
     }
     #principal-basquet-posiciones-u15{
         width:400px;
+        top:300vh;
     }
     #conferencia1-basquet-posiciones-u15{
         width:400px;
+        top:170vh;
     }
     #conferencia1-basquet-fixture-u15{
         width:400px;
-        top:65vh;
+        top:120vh;
+    }
+    #conferencia1-basquet-fixture-u15-playOff{
+        top:60vh;
+        width:400px;
     }
     /*U13*/
     #principal-basquet-fixure-u13{
         width:400px;
+        top:230vh;
     }
     #principal-basquet-posiciones-u13{
         width:400px;
+        top:290vh;
     }
     #conferencia1-basquet-posiciones-u13{
         width:400px;
-        top:120vh;
+        top:170vh;
     }
     #conferencia1-basquet-fixture-u13{
-        top:70vh;
+        top:120vh;
+        width:400px;
+    }
+    #conferencia1-basquet-fixture-u13-playOff{
+        top:60vh;
         width:400px;
     }
     /*U12*/
     #principal-basquet-fixure-u12{
         width:400px;
+        top:230vh;
     }
     #principal-basquet-posiciones-u12{
         width:400px;
+        top:290vh;
     }
     #conferencia1-basquet-posiciones-u12{
         width:400px;
-        top: 115vh;
+        top:170vh;
     }
     #conferencia1-basquet-fixture-u12{
+        width:400px;
+        top:120vh;
+    }
+    #conferencia1-basquet-fixture-u12-playOff{
+        top:60vh;
         width:400px;
     }
     /*u+41*/
@@ -237,7 +314,11 @@
     }
     #principal-basquet-posiciones-u41{
         width:400px;
-        TOP: 160VH;
+        top:195vh;
+    }
+    #basquet-fixture-u41-playOff{
+        top:60vh;
+        width:400px;
     }
     .publicidadClases-basquet{
         max-width:400px;
@@ -249,23 +330,23 @@
     }
     .publicidadClases-basquet-u17{
         max-width:400px;
-        top:295vh;
+        top:340vh;
     }
     .publicidadClases-basquet-u15{
         max-width:400px;
-        top:270vh;
+        top:340vh;
     }
     .publicidadClases-basquet-u13{
         max-width:400px;
-        top:270vh;
+        top:335vh;
     }
     .publicidadClases-basquet-u12{
         max-width:400px;
-        top:270vh;
+        top:330vh;
     }
     .publicidadClases-basquet-u41{
         max-width:400px;
-        top:220vh;
+        top:260vh;
     }
     .publicidadClases-basquet h1,h2,h3{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -353,19 +434,19 @@
         height:305vh;;
     }
     #seccion-1-basquet-u17{
-        height:270vh;;
+        height:290vh;;
     }
     #seccion-1-basquet-u15{
-        height:215vh;;
+        height:250vh;
     }
     #seccion-1-basquet-u13{
-        height:215vh;;
+        height:230vh;
     }
     #seccion-1-basquet-u12{
-        height:220vh;;
+        height:232vh;
     }
     #seccion-1-basquet-u41{
-        height:150vh;;
+        height:170vh;
     }
     /* u23*/
     #pagination-basquet {
@@ -454,15 +535,15 @@
     /*U17*/
     #principal-basquet-fixure-u17{
         width:200px;
-        top:160vh;
+        top:190vh;
     }
     #principal-basquet-posiciones-u17{
         width:200px;
-        top:230vh;
+        top:250vh;
     }
     #conferencia3-basquet-posiciones-u17{
         width:200px;
-        top:120vh;
+        top:160vh;
     }
     #conferencia3-basquet-fixture-u17{
         width:200px;
@@ -487,21 +568,36 @@
             padding:0px;
             font-size:0.5rem;
     }
+    /*PLAY OFF*/
+    #conferencia3-basquet-fixture-u17-playOff{
+        top:60vh;
+        width:200px;
+    }
+    #conferencia3-fixture-table-basquet-u17-playOff,
+    #conferencia3-fixture-table-basquet-u17-playOff td,#conferencia3-fixture-table-basquet-u17-playOff td {
+            padding:3px;
+            font-size:0.6rem;
+    }
     /*U15*/
     #principal-basquet-fixure-u15{
         width:200px;
-        top:140vh;
+        top:190vh;
     }
     #principal-basquet-posiciones-u15{
         width:200px;
-        top:190vh;
+        top:230vh;
     }
     #conferencia1-basquet-posiciones-u15{
         width:200px;
+        top:150vh;
     }
     #conferencia1-basquet-fixture-u15{
         width:200px;
-        top:65vh;
+        top:110vh;
+    }
+    #conferencia1-basquet-fixture-u15-playOff{
+        top:60vh;
+        width:200px;
     }
     #principal-basquet-posiciones-u15 img,#conferencia1-basquet-posiciones-u15 img{
         display: none;
@@ -523,21 +619,30 @@
             padding:3px;
             font-size:0.6rem;
     }
+    #conferencia1-fixture-table-basquet-u15-playOff,
+    #conferencia1-fixture-table-basquet-u15-playOff td,#conferencia1-basquet-fixture-u15 td {
+            padding:3px;
+            font-size:0.6rem;
+    }
     /*U13*/
     #principal-basquet-fixure-u13{
         width:200px;
-        top:140vh;
+        top:170vh;
     }
     #principal-basquet-posiciones-u13{
         width:200px;
-        top:190vh;
+        top:210vh;
     }
     #conferencia1-basquet-posiciones-u13{
         width:200px;
-        top:120vh;
+        top:140vh;
     }
     #conferencia1-basquet-fixture-u13{
-        top:65vh;
+        top:100vh;
+        width:200px;
+    }
+    #conferencia1-basquet-fixture-u13-playOff{
+        top:60vh;
         width:200px;
     }
     #principal-basquet-posiciones-u13 img,#conferencia1-basquet-posiciones-u13 img{
@@ -560,19 +665,30 @@
                 padding:3px;
                 font-size:0.6rem;
     }
+    #conferencia1-basquet-fixture-u13-playOff,
+    #conferencia1-basquet-fixture-u13-playOff td,#conferencia1-basquet-fixture-u13-playOff tr {
+        padding:3px;
+        font-size:0.6rem;
+    }
     /*U12*/
     #principal-basquet-fixure-u12{
         width:200px;
-        top:180vh;
+        top:170vh;
     }
     #principal-basquet-posiciones-u12{
         width:200px;
-        top:150vh;
+        top:210vh;
     }
     #conferencia1-basquet-posiciones-u12{
         width:200px;
+        top:140vh;
     }
     #conferencia1-basquet-fixture-u12{
+        width:200px;
+        top:105vh;
+    }
+    #conferencia1-basquet-fixture-u12-playOff{
+        top:60vh;
         width:200px;
     }
     #principal-basquet-posiciones-u12 img,#conferencia1-basquet-posiciones-u12 img{
@@ -590,18 +706,28 @@
         padding:0px;
         font-size:0.5rem;
     }
+    #conferencia1-basquet-fixture-u12-playOff tr,#conferencia1-basquet-fixture-u12-playOff tr {
+        padding:0px;
+        font-size:0.5rem;
+    }
     #fixture-table-basquet,
     #fixture-table-basquet td,#conferencia3-fixture-table-basquet-u12 td {
+        padding:3px;
+        font-size:0.6rem;
+    }
+    #conferencia1-basquet-fixture-u12-playOff,
+    #conferencia1-basquet-fixture-u12-playOff td,#conferencia1-basquet-fixture-u12-playOff td {
         padding:3px;
         font-size:0.6rem;
     }
     /*u+41*/
     #principal-basquet-fixure-u41{
         width:200px;
+        top:90vh;
     }
     #principal-basquet-posiciones-u41{
         width:200px;
-        top: 120vh;
+        top:140vh;
     }
     #principal-basquet-posiciones-u41 imG{
         display: none;
@@ -618,6 +744,19 @@
     #fixture-table-basquet-u41 td{
         padding:3px;
         font-size:0.4rem;
+    }
+    #basquet-fixture-u41-playOff{
+        top:63vh;
+        width:200px;
+    }
+    #basquet-fixture-u41-playOff,
+    #basquet-fixture-u41-playOff td{
+        padding:3px;
+        font-size:0.4rem;
+    }
+    #basquet-fixture-u41-playOff tr{
+        padding:0px;
+        font-size:0.5rem;
     }
     .publicidadClases-basquet{
         max-width:200px;
@@ -650,7 +789,7 @@
     }
     .publicidadClases-basquet-u17{
         max-width:200px;
-        top:260vh;
+        top:280vh;
     }
     .publicidadClases-basquet-u17 h1,h2,h3,span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -663,7 +802,7 @@
     }
     .publicidadClases-basquet-u15{
         max-width:200px;
-        top:200vh;
+        top:240vh;
     }
     .publicidadClases-basquet-u15 h1,h2,h3,span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -676,7 +815,7 @@
     }
     .publicidadClases-basquet-u13{
         max-width:200px;
-        top:200vh;
+        top:220vh;
     }
     .publicidadClases-basquet-u13 h1,h2,h3,span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -689,7 +828,7 @@
     }
     .publicidadClases-basquet-u12{
         max-width:200px;
-        top:210vh;
+        top:225vh;
     }
     .publicidadClases-basquet-u12 h1,h2,h3,span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -702,7 +841,7 @@
     }
     .publicidadClases-basquet-u41{
         max-width:200px;
-        top:140vh;
+        top:160vh;
     }
     .publicidadClases-basquet-u41 h1,h2,h3,span{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
